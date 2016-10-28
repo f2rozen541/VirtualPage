@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="ucrop_color_default_crop_frame">#ffffff</color>-->
+    <!--<color name="ucrop_color_default_crop_grid">#ffffff</color>-->
+    <!--<color name="ucrop_color_default_overlay">#a0000000</color>-->
+    <!--<color name="ucrop_color_progress_wheel_line">#808080</color>-->
+    <!--<color name="ucrop_color_statusbar">#CC5833</color>-->
+    <!--<color name="ucrop_color_title">#fff</color>-->
+    <!--<color name="ucrop_color_toolbar">#FF6E40</color>-->
+    <!--<color name="ucrop_color_widget_active">#FF6E40</color>-->
+    <!--<color name="ucrop_color_widget_background">#fff</color>-->
+    <!--<declare-styleable name="ucrop_AspectRatioTextView"><attr format="string" name="ucrop_artv_ratio_title"/><attr format="float" name="ucrop_artv_ratio_x"/><attr format="float" name="ucrop_artv_ratio_y"/></declare-styleable>-->
+    <!--<declare-styleable name="ucrop_CropImageView"><attr format="float" name="ucrop_aspect_ratio_x"/><attr format="float" name="ucrop_aspect_ratio_y"/><attr format="float" name="ucrop_max_scale_multiplier"/><attr format="color" name="ucrop_overlay_color"/><attr format="dimension" name="ucrop_grid_stroke_size"/><attr format="color" name="ucrop_grid_color"/><attr format="integer" name="ucrop_grid_row_count"/><attr format="integer" name="ucrop_grid_column_count"/><attr format="boolean" name="ucrop_show_grid"/><attr format="dimension" name="ucrop_frame_stroke_size"/><attr format="color" name="ucrop_frame_color"/><attr format="boolean" name="ucrop_show_frame"/></declare-styleable>-->
+    <!--<dimen name="ucrop_default_crop_frame_stoke_size">1dp</dimen>-->
+    <!--<dimen name="ucrop_default_crop_grid_stoke_size">1dp</dimen>-->
+    <!--<dimen name="ucrop_height_horizontal_wheel_progress_line">20dp</dimen>-->
+    <!--<dimen name="ucrop_margin_horizontal_wheel_progress_line">10dp</dimen>-->
+    <!--<dimen name="ucrop_size_dot_scale_text_view">8dp</dimen>-->
+    <!--<dimen name="ucrop_width_horizontal_wheel_progress_line">2dp</dimen>-->
+    <!--<string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>-->
+    <!--<string name="ucrop_label_edit_photo">Edit Photo</string>-->
+    <!--<string name="ucrop_label_original">Original</string>-->
+    <!--<string name="ucrop_menu_next">Next</string>-->
+    <!--<style name="ucrop_ImageViewWidgetIcon">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_gravity">center</item>-->
+        <!--<item name="android:scaleType">fitCenter</item>-->
+        <!--<item name="android:duplicateParentState">true</item>-->
+    <!--</style>-->
+    <!--<style name="ucrop_TextViewCropAspectRatio">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">40dp</item>-->
+        <!--<item name="android:layout_gravity">center</item>-->
+        <!--<item name="android:duplicateParentState">true</item>-->
+        <!--<item name="android:textColor">@color/ucrop_scale_text_view_selector</item>-->
+    <!--</style>-->
+    <!--<style name="ucrop_WrapperIconState">-->
+        <!--<item name="android:layout_width">0dp</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:background">?attr/selectableItemBackground</item>-->
+        <!--<item name="android:clickable">true</item>-->
+    <!--</style>-->
+    <!--<style name="ucrop_WrapperRotateButton">-->
+        <!--<item name="android:layout_width">50dp</item>-->
+        <!--<item name="android:layout_height">50dp</item>-->
+        <!--<item name="android:background">?attr/selectableItemBackgroundBorderless</item>-->
+        <!--<item name="android:clickable">true</item>-->
+    <!--</style>-->
+</resources>

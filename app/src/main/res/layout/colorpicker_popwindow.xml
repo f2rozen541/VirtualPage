@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="474px"
+    android:layout_height="336px">
+
+
+    <LinearLayout
+        android:id="@+id/ll_h"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="26px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_color_picker_h"
+            android:layout_marginLeft="30px"
+            android:layout_width="24px"
+            android:layout_height="24px" />
+
+        <com.larswerkman.holocolorpicker.HuBar
+            android:id="@+id/hubar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_s"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_below="@id/ll_h"
+        android:layout_marginTop="18px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_color_picker_s"
+            android:layout_marginLeft="30px"
+            android:layout_width="24px"
+            android:layout_height="24px" />
+
+        <com.larswerkman.holocolorpicker.SaturationBar
+            android:id="@+id/saturationbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_b"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_below="@id/ll_s"
+        android:layout_marginTop="18px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_color_picker_b"
+            android:layout_marginLeft="30px"
+            android:layout_width="24px"
+            android:layout_height="24px" />
+
+        <com.larswerkman.holocolorpicker.ValueBar
+            android:id="@+id/valuebar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_b"
+        android:layout_marginTop="26px"
+        android:background="@color/colorPickerDivider" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_below="@id/view"
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:orientation="horizontal">
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light"
+            android:layout_width="24px"
+            android:layout_height="24px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/light_icon" />
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light1"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="30px"
+            hanvon:SelectedBgRes="@drawable/color_select"
+            hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light2"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="24px"
+            hanvon:SelectedBgRes="@drawable/color_select"
+            hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light3"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="24px"
+            hanvon:SelectedBgRes="@drawable/color_select"
+            hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light4"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="24px"
+            hanvon:SelectedBgRes="@drawable/color_select"
+            hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light5"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="24px"
+            hanvon:SelectedBgRes="@drawable/color_select"
+            hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/iv_light6"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="24px"
+            hanvon:SelectedBgRes="@drawable/color_select"
+            hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="96px"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:layout_marginEnd="10dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="#FF0000"-->
+    <!--android:gravity="center">-->
+
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light"-->
+    <!--android:layout_width="11dp"-->
+    <!--android:layout_height="11dp"-->
+    <!--android:background="@drawable/light_icon"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentStart="true"/>-->
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light1"-->
+    <!--android:layout_width="23dp"-->
+    <!--android:layout_height="23dp"-->
+    <!--android:layout_marginStart="13dp"-->
+    <!--android:layout_toRightOf="@id/iv_light"-->
+    <!--hanvon:SelectedBgRes="@drawable/color_select"-->
+    <!--hanvon:UnSelectedBgRes="@android:color/transparent"-->
+    <!--android:background="@drawable/light1"/>-->
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light2"-->
+    <!--android:layout_width="23dp"-->
+    <!--android:layout_height="23dp"-->
+    <!--android:layout_marginStart="13dp"-->
+    <!--android:layout_toRightOf="@id/iv_light1"-->
+    <!--hanvon:SelectedBgRes="@drawable/color_select"-->
+    <!--hanvon:UnSelectedBgRes="@android:color/transparent"-->
+    <!--android:background="@drawable/light2"/>-->
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light3"-->
+    <!--android:layout_width="23dp"-->
+    <!--android:layout_height="23dp"-->
+    <!--android:layout_marginStart="13dp"-->
+    <!--android:layout_toRightOf="@id/iv_light2"-->
+    <!--hanvon:SelectedBgRes="@drawable/color_select"-->
+    <!--hanvon:UnSelectedBgRes="@android:color/transparent"-->
+    <!--android:background="@drawable/light3"/>-->
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light4"-->
+    <!--android:layout_width="23dp"-->
+    <!--android:layout_height="23dp"-->
+    <!--android:layout_marginStart="13dp"-->
+    <!--android:layout_toRightOf="@id/iv_light3"-->
+    <!--hanvon:SelectedBgRes="@drawable/color_select"-->
+    <!--hanvon:UnSelectedBgRes="@android:color/transparent"-->
+    <!--android:background="@drawable/light4"/>-->
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light5"-->
+    <!--android:layout_width="23dp"-->
+    <!--android:layout_height="23dp"-->
+    <!--android:layout_marginStart="13dp"-->
+    <!--android:layout_toRightOf="@id/iv_light4"-->
+    <!--hanvon:SelectedBgRes="@drawable/color_select"-->
+    <!--hanvon:UnSelectedBgRes="@android:color/transparent"-->
+    <!--android:background="@drawable/light5"/>-->
+    <!--<com.hanvon.virtualpage.pageeditor.view.AutoBgButton-->
+    <!--android:id="@+id/iv_light6"-->
+    <!--android:layout_width="23dp"-->
+    <!--android:layout_height="23dp"-->
+    <!--android:layout_marginStart="13dp"-->
+    <!--android:layout_toRightOf="@id/iv_light5"-->
+    <!--hanvon:SelectedBgRes="@drawable/color_select"-->
+    <!--hanvon:UnSelectedBgRes="@android:color/transparent"-->
+    <!--android:background="@drawable/light6"/>-->
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

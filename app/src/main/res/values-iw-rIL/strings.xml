@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">הגדרות</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">קובץ</string>
+    <string name="Edit">עריכה</string>
+    <string name="Canvas">בד קנבס</string>
+    <string name="Help">עזרה</string>
+    <string name="Exit">יציאה</string>
+    <string name="New">חדש</string>
+    <string name="Open">פתח</string>
+    <string name="Save">שמור</string>
+    <string name="SaveAs">שמירה בשם</string>
+    <string name="Undo">בטל</string>
+    <string name="Redo">בצע שוב</string>
+    <string name="Clear">נקה</string>
+    <string name="ChangeTexture">שינוי מרקם</string>
+    <string name="ResetTexture">איפוס מרקם</string>
+    <string name="About">אודות</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">בחר תמונה</string>
+    <string name="Return">חזור</string>
+    <string name="Delete">מחק</string>
+    <string name="Copy">העתק</string>
+    <string name="Import">ייבוא</string>
+    <string name="Share">שיתוף</string>
+    <string name="SaveSuccess">נשמר בהצלחה!</string>
+    <string name="Saved">נשמר</string>
+    <string name="SaveFail">השמירה נכשלה</string>
+    <string name="FileName">הזן שם</string>
+    <string name="Prompt">הנחייה</string>
+    <string name="Yes">כן</string>
+    <string name="No">לא</string>
+    <string name="OK">אישור</string>
+    <string name="Cancel">ביטול</string>
+    <string name="Apply">החל</string>
+    <string name="View">הצג כעת</string>
+    <string name="ChangeBackground">שינוי רקע</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">אם תמחק הערה זו, יימחקו כל הדפים שהיא מכילה. האם אתה בטוח שברצונך למחוק הערה זו?</string>
+    <string name="details">פרטים</string>
+    <string name="Merging">מיזוג</string>
+    <string name="Stop">עצור</string>
+    <string name="stop_merge">עצור מיזוג</string>
+    <string name="pages"> דפים</string>
+    <string name="noteName">הערה</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">כותרת זו כבר קיימת. הזן שם אחר לכותרת.</string>
+    <string name="attribute_empty_title_forbidden">נדרשת כותרת</string>
+    <string name="DeleteAPageWarningInfo">האם ברצונך למחוק דף זה?</string>
+    <string name="WarningNoPageInfo">תחילה עליך להוסיף דף</string>
+
+    <!-- 新增-->
+    <string name="NoteName">שם ההערה</string>
+    <string name="SelectCover">בחר דף שער</string>
+    <string name="RenameNoticeInfoTitle">הודעה</string>
+    <string name="RenameNoticeInfoDetail">ניתן להפעיל פונקציה זו רק לאחר בחירת הערה.</string>
+    <string name="RenameWarningInfo">השם שהזנת אינו חוקי.</string>
+    <string name="add_picture">הוסף תמונה</string>
+    <string name="take_photo">צלם תמונה</string>
+    <string name="choose_image">בחר תמונה</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">שיתוף</string>
+    <string name="MovePageTitle">העבר את הדף</string>
+    <string name="JustMove">העבר ישירות</string>
+    <string name="DialogMoveToNotice">האם ברצונך להעביר את הדף או להעתיק אותו?</string>
+    <string name="Cut">גזור</string>
+    <string name="Paste">הדבק</string>
+    <string name="Merge">מזג</string>
+    <string name="MergeSucceed">מוזג בהצלחה</string>
+    <string name="MergeSuccessInfo">הדף הנוכחי מוזג בהצלחה</string>
+    <string name="MergeFailed">המיזוג נכשל</string>
+    <string name="MergeFailedInfo">לא ניתן להשלים את מיזוג הדף הנוכחי</string>
+    <string name="GrantedPermissionSucceed">ההרשאה ניתנה בהצלחה!</string>
+    <string name="GrantedPermissionFailed">מתן ההרשאה נכשל!</string>
+    <string name="permission">סמכות</string>
+    <string name="no_permissions">בקש את ההרשאות הנדרשות</string>
+    <string name="settings">הגדרות</string>
+    <string name="help">עזרה</string>
+    <string name="string_help_text">אין צורך בהרשאה להפעלת התוכנית! לחץ על \"Setting\"-\"Application\" (\'הגדרה\'-\'אפליקציה\') כדי לבחור אפליקציה להרשאה</string>
+    <string name="quit">יציאה</string>
+    <string name="Success">הצלחה</string>
+    <string name="CopySucceed">הועתק בהצלחה!</string>
+    <string name="MoveSucceed">הועבר בהצלחה!</string>
+    <string name="Failed">נכשל</string>
+    <string name="FailedInfo">עליך לבחור הערה אחרת</string>
+    <string name="SavingInfo">שומר נתונים כעת, נא להמתין!</string>
+    <string name="TitleSaving">שומר</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">שמור כ-PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">התאם אישית את המחברות שלך</string>
+    <string name="HelpTitleStep_3">דפי הערות</string>
+    <string name="HelpTitleStep_4">מיזוג הערות</string>
+    <string name="HelpTitleStep_5">עריכת הערות</string>
+    <string name="HelpTitleStep_6">שתף הערה</string>
+    <string name="HelpDetailStep_6">ניתן לייצא את ההערות כתמונה או בתבנית PDF. ניתן גם לשתף את ההערות דרך Bluetooth ועוד.</string>
+    <string name="HelpDetailStep_5">כשאתה עורך הערה, באפשרותך לבחור כלי כתיבה שונים, להגדיר את עובי העט ולהשתמש בצבעים שונים. תוכל אפילו להזין טקסט כדי ליצור תוכן נוסף.</string>
+    <string name="HelpDetailStep_4">אם תלחץ על הלחצן \"merge\" (מזג) @hanvon@, תוכל לבחור דף אחר למיזוג עם ההערה הנוכחית.</string>
+    <string name="HelpDetailStep_3">ניתן להציג במהירות כל דף בחלונית התצוגה המקדימה של המחברת. ניתן גם ללחוץ לחיצה ממושכת ולגרור דפים כדי לסדר אותם מחדש במחברת.</string>
+    <string name="HelpDetailStep_2">בדף השער של המחברת, הקש על לחצן ההגדרות @hanvon@ ותוכל לשנות את הצבע ואת הסגנון של דף השער. כך תוכל לארגן בקלות את המחברות שלך.</string>
+    <string name="HelpDetailStep_1">תודה שבחרת ב-Lenovo Note Saver לכתיבת הערות! כדי לעזור לך להתחיל, כבר נוצרה עבורך מחברת בשם \"Note Saver\". במחברת זו יישמרו כל ההערות שתכתוב במסך ומחוץ לו. הרגש חופשי לערוך את ההערות בכל עת.</string>
+    <string name="HelpStep_5_Des_1">מברשת וטקסט</string>
+    <string name="HelpStep_5_Des_2">הכנס תמונה</string>
+    <string name="HelpStep_5_Des_3">מסגרת ותוכן</string>
+    <string name="HelpStep_5_Des_4">סוג מברשת</string>
+    <string name="HelpStep_5_Des_5">עובי מברשת</string>
+    <string name="HelpStep_5_Des_6">לחץ פעמיים כדי להתאים את הצבע</string>
+    <string name="AppVersion">גירסה</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo כל הזכויות שמורות</string>
+    <string name="SettingOpenInquiry">שאל אותי בעת פתיחת מיקום ברירת המחדל לדילוג עבור הערה</string>
+    <string name="OpenInquiryTitle">פתח את מיקום ברירת המחדל לדילוג עבור הערה</string>
+    <string name="JumpToLatest">עבור אל הדף האחרון שנערך</string>
+    <string name="JumpToEnd">עבור אל הדף האחרון</string>
+    <string name="LimitPictureAmount">הקלט שלך הגיע למגבלה המרבית.</string>
+
+
+</resources>

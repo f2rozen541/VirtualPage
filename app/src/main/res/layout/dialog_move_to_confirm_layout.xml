@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="720px"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_uniform_dialog"
+    android:orientation="vertical"
+    android:paddingLeft="30px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:gravity="center_vertical"
+        android:text="@string/DialogMoveToNotice"
+        android:textColor="@color/MoveToTitleTextColor"
+        android:textSize="30px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/abb_copy"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:padding="2px"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_page_setting_checkbox_reset"
+            hanvon:SelectedBgRes="@drawable/ic_page_setting_checkbox_selected"
+            hanvon:UnSelectedBgRes="@drawable/ic_page_setting_checkbox_reset" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:drawablePadding="18dp"
+            android:text="@string/Copy"
+            android:textSize="@dimen/dialog_bottom_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+            android:id="@+id/abb_move"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:padding="2px"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_page_setting_checkbox_reset"
+            hanvon:SelectedBgRes="@drawable/ic_page_setting_checkbox_selected"
+            hanvon:UnSelectedBgRes="@drawable/ic_page_setting_checkbox_reset" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:drawablePadding="18dp"
+            android:text="@string/JustMove"
+            android:textSize="@dimen/dialog_bottom_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_bottom_height"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:text="@string/Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/Dialog_Cancel"
+            android:textSize="@dimen/dialog_bottom_text_size" />
+
+        <Button
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="30px"
+            android:background="@android:color/transparent"
+            android:text="@string/OK"
+            android:textAllCaps="false"
+            android:textColor="@color/Dialog_Confirm"
+            android:textSize="@dimen/dialog_bottom_text_size" />
+    </LinearLayout>
+</LinearLayout>

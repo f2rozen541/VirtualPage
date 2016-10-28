@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Inställningar</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fil</string>
+    <string name="Edit">Redigera</string>
+    <string name="Canvas">Kanvas</string>
+    <string name="Help">Hjälp</string>
+    <string name="Exit">Avsluta</string>
+    <string name="New">Ny(tt)</string>
+    <string name="Open">Öppna</string>
+    <string name="Save">Spara</string>
+    <string name="SaveAs">Spara som</string>
+    <string name="Undo">Ångra</string>
+    <string name="Redo">Gör om</string>
+    <string name="Clear">Rensa</string>
+    <string name="ChangeTexture">Ändra struktur</string>
+    <string name="ResetTexture">Återställ struktur</string>
+    <string name="About">Om</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Välj en bild</string>
+    <string name="Return">Gå tillbaka</string>
+    <string name="Delete">Ta bort</string>
+    <string name="Copy">Kopiera</string>
+    <string name="Import">Importera</string>
+    <string name="Share">Dela</string>
+    <string name="SaveSuccess">Sparades!</string>
+    <string name="Saved">Sparad</string>
+    <string name="SaveFail">Kunde inte spara</string>
+    <string name="FileName">Ange ett namn</string>
+    <string name="Prompt">Instruktion</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nej</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Avbryt</string>
+    <string name="Apply">Verkställ</string>
+    <string name="View">Visa nu</string>
+    <string name="ChangeBackground">Ändra bakgrund</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">När du tar bort denna anteckning tar du bort alla sidor den innehåller. Vill du ta bort anteckningen?</string>
+    <string name="details">Information</string>
+    <string name="Merging">Samsorterar</string>
+    <string name="Stop">Stopp</string>
+    <string name="stop_merge">Stoppa samsortering</string>
+    <string name="pages"> Sidor</string>
+    <string name="noteName">Anteckning</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Denna titel finns redan. Ange ett annat titelnamn.</string>
+    <string name="attribute_empty_title_forbidden">Titel är obligatoriskt</string>
+    <string name="DeleteAPageWarningInfo">Vill du ta bort den här sidan?</string>
+    <string name="WarningNoPageInfo">Du måste lägga till en sida först</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Namn på anteckning</string>
+    <string name="SelectCover">Välj omslag</string>
+    <string name="RenameNoticeInfoTitle">Anm.</string>
+    <string name="RenameNoticeInfoDetail">Denna funktion aktiveras endast när du har valt en anteckning.</string>
+    <string name="RenameWarningInfo">Det angivna namnet är ogiltigt.</string>
+    <string name="add_picture">Lägg till bild</string>
+    <string name="take_photo">Ta foto</string>
+    <string name="choose_image">Välj bild</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Dela</string>
+    <string name="MovePageTitle">Flytta sidan</string>
+    <string name="JustMove">Flytta direkt</string>
+    <string name="DialogMoveToNotice">Vill du flytta sidan eller kopiera sidan?</string>
+    <string name="Cut">Klipp ut</string>
+    <string name="Paste">Klistra in</string>
+    <string name="Merge">Samsortera</string>
+    <string name="MergeSucceed">Har nu samsorterats</string>
+    <string name="MergeSuccessInfo">Fel vid samsortering av aktuell sida</string>
+    <string name="MergeFailed">Samsortering misslyckades</string>
+    <string name="MergeFailedInfo">Kan inte slutföra samsortering av aktuell sida</string>
+    <string name="GrantedPermissionSucceed">Auktorisering lyckades!</string>
+    <string name="GrantedPermissionFailed">Auktorisering misslyckades!</string>
+    <string name="permission">Auktoritet</string>
+    <string name="no_permissions">Kräver nödvändiga behörigheter</string>
+    <string name="settings">Inställningar</string>
+    <string name="help">Hjälp</string>
+    <string name="string_help_text">Ingen nödvändig auktoritet för program som körs! Klicka på \"Inställning\"-\"Applikation\" för att välja app att auktorisera</string>
+    <string name="quit">Avsluta</string>
+    <string name="Success">Lyckades</string>
+    <string name="CopySucceed">Kopiering har slutförts!</string>
+    <string name="MoveSucceed">Flyttning har slutförts!</string>
+    <string name="Failed">Misslyckades</string>
+    <string name="FailedInfo">Du måste välja en annan anteckning</string>
+    <string name="SavingInfo">Sparar data nu, vänta!</string>
+    <string name="TitleSaving">Sparar</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Spara som PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Anpassa dina anteckningsböcker</string>
+    <string name="HelpTitleStep_3">Anteckningssidor</string>
+    <string name="HelpTitleStep_4">Samsortering av anteckningar</string>
+    <string name="HelpTitleStep_5">Redigering av anteckningar</string>
+    <string name="HelpTitleStep_6">Dela en anteckning</string>
+    <string name="HelpDetailStep_6">Du kan exportera dina anteckningar som bild eller i PDF-format. Du kan också dela dina anteckningar via Bluetooth och mer.</string>
+    <string name="HelpDetailStep_5">När du redigerar en anteckning kan du välja olika skrivverktyg, ange pennans tjocklek och använda olika färger. Du kan till och med infoga text för att skapa extra innehåll.</string>
+    <string name="HelpDetailStep_4">Genom att trycka på knappen för samsortering, @hanvon@, kan du välja ytterligare sida att samsortera med den aktuella anteckningen.</string>
+    <string name="HelpDetailStep_3">Du kan snabbt visa valfri sida i förhandsgranskningsfönstret i din anteckningsbok. Du kan också använda långt tryck och dra sidor för att ändra ordningen i anteckningsboken.</string>
+    <string name="HelpDetailStep_2">Från omslaget på din anteckningsbok, tryck på knappen för inställningar, @hanvon@, där du kan ändra färg och stil för ditt omslag. Detta hjälper dig att enkelt organisera dina anteckningsböcker.</string>
+    <string name="HelpDetailStep_1">Tack för att du väljer Lenovo Note Saver för alla dina anteckningsbehov! Det har redan skapats en anteckningsbok åt dig som heter \"Note Saver\" där alla dina anteckningar som du skriver på och utanför skärmen sparas. Du kan redigera dem när som helst.</string>
+    <string name="HelpStep_5_Des_1">Pensel och text</string>
+    <string name="HelpStep_5_Des_2">Infoga bild</string>
+    <string name="HelpStep_5_Des_3">Rama in innehållet</string>
+    <string name="HelpStep_5_Des_4">Penseltyp</string>
+    <string name="HelpStep_5_Des_5">Penseltjocklek</string>
+    <string name="HelpStep_5_Des_6">Dubbelklicka för att justera färg</string>
+    <string name="AppVersion">Version</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo Med ensamrätt</string>
+    <string name="SettingOpenInquiry">Fråga mig när förvald hopp-plats för anteckning öppnas</string>
+    <string name="OpenInquiryTitle">Öppna förvald hopp-plats för anteckningen</string>
+    <string name="JumpToLatest">Hoppa till sista redigerade sidan</string>
+    <string name="JumpToEnd">Hoppa till sista sidan</string>
+
+
+</resources>

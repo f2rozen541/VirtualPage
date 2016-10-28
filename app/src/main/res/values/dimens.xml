@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">130dp</dimen>
+
+
+    <!-- Standart dimens for the color wheel -->
+    <dimen name="color_wheel_radius">124dp</dimen>
+    <dimen name="color_wheel_thickness">8dp</dimen>
+    <dimen name="color_center_halo_radius">60dp</dimen>
+    <dimen name="color_center_radius">54dp</dimen>
+    <dimen name="color_pointer_halo_radius">18dp</dimen>
+    <dimen name="color_pointer_radius">14dp</dimen>
+
+    <!-- Standart dimens for the bars -->
+    <dimen name="bar_thickness">40px</dimen>
+    <dimen name="bar_length">360px</dimen>
+    <dimen name="bar_pointer_radius">12dp</dimen>
+    <dimen name="bar_pointer_halo_radius">30px</dimen>
+
+    <!-- Uniform Dialog value-->
+    <dimen name="dialog_width">720px</dimen>
+    <dimen name="dialog_title_height">80px</dimen>
+    <dimen name="dialog_title_text_size">32px</dimen>
+    <dimen name="dialog_bottom_height">100px</dimen>
+    <dimen name="dialog_bottom_text_size">30px</dimen>
+    <dimen name="dialog_content_text_size">30px</dimen>
+</resources>

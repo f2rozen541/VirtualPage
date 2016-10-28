@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal">
+
+    <com.hanvon.virtualpage.pageeditor.view.NumberSlideBar
+        android:id="@+id/slide_bar"
+        android:layout_width="230px"
+        android:layout_height="48px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="42px"/>
+
+    <ImageView
+        android:id="@+id/iv_size_icon"
+        android:layout_width="42px"
+        android:layout_height="34px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12px"
+        android:layout_toLeftOf="@id/slide_bar"
+        android:src="@drawable/font_size_icon" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_underline"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100px"
+        android:layout_toLeftOf="@id/iv_size_icon"
+        android:background="@drawable/font_underline"
+        hanvon:SelectedBgRes="@drawable/font_underline_select"
+        hanvon:UnSelectedBgRes="@drawable/font_underline" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_italic"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30px"
+        android:layout_toLeftOf="@id/abb_underline"
+        android:background="@drawable/font_italic"
+        hanvon:SelectedBgRes="@drawable/font_italic_select"
+        hanvon:UnSelectedBgRes="@drawable/font_italic" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_bold"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30px"
+        android:layout_toLeftOf="@id/abb_italic"
+        android:background="@drawable/font_bold"
+        hanvon:SelectedBgRes="@drawable/font_bold_select"
+        hanvon:UnSelectedBgRes="@drawable/font_bold" />
+
+    <LinearLayout
+        android:layout_width="154px"
+        android:layout_height="60px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100px"
+        android:layout_toLeftOf="@id/abb_bold"
+        android:orientation="horizontal">
+
+        <com.hanvon.virtualpage.pageeditor.view.TextFontView
+            android:id="@+id/textFontView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Nastavitve</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Datoteka</string>
+    <string name="Edit">Uredi</string>
+    <string name="Canvas">Platno</string>
+    <string name="Help">Pomoč</string>
+    <string name="Exit">Izhod</string>
+    <string name="New">Novo</string>
+    <string name="Open">Odpri</string>
+    <string name="Save">Shrani</string>
+    <string name="SaveAs">Shrani kot</string>
+    <string name="Undo">Razveljavi</string>
+    <string name="Redo">Uveljavi</string>
+    <string name="Clear">Počisti</string>
+    <string name="ChangeTexture">Spremeni teksturo</string>
+    <string name="ResetTexture">Resetiraj teksturo</string>
+    <string name="About">Vizitka</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Izberi sliko</string>
+    <string name="Return">Vrni se</string>
+    <string name="Delete">Izbriši</string>
+    <string name="Copy">Kopiraj</string>
+    <string name="Import">Uvozi</string>
+    <string name="Share">Skupna raba</string>
+    <string name="SaveSuccess">Uspešno shranjeno!</string>
+    <string name="Saved">Shranjeno</string>
+    <string name="SaveFail">Shranjevanje ni uspelo!</string>
+    <string name="FileName">Vnesite ime</string>
+    <string name="Prompt">Poziv</string>
+    <string name="Yes">Da</string>
+    <string name="No">Ne</string>
+    <string name="OK">V redu</string>
+    <string name="Cancel">Prekliči</string>
+    <string name="Apply">Uporabi</string>
+    <string name="View">Poglej zdaj</string>
+    <string name="ChangeBackground">Spremeni ozadje</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Če izbrišete to opombo, boste izbrisali vse vsebovane strani. Ste prepričani, da želite izbrisati to opombo?</string>
+    <string name="details">Podrobnosti</string>
+    <string name="Merging">Spajanje</string>
+    <string name="Stop">Ustavi</string>
+    <string name="stop_merge">Ustavi spoje</string>
+    <string name="pages"> Strani</string>
+    <string name="noteName">Opomba</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Ta naslov že obstaja. Prosimo vnesite drugo ime naslova.</string>
+    <string name="attribute_empty_title_forbidden">Zahtevan je naslov</string>
+    <string name="DeleteAPageWarningInfo">Ali želite izbrisati to stran?</string>
+    <string name="WarningNoPageInfo">Najprej morate dodati stran</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Ime opombe</string>
+    <string name="SelectCover">Izberite platnico</string>
+    <string name="RenameNoticeInfoTitle">Obvestilo</string>
+    <string name="RenameNoticeInfoDetail">Ta funkcija se omogoči šele, ko je bila izbrana ena opomba.</string>
+    <string name="RenameWarningInfo">Ime, ki ste ga vnesli, je neveljavno.</string>
+    <string name="add_picture">Dodaj sliko</string>
+    <string name="take_photo">Fotografiraj</string>
+    <string name="choose_image">Izberi sliko</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Skupna raba</string>
+    <string name="MovePageTitle">Premakni stran</string>
+    <string name="JustMove">Premakni neposredno</string>
+    <string name="DialogMoveToNotice">Želite premakniti stran ali kopirati stran?</string>
+    <string name="Cut">Izreži</string>
+    <string name="Paste">Prilepi</string>
+    <string name="Merge">Spoji</string>
+    <string name="MergeSucceed">Uspešno spojeno</string>
+    <string name="MergeSuccessInfo">Spajanje trenutne strani je uspelo</string>
+    <string name="MergeFailed">Spajanje ni uspelo</string>
+    <string name="MergeFailedInfo">Spajanja trenutne strani ni mogoče dokončati</string>
+    <string name="GrantedPermissionSucceed">Dovoljenje je bilo uspešno podeljeno!</string>
+    <string name="GrantedPermissionFailed">Dovoljenja ni bilo mogoče podeliti!</string>
+    <string name="permission">Pooblastilo</string>
+    <string name="no_permissions">Zahteva potrebno dovoljenje</string>
+    <string name="settings">Nastavitve</string>
+    <string name="help">Pomoč</string>
+    <string name="string_help_text">Pooblastilo za izvajanje programa ni potrebno! Prosimo, pritisnite \"Nastavitev\"-\"Aplikacija\", da izberete aplikacijo za pooblastilo</string>
+    <string name="quit">Zapri</string>
+    <string name="Success">Uspelo</string>
+    <string name="CopySucceed">Kopiranje je uspelo!</string>
+    <string name="MoveSucceed">Uspešno premaknjeno!</string>
+    <string name="Failed">Neuspešno</string>
+    <string name="FailedInfo">Morate izbrati drugo opombo</string>
+    <string name="SavingInfo">Podatki se sedaj shranjujejo, prosim počakajte!</string>
+    <string name="TitleSaving">Shranjevanje</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Shrani kot PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Prilagodi svoje beležnice</string>
+    <string name="HelpTitleStep_3">Strani opomb</string>
+    <string name="HelpTitleStep_4">Spajanje opomb</string>
+    <string name="HelpTitleStep_5">Urejanje opomb</string>
+    <string name="HelpTitleStep_6">Daj opombo v skupno rabo</string>
+    <string name="HelpDetailStep_6">Lahko izvozite vaše opombe kot slike ali v PDF formatu. Vaše opombe lahko tudi date v skupno rabo preko povezave Bluetooth in več.</string>
+    <string name="HelpDetailStep_5">Pri urejanju opombe, lahko izberete različna orodja za pisanje, nastavite debelino pisave in uporabite različne barve. Lahko tudi vstavite tekst, da ustvarite dodatno vsebino.</string>
+    <string name="HelpDetailStep_4">Ko pritisnete \"spoji\" gumb @hanvon@, lahko izberete drugo stran, da jo spojite z vašo trenutno opombo.</string>
+    <string name="HelpDetailStep_3">Lahko si hitro ogledate katerokoli strani v podoknu za predogled vaše beležnice. Lahko tudi dolgo pritisnite in povlečete strani, da preuredite njihov vrstni red v beležnici.</string>
+    <string name="HelpDetailStep_2">Na platnicah vaše Beležnice tapnite @hanvon@ gumb v nastavitvah, kjer lahko spremenite barvo in slog vaših platnic.  To vam pomaga lažje organizirati vaše beležnice.</string>
+    <string name="HelpDetailStep_1">Hvala, ker ste izbrali Lenovo Note Saver za pisanje vseh opomb! Za začetek je bila za vas že ustvarjena beležnica z naslovom \"Note Saver\", kjer bodo shranjene vse vaše opombe, ki so bile zapisane na ekranu in izven njega. Lahko jih svobodno uredite, kadar želite.</string>
+    <string name="HelpStep_5_Des_1">Čopič in tekst</string>
+    <string name="HelpStep_5_Des_2">Vstavi sliko</string>
+    <string name="HelpStep_5_Des_3">Uokviri vsebino</string>
+    <string name="HelpStep_5_Des_4">Vrsta čopiča</string>
+    <string name="HelpStep_5_Des_5">Debelina čopiča</string>
+    <string name="HelpStep_5_Des_6">Dvokliknite, da poravnate barvo</string>
+    <string name="AppVersion">Različica</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright © 2016 Lenovo Vse pravice pridržane</string>
+    <string name="SettingOpenInquiry">Vprašaj me, ko se odpre skakajoča lokacija privzete opombe</string>
+    <string name="OpenInquiryTitle">Odpri privzeto skakajočo lokacijo za opombo</string>
+    <string name="JumpToLatest">Skoči do zadnje urejene strani</string>
+    <string name="JumpToEnd">Skoči do zadnje strani</string>
+    <string name="LimitPictureAmount">Dosežena je bila zgornja omejitev.</string>
+
+</resources>

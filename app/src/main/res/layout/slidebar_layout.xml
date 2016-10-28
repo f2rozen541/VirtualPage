@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230px"
+    android:layout_height="48px"
+    android:background="@drawable/slide_bg">
+
+    <ImageView
+        android:id="@+id/iv_progress"
+        android:layout_width="150px"
+        android:layout_height="48px"
+        android:background="@drawable/slide_progress"/>
+
+    <TextView
+        android:id="@+id/btn_icon"
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:layout_alignEnd="@id/iv_progress"
+        android:background="@drawable/slidebar_icon"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:text="@string/DefaultInteger"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+</RelativeLayout>

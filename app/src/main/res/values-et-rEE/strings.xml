@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Sätted</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fail</string>
+    <string name="Edit">Redigeeri</string>
+    <string name="Canvas">Lõuend</string>
+    <string name="Help">Spikker</string>
+    <string name="Exit">Välju</string>
+    <string name="New">Uus</string>
+    <string name="Open">Ava</string>
+    <string name="Save">Salvesta</string>
+    <string name="SaveAs">Salvesta kui:</string>
+    <string name="Undo">Võta tagasi</string>
+    <string name="Redo">Tee uuesti</string>
+    <string name="Clear">Puhasta</string>
+    <string name="ChangeTexture">Muuda tekstuuri</string>
+    <string name="ResetTexture">Lähtesta tekstuur</string>
+    <string name="About">Teave</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Valige pilt</string>
+    <string name="Return">Tagasi</string>
+    <string name="Delete">Kustuta</string>
+    <string name="Copy">Kopeeri</string>
+    <string name="Import">Impordi</string>
+    <string name="Share">Anna ühiskasutusse</string>
+    <string name="SaveSuccess">Edukalt salvestatud!</string>
+    <string name="Saved">Salvestatud</string>
+    <string name="SaveFail">Salvestamine õnnestus</string>
+    <string name="FileName">Sisesta nimi</string>
+    <string name="Prompt">Viip</string>
+    <string name="Yes">Jah</string>
+    <string name="No">Ei</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Tühista</string>
+    <string name="Apply">Rakenda</string>
+    <string name="View">Kuva nüüd</string>
+    <string name="ChangeBackground">Muuda tausta</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Märkuse kustutamine kustutab kõik sisalduvad leheküljed. Kas märkuse kindlasti kustutada?</string>
+    <string name="details">Üksikasjad</string>
+    <string name="Merging">Ühendamine</string>
+    <string name="Stop">Peata</string>
+    <string name="stop_merge">Peata ühendamine</string>
+    <string name="pages"> Leheküljed</string>
+    <string name="noteName">Märkus</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">See pealkiri on juba olemas. Sisestage teine pealkiri.</string>
+    <string name="attribute_empty_title_forbidden">Pealkiri on kohustuslik</string>
+    <string name="DeleteAPageWarningInfo">Kas soovite lehekülje kustutada?</string>
+    <string name="WarningNoPageInfo">Esmalt peate lehekülje lisama</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Märkuse nimetus</string>
+    <string name="SelectCover">Vali kaas</string>
+    <string name="RenameNoticeInfoTitle">Teatis</string>
+    <string name="RenameNoticeInfoDetail">Seda funktsiooni saab lubada, kui märkus on valitud.</string>
+    <string name="RenameWarningInfo">Sisestatud nimetus on vigane.</string>
+    <string name="add_picture">Lisa pilt</string>
+    <string name="take_photo">Tee foto</string>
+    <string name="choose_image">Vali kujutis</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Anna ühiskasutusse</string>
+    <string name="MovePageTitle">Teisalda lehekülg</string>
+    <string name="JustMove">Teisalda otse</string>
+    <string name="DialogMoveToNotice">Kas soovite lehekülje teisaldada või kopeerida?</string>
+    <string name="Cut">Lõika</string>
+    <string name="Paste">Kleebi</string>
+    <string name="Merge">Ühenda</string>
+    <string name="MergeSucceed">Edukalt ühendatud</string>
+    <string name="MergeSuccessInfo">Selle lehekülje ühendamine õnnestus</string>
+    <string name="MergeFailed">Ühendamine nurjus</string>
+    <string name="MergeFailedInfo">Selle lehekülje ühendamist ei saa lõpetada</string>
+    <string name="GrantedPermissionSucceed">Autoriseerimine oli edukas!</string>
+    <string name="GrantedPermissionFailed">Autoriseerimine nurjus!</string>
+    <string name="permission">Autoriseerimiskeskus</string>
+    <string name="no_permissions">Taotle vajalikud õigused</string>
+    <string name="settings">Sätted</string>
+    <string name="help">Spikker</string>
+    <string name="string_help_text">Programmi käivitamiseks puuduvad õigused! Vajutage nuppe Seadistus > Rakendus ja valige rakendus, millele luba anda</string>
+    <string name="quit">Välju</string>
+    <string name="Success">Õnnestus</string>
+    <string name="CopySucceed">Kopeerimine õnnestus!</string>
+    <string name="MoveSucceed">Teisaldamine õnnestus!</string>
+    <string name="Failed">Ebaõnnestus</string>
+    <string name="FailedInfo">Peate valima teise märkuse</string>
+    <string name="SavingInfo">Salvestan andmeid, palun oodake!</string>
+    <string name="TitleSaving">Salvestamine</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Salvesta PDF-vormingusse</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Märkmike kohandamine</string>
+    <string name="HelpTitleStep_3">Märkmiku leheküljed</string>
+    <string name="HelpTitleStep_4">Märkuse ühendamine</string>
+    <string name="HelpTitleStep_5">Märkuse muutmine</string>
+    <string name="HelpTitleStep_6">Märkuse jagamine</string>
+    <string name="HelpDetailStep_6">Märkusi saab eksportida pildina või PDF-vormingus. Samuti saate märkusi jagada Bluetoothi ja muuga.</string>
+    <string name="HelpDetailStep_5">Märkuse muutmise saate valida mitmesuguseid kirjutustööriistu, määrata joone paksust ja kasutada erinevaid värve. Täiendava sisu loomiseks saate isegi teksti sisestada.</string>
+    <string name="HelpDetailStep_4">Ühendamise nuppu @hanvon@ vajutades saate valida teise lehekülje, mida selle märkusega liita.</string>
+    <string name="HelpDetailStep_3">Märkmiku eelvaatepaanis saate kõiki lehekülgi kiirelt kuvada. Lehekülgede järjestuse muutmiseks märkmikus vajutage lehekülg pikalt alla ja lohistage seda.</string>
+    <string name="HelpDetailStep_2">Märkmiku kaanel asub seadistuste nupp @hanvon@, millele koputades saate muuta kaane värvi ja stiili. See aitab märkmikke kergesti korraldada.</string>
+    <string name="HelpDetailStep_1">Täname, et valisite märkuste tegemise jaoks Lenovo Note Saveri! Alustamise abiks on teie jaoks loodud märkmik pealkirjaga „Note Saver”, kuhu salvestatakse kõik ekraanil ja väljaspool ekraani tehtud märkused. Saate neid igal ajal muuta.</string>
+    <string name="HelpStep_5_Des_1">Pintsel ja tekst</string>
+    <string name="HelpStep_5_Des_2">Pildi sisestamine</string>
+    <string name="HelpStep_5_Des_3">Raami sisu</string>
+    <string name="HelpStep_5_Des_4">Pintsli tüüp</string>
+    <string name="HelpStep_5_Des_5">Pintsli paksus</string>
+    <string name="HelpStep_5_Des_6">Värvi kohandamiseks tehke topeltklõps</string>
+    <string name="AppVersion">Versioon</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Autoriõigus © 2016 Lenovo. Kõik õigused kaitstud.</string>
+    <string name="SettingOpenInquiry">Küsi luba märkuse vaikesiirdeasukoha avamisel</string>
+    <string name="OpenInquiryTitle">Ava märkuse vaikesiirdeasukoht</string>
+    <string name="JumpToLatest">Siirdu viimasele muudetud leheküljele</string>
+    <string name="JumpToEnd">Siirdu viimasele leheküljele</string>
+    <string name="LimitPictureAmount">Sisestuse max limiit on saavutatud.</string>
+
+</resources>

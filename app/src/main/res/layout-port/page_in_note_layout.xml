@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainActivityBg">
+
+    <RelativeLayout
+        android:id="@+id/rl_center_container"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="545dp">
+        <FrameLayout
+            android:id="@+id/fl_center_frame"
+            android:layout_centerInParent="true"
+            android:layout_width="357dp"
+            android:layout_height="545dp">
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pages_container"
+            android:layout_alignEnd="@id/fl_center_frame"
+            android:background="@drawable/page_cover2_open_bg"
+            android:layout_width="632dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginBottom="31dp"
+            android:layout_marginLeft="-192dp"
+            android:layout_height="545dp">
+            <com.hanvon.virtualpage.notecomponent.widget.PageWidgetView
+                android:layout_centerInParent="true"
+                android:id="@+id/page_widget_view"
+                android:layout_width="618dp"
+                android:layout_height="493dp">
+
+            </com.hanvon.virtualpage.notecomponent.widget.PageWidgetView>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/iv_new_page"
+                android:layout_width="212px"
+                android:layout_height="794px"
+                android:background="@drawable/btn_open_note_new_page_vertical_selector" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/fl_center_frame"
+            android:layout_alignBottom="@id/fl_center_frame"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="130px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_page_share"
+                android:layout_width="62px"
+                android:layout_height="62px"
+                android:src="@drawable/btn_page_share_selector" />
+
+            <ImageView
+                android:id="@+id/iv_page_move"
+                android:layout_width="62px"
+                android:layout_height="62px"
+                android:layout_marginStart="40px"
+                android:src="@drawable/btn_page_move_selector" />
+
+            <ImageView
+                android:id="@+id/iv_page_merge"
+                android:layout_width="62px"
+                android:layout_height="62px"
+                android:layout_marginStart="40px"
+                android:src="@drawable/btn_page_merge_selector" />
+
+            <ImageView
+                android:id="@+id/iv_page_delete"
+                android:layout_width="62px"
+                android:layout_height="62px"
+                android:layout_marginStart="40px"
+                android:src="@drawable/btn_page_delete_selector" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_note_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rl_center_container"
+        android:layout_marginBottom="36dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="36px" />
+
+    <TextView
+        android:id="@+id/tv_page_tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/DefaultTab"
+        android:layout_below="@id/rl_center_container"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="24px" />
+
+    <FrameLayout
+        android:id="@+id/fl_page_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPageListBg">
+    </FrameLayout>
+
+</RelativeLayout>

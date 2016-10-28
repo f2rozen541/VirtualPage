@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorNoteListBg">#edebe9</color>
+    <color name="colorNoteListLine">#d7d7d7</color>
+
+    <color name="mainActivityBg">#383838</color>
+    <!--新增的色值-->
+
+    <color name="colorPageListBg">#585655</color>
+
+    <color name="colorPickerDivider">#e0e0e0</color>
+
+    <color name="colorTextWhite">#ffffff</color>
+    <color name="test">#FFF5F5F5</color>
+
+    <color name="editorDialogTextTitle">#777777</color>
+    <color name="editorDialogEditText">#121212</color>
+    <color name="editorDialogCursorColor">#fe8600</color>
+    <color name="editorDialogBgColor">#D9DEDF</color>
+
+    <color name="pageListBgInPageEditor">#d7d7d7</color>
+
+    <color name="MoveToTitleTextColor">#121212</color>
+    <color name="MergeBgColor">#585655</color>
+
+    <!--<color name="NoteCoverTextColor1">#6D1E9A</color>-->
+    <!--<color name="NoteCoverTextColor2">#833E1F</color>-->
+    <!--<color name="NoteCoverTextColor3">#1B458F</color>-->
+    <!--<color name="NoteCoverTextColor4">#996422</color>-->
+    <!--<color name="NoteCoverTextColor5">#0D6992</color>-->
+    <!--<color name="NoteCoverTextColor6">#4F712B</color>-->
+    <color name="NoteCoverTextColor1">#FFFFFF</color>
+    <color name="NoteCoverTextColor2">#FFFFFF</color>
+    <color name="NoteCoverTextColor3">#FFFFFF</color>
+    <color name="NoteCoverTextColor4">#FFFFFF</color>
+    <color name="NoteCoverTextColor5">#FFFFFF</color>
+    <color name="NoteCoverTextColor6">#FFFFFF</color>
+
+    <!-- PageEditor-->
+    <color name="PageEditorToolBarBg">#FAFAFA</color>
+    <color name="PageEditorSeparatorBg">#D7D7D7</color>
+
+    <!-- PaintColor-->
+    <color name="paintColorBlack">#FF000000</color>
+    <color name="paintColorGray">#FFd4d2d2</color>
+    <color name="paintColorBlue">#FF0000FF</color>
+    <color name="paintColorYellow">#FFf4e347</color>
+    <color name="paintColorOrange">#FFef9712</color>
+    <color name="paintColorRed">#FFFF0000</color>
+
+    <!--TextFont-->
+    <color name="colorFontOptionBg">#F3F3F3</color>
+
+    <!-- Help Dialog-->
+    <color name="TextHelpTitle">#000000</color>
+    <color name="TextHelpDetail">#434343</color>
+
+    <!-- Color Translucency-->
+    <color name="ColorTranslucent">#33000000</color>
+
+    <!-- PageEditor Setting Bg Color-->
+    <color name="ItemNormal">#FFFFFF</color>
+    <color name="ItemPressed">#EDEDED</color>
+
+    <!-- ThemeColor-->
+    <color name="ThemeColor">#EF9000</color>
+
+    <!-- Dialog Text Color-->
+    <color name="Dialog_Title">#121212</color>
+    <color name="Dialog_Content">#121212</color>
+    <color name="Dialog_Cancel">#4C4C4C</color>
+    <color name="Dialog_Confirm">#FF9205</color>
+    <color name="Dialog_Bg_White">#FFFFFF</color>
+
+    <!-- Merging Dialog-->
+    <color name="Dialog_Progress_Bg">#B6B6B6</color>
+    <color name="Dialog_Progress_Fill">#FE8900</color>
+
+</resources>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Налаштування</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Файл</string>
+    <string name="Edit">Змінити</string>
+    <string name="Canvas">Полотно</string>
+    <string name="Help">Довідка</string>
+    <string name="Exit">Вихід</string>
+    <string name="New">Створити</string>
+    <string name="Open">Відкрити</string>
+    <string name="Save">Зберегти</string>
+    <string name="SaveAs">Зберегти як...</string>
+    <string name="Undo">Повернути</string>
+    <string name="Redo">Повторити</string>
+    <string name="Clear">Очистити</string>
+    <string name="ChangeTexture">Змінити текстуру</string>
+    <string name="ResetTexture">Скинути текстуру</string>
+    <string name="About">Інформація</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Виберіть зображення</string>
+    <string name="Return">Повернути</string>
+    <string name="Delete">Видалити</string>
+    <string name="Copy">Копіювати</string>
+    <string name="Import">Імпорт</string>
+    <string name="Share">Поділитися</string>
+    <string name="SaveSuccess">Успішно збережено!</string>
+    <string name="Saved">Збережено</string>
+    <string name="SaveFail">Помилка збереження</string>
+    <string name="FileName">Введіть назву</string>
+    <string name="Prompt">Підказка</string>
+    <string name="Yes">Так</string>
+    <string name="No">Ні</string>
+    <string name="OK">ОК</string>
+    <string name="Cancel">Скасувати</string>
+    <string name="Apply">Застосувати</string>
+    <string name="View">Переглянути</string>
+    <string name="ChangeBackground">Змінити фон</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">При видаленні цієї нотатки будуть видалені усі сторінки в ній. Дійсно видалити нотатку?</string>
+    <string name="details">Подробиці</string>
+    <string name="Merging">Злиття...</string>
+    <string name="Stop">Стоп</string>
+    <string name="stop_merge">Зупинити злиття</string>
+    <string name="pages"> Сторінки</string>
+    <string name="noteName">Нотатка</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Ця назва вже існує. Введіть іншу назву.</string>
+    <string name="attribute_empty_title_forbidden">Потрібна назва</string>
+    <string name="DeleteAPageWarningInfo">Бажаєте видалити цю сторінку?</string>
+    <string name="WarningNoPageInfo">Спочатку потрібно додати сторінку</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Назва нотатки</string>
+    <string name="SelectCover">Виберіть обкладинку</string>
+    <string name="RenameNoticeInfoTitle">Зауваження</string>
+    <string name="RenameNoticeInfoDetail">Цю функцію можна увімкнути лише після вибору нотатки.</string>
+    <string name="RenameWarningInfo">Введена вами назва неприпустима.</string>
+    <string name="add_picture">Додати зображення</string>
+    <string name="take_photo">Зробити знімок</string>
+    <string name="choose_image">Виберіть зображення</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Поділитися</string>
+    <string name="MovePageTitle">Перемістити сторінку</string>
+    <string name="JustMove">Пряме переміщення</string>
+    <string name="DialogMoveToNotice">Перемістити або скопіювати цю сторінку?</string>
+    <string name="Cut">Вирізати</string>
+    <string name="Paste">Вставити</string>
+    <string name="Merge">Злити</string>
+    <string name="MergeSucceed">Злиття виконано успішно</string>
+    <string name="MergeSuccessInfo">Успішне злиття поточної сторінки</string>
+    <string name="MergeFailed">Помилка злиття</string>
+    <string name="MergeFailedInfo">Не вдалося виконати злиття поточної сторінки</string>
+    <string name="GrantedPermissionSucceed">Авторизація виконана успішно!</string>
+    <string name="GrantedPermissionFailed">Помилка авторизації!</string>
+    <string name="permission">Право дозволу</string>
+    <string name="no_permissions">Потрібен дозвіл</string>
+    <string name="settings">Налаштування</string>
+    <string name="help">Довідка</string>
+    <string name="string_help_text">Немає потрібного права дозволу для запуску програми! Натисніть \"Налаштування\"-\"Програми\", щоб вибрати програму для надання прав доступу.</string>
+    <string name="quit">Вийти</string>
+    <string name="Success">Успішно</string>
+    <string name="CopySucceed">Успішно скопійовано!</string>
+    <string name="MoveSucceed">Успішно переміщено!</string>
+    <string name="Failed">Помилка</string>
+    <string name="FailedInfo">Потрібно вибрати іншу нотатку</string>
+    <string name="SavingInfo">Триває збереження даних, зачекайте!</string>
+    <string name="TitleSaving">Збереження...</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Зберегти в форматі PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Персоналізуйте свої записники</string>
+    <string name="HelpTitleStep_3">Сторінки нотатки</string>
+    <string name="HelpTitleStep_4">Злиття нотаток</string>
+    <string name="HelpTitleStep_5">Редагування нотатки</string>
+    <string name="HelpTitleStep_6">Поділитися нотаткою</string>
+    <string name="HelpDetailStep_6">Можна експортувати нотатки як зображення або до формату PDF. Також можна ділитися нотатками через Bluetooth та іншими способами.</string>
+    <string name="HelpDetailStep_5">При редагуванні в нотатках можна вибирати різноманітні засоби писання, задавати товщину пера та використовувати різні кольори. Можна навіть вставляти текст для створення додаткового вмісту.</string>
+    <string name="HelpDetailStep_4">Натиснувши кнопку \"Злиття\" @hanvon@, ви можете вибрати іншу сторінку для злиття з активною нотаткою.</string>
+    <string name="HelpDetailStep_3">Можна швидко переглянути будь-яку сторінку на панелі попереднього перегляду записника. Щоб змінити порядок сторінок у записнику, утримуйте сторінки, а потім перетягайте їх.</string>
+    <string name="HelpDetailStep_2">Відкривши обкладинку записника, торкніться кнопку налаштувань @hanvon@, щоб змінити колір та стиль обкладинки. Це дозволяє легко впорядковувати записники.</string>
+    <string name="HelpDetailStep_1">Дякуємо за вибір Lenovo Note Saver для створення нотаток! Щоб спростити вам початок роботи, для вас уже створено записник під назвою \"Note Saver\", де будуть зберігатися усі ваші нотатки, зроблені на екрані та за його межами. Ви можете змінювати їх, коли бажаєте.</string>
+    <string name="HelpStep_5_Des_1">Пензель та текст</string>
+    <string name="HelpStep_5_Des_2">Вставте зображення</string>
+    <string name="HelpStep_5_Des_3">Взяти вміст до рамки</string>
+    <string name="HelpStep_5_Des_4">Тип пензля</string>
+    <string name="HelpStep_5_Des_5">Ширина пензля</string>
+    <string name="HelpStep_5_Des_6">Двічі торкніться екрана, щоб налаштувати колір</string>
+    <string name="AppVersion">Версія</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">©2016 Lenovo. Всі права захищено</string>
+    <string name="SettingOpenInquiry">Запитувати при відкритті місця для переходу за промовчанням</string>
+    <string name="OpenInquiryTitle">Відкривати місце для переходу за промовчанням для нотатки</string>
+    <string name="JumpToLatest">Переходити до останньої зміненої сторінки</string>
+    <string name="JumpToEnd">Переходити до останньої сторінки</string>
+
+
+</resources>

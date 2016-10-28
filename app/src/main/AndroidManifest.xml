@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hanvon.virtualpage">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 这里的configChanges="orientation"不能随便修改，不然会收不到onWindowFocusChanged消息 -->
+        <activity
+            android:name=".main.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".notecomponent.activity.ShowPagesActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pageeditor.activity.PageEditorActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="COM.HANVON.EDITOR" />
+
+                <category android:name="android.intent.category.HANVON_EDITOR" />
+                <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="COM.HANVON.KILLAPP" />
+
+                <category android:name="android.intent.category.HANVON_KILLAPP" />
+                <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pageeditor.activity.PageEditor2Activity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/NoDisplay">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="COM.HANVON.FINISH" />
+
+                <category android:name="android.intent.category.FINISH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".utils.PermissionsActivity"
+            android:label="@string/permission"
+            android:launchMode="singleTask"
+            android:theme="@style/NoDisplay">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".common.HelpActivity"
+            android:label="@string/Help"
+            android:launchMode="singleTask"
+            android:theme="@style/DialogTranslucent">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".common.AboutActivity"
+            android:label="@string/About"
+            android:launchMode="singleTask"
+            android:theme="@style/DialogTranslucent">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".main.BroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.havon.portableink.status.SHOW" />
+                <action android:name="com.havon.portableink.status.HIDE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".pageeditor.activity.Main2Activity"></activity>
+    </application>
+
+</manifest>

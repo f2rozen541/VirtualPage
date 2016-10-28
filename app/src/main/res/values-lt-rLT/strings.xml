@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Nustatymai</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Failas</string>
+    <string name="Edit">Redaguoti</string>
+    <string name="Canvas">Drobė</string>
+    <string name="Help">Žinynas</string>
+    <string name="Exit">Išeiti</string>
+    <string name="New">Naujas</string>
+    <string name="Open">Atidaryti</string>
+    <string name="Save">Įrašyti</string>
+    <string name="SaveAs">Įrašyti kaip</string>
+    <string name="Undo">Anuliuoti</string>
+    <string name="Redo">Pakartoti</string>
+    <string name="Clear">Išvalyti</string>
+    <string name="ChangeTexture">Pakeisti tekstūrą</string>
+    <string name="ResetTexture">Iš naujo nustatyti tekstūrą</string>
+    <string name="About">Apie</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Pasirinkite vaizdą</string>
+    <string name="Return">Grįžti</string>
+    <string name="Delete">Naikinti</string>
+    <string name="Copy">Kopijuoti</string>
+    <string name="Import">Importuoti</string>
+    <string name="Share">Bendrinti</string>
+    <string name="SaveSuccess">Sėkmingai įrašyta!</string>
+    <string name="Saved">Įrašyta</string>
+    <string name="SaveFail">Nepavyko įrašyti</string>
+    <string name="FileName">Įveskite vardą</string>
+    <string name="Prompt">Raginimas</string>
+    <string name="Yes">Taip</string>
+    <string name="No">Ne</string>
+    <string name="OK">Gerai</string>
+    <string name="Cancel">Atšaukti</string>
+    <string name="Apply">Taikyti</string>
+    <string name="View">Peržiūrėti dabar</string>
+    <string name="ChangeBackground">Pakeisti foną</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Panaikinus šią pastabą bus panaikinti visi esantys puslapiai. Ar tikrai norite panaikinti šią pastabą?</string>
+    <string name="details">Išsami informacija</string>
+    <string name="Merging">Suliejimas</string>
+    <string name="Stop">Sustabdyti</string>
+    <string name="stop_merge">Sustabdyti suliejimą</string>
+    <string name="pages"> Puslapiai</string>
+    <string name="noteName">Pastaba</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Ši antraštė jau yra. Įveskite kitą antraštės pavadinimą.</string>
+    <string name="attribute_empty_title_forbidden">Antraštė yra būtina</string>
+    <string name="DeleteAPageWarningInfo">Ar norite panaikinti šį puslapį?</string>
+    <string name="WarningNoPageInfo">Pirmiau turite įtraukti puslapį</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Pastabos pavadinimas</string>
+    <string name="SelectCover">Pasirinkite viršelį</string>
+    <string name="RenameNoticeInfoTitle">Pranešimas</string>
+    <string name="RenameNoticeInfoDetail">Ši funkcija gali būti įjungta tik pasirinkus pastabą.</string>
+    <string name="RenameWarningInfo">Jūsų įvestas pavadinimas yra netinkamas.</string>
+    <string name="add_picture">Įtraukti paveikslėlį</string>
+    <string name="take_photo">Fotografuoti</string>
+    <string name="choose_image">Pasirinkti vaizdą</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Bendrinti</string>
+    <string name="MovePageTitle">Perkelti puslapį</string>
+    <string name="JustMove">Tiesioginis perkėlimas</string>
+    <string name="DialogMoveToNotice">Ar norite perkelti arba nukopijuoti puslapį?</string>
+    <string name="Cut">Iškirpti</string>
+    <string name="Paste">Įklijuoti</string>
+    <string name="Merge">Sulieti</string>
+    <string name="MergeSucceed">Sėkmingai sulieta</string>
+    <string name="MergeSuccessInfo">Pavyko sėkmingai sulieti dabartinį puslapį</string>
+    <string name="MergeFailed">Sulieti nepavyko</string>
+    <string name="MergeFailedInfo">Nepavyksta sulieti dabartinio puslapio</string>
+    <string name="GrantedPermissionSucceed">Autorizuoti pavyko!</string>
+    <string name="GrantedPermissionFailed">Autorizuoti nepavyko!</string>
+    <string name="permission">Įgaliojimai</string>
+    <string name="no_permissions">Reiklauti būtinų teisių</string>
+    <string name="settings">Nustatymai</string>
+    <string name="help">Žinynas</string>
+    <string name="string_help_text">Nėra reikalingų įgaliojimų norint paleisti programą! Norėdami pasirinkti autorizuotiną programą spustelėkite „Nustatymas“ – „Programa“</string>
+    <string name="quit">Išeiti</string>
+    <string name="Success">Pavyko</string>
+    <string name="CopySucceed">Sėkmingai nukopijuota!</string>
+    <string name="MoveSucceed">Sėkmingai perkelta!</string>
+    <string name="Failed">Nepavyko</string>
+    <string name="FailedInfo">Turite pasirinkti kitą pastabą</string>
+    <string name="SavingInfo">Dabar įrašomi duomenys, palaukite!</string>
+    <string name="TitleSaving">Įrašymas</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Įrašyti kaip PDF</string>
+    <string name="NameShownInApp">„Lenovo Note Saver“</string>
+    <string name="HelpTitleStep_2">Tinkinkite bloknotus</string>
+    <string name="HelpTitleStep_3">Pastabų puslapiai</string>
+    <string name="HelpTitleStep_4">Pastabos suliejimas</string>
+    <string name="HelpTitleStep_5">Pastabos redagavimas</string>
+    <string name="HelpTitleStep_6">Bendrinti pastabą</string>
+    <string name="HelpDetailStep_6">Galite eksportuoti pastabas kaip vaizdą arba PDF formatu. Be to, galite bendrinti pastabas per „Bluetooth“ ir kt.</string>
+    <string name="HelpDetailStep_5">Kai redaguojate pastabą, galite pasirinkti skirtingus rašymo įrankius, nustatyti rašiklio storį ir naudoti įvairias spalvas. Galite net įterpti teksto norėdami sukurti papildomo turinio</string>
+    <string name="HelpDetailStep_4">Paspausdami „suliejimo“ mygtuką @hanvon@ galite pasirinkti kitą puslapį, norėdami sulieti su dabartine pastaba.</string>
+    <string name="HelpDetailStep_3">Savo bloknoto peržiūros srityje galite greitai peržiūrėti bet kurį puslapį. Be to, galite ilgai spausdami ir vilkdami pakeisti bloknote puslapių tvarką.</string>
+    <string name="HelpDetailStep_2">Bloknoto viršelyje bakstelėkite nustatymų mygtuką @hanvon@ ir galėsite pakeisti viršelio spalvą bei stilių. Tai padeda lengvai tvarkyti savo bloknotus.</string>
+    <string name="HelpDetailStep_1">Ačiū, kad savo pastaboms pasirinkote „Lenovo Note Saver“! Kad galėtumėte pradėti, jums jau yra sukurtas bloknotas pavadinimu „Note Saver“ – jame saugomos visos jūsų pastabos, įtrauktos įjungus ar išjungus ekraną. Galite bet kada laisvai jas redaguoti.</string>
+    <string name="HelpStep_5_Des_1">Teptukas ir tekstas</string>
+    <string name="HelpStep_5_Des_2">Įterpti vaizdą</string>
+    <string name="HelpStep_5_Des_3">Įrėminti turinį</string>
+    <string name="HelpStep_5_Des_4">Teptuko tipas</string>
+    <string name="HelpStep_5_Des_5">BruTeptuko storissh</string>
+    <string name="HelpStep_5_Des_6">Dukart spustelėkite norėdami paredaguoti spalvą</string>
+    <string name="AppVersion">Versija</string>
+    <!--<string name="AppVersionCode">1.1.30</string>-->
+    <string name="AppCopyRight">Autorių teisės © „Lenovo“, 2016 m. Visos teisės saugomos</string>
+    <string name="SettingOpenInquiry">Paklausti, kai atidaroma numatytoji pastabos peršokimo vieta</string>
+    <string name="OpenInquiryTitle">Atidaryti numatytąją pastabos peršokimo vietą</string>
+    <string name="JumpToLatest">Peršokti į paskutinį redaguotą puslapį</string>
+    <string name="JumpToEnd">Peršokti į paskutinį puslapį</string>
+    <string name="LimitPictureAmount">Jūsų įvestis pasiekė didžiausią ribą.</string>
+
+
+</resources>

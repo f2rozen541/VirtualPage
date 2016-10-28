@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Nastavenia</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Súbor</string>
+    <string name="Edit">Upraviť</string>
+    <string name="Canvas">Plátno</string>
+    <string name="Help">Pomocník</string>
+    <string name="Exit">Ukončiť</string>
+    <string name="New">Nové</string>
+    <string name="Open">Otvoriť</string>
+    <string name="Save">Uložiť</string>
+    <string name="SaveAs">Uložiť ako</string>
+    <string name="Undo">Späť</string>
+    <string name="Redo">Znovu</string>
+    <string name="Clear">Vymazať</string>
+    <string name="ChangeTexture">Zmeniť textúru</string>
+    <string name="ResetTexture">Obnoviť textúru</string>
+    <string name="About">Informácie</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Vyberte si obrázok</string>
+    <string name="Return">Späť</string>
+    <string name="Delete">Odstrániť</string>
+    <string name="Copy">Kopírovať</string>
+    <string name="Import">Importovať</string>
+    <string name="Share">Zdieľať</string>
+    <string name="SaveSuccess">Úspešne uložené!</string>
+    <string name="Saved">Uložené</string>
+    <string name="SaveFail">Uloženie bolo neúspešné</string>
+    <string name="FileName">Zadajte názov</string>
+    <string name="Prompt">Výzva</string>
+    <string name="Yes">Áno</string>
+    <string name="No">Nie</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Zrušiť</string>
+    <string name="Apply">Použiť</string>
+    <string name="View">Zobraziť teraz</string>
+    <string name="ChangeBackground">Zmeniť pozadie</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Vymazaním tejto poznámky vymažete aj všetky obsiahnuté stránky. Naozaj chcete odstrániť túto poznámku?</string>
+    <string name="details">Podrobnosti</string>
+    <string name="Merging">Prebieha zlúčenie</string>
+    <string name="Stop">Zastaviť</string>
+    <string name="stop_merge">Zastaviť zlúčenie</string>
+    <string name="pages"> Stránky</string>
+    <string name="noteName">Poznámka</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Tento názov už existuje. Zadajte iný názov.</string>
+    <string name="attribute_empty_title_forbidden">Názov je povinný</string>
+    <string name="DeleteAPageWarningInfo">Chcete odstrániť túto stránku?</string>
+    <string name="WarningNoPageInfo">Najprv musíte stránku pridať</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Názov poznámky</string>
+    <string name="SelectCover">Vyberte si obal</string>
+    <string name="RenameNoticeInfoTitle">Oznámenie</string>
+    <string name="RenameNoticeInfoDetail">Túto funkciu možno zapnúť len po označení poznámky.</string>
+    <string name="RenameWarningInfo">Zadaný názov nie je platný.</string>
+    <string name="add_picture">Pridajte fotografiu</string>
+    <string name="take_photo">Urobte fotografiu</string>
+    <string name="choose_image">Zvoľte obrázok</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Zdieľať</string>
+    <string name="MovePageTitle">Presuňte stránku</string>
+    <string name="JustMove">Priamo presunúť</string>
+    <string name="DialogMoveToNotice">Chcete stránku presunúť alebo ju skopírovať?</string>
+    <string name="Cut">Vystrihnúť</string>
+    <string name="Paste">Prilepiť</string>
+    <string name="Merge">Zlúčiť</string>
+    <string name="MergeSucceed">Zlúčenie bolo úspešné</string>
+    <string name="MergeSuccessInfo">Zlúčenie aktuálnej stránky bolo úspešné</string>
+    <string name="MergeFailed">Zlúčenie sa nepodarilo</string>
+    <string name="MergeFailedInfo">Zlúčenie aktuálnej stránky nemožno dokončiť</string>
+    <string name="GrantedPermissionSucceed">Autorizácia bola úspešná!</string>
+    <string name="GrantedPermissionFailed">Autorizácia zlyhala!</string>
+    <string name="permission">Orgán</string>
+    <string name="no_permissions">Sú potrebné nevyhnutné oprávnenia</string>
+    <string name="settings">Nastavenia</string>
+    <string name="help">Pomocník</string>
+    <string name="string_help_text">Chýba nevyhnutné oprávnenie na spustenie programu! Kliknite na „Nastavenia“ – „Aplikácie“ a vyberte si aplikáciu, ktorú chcete autorizovať</string>
+    <string name="quit">Ukončiť</string>
+    <string name="Success">Úspech</string>
+    <string name="CopySucceed">Kopírovanie bolo úspešné!</string>
+    <string name="MoveSucceed">Presúvanie bolo úspešné!</string>
+    <string name="Failed">Zlyhalo</string>
+    <string name="FailedInfo">Musíte si vybrať inú poznámku</string>
+    <string name="SavingInfo">Práve sa ukladajú údaje. Čakajte, prosím.</string>
+    <string name="TitleSaving">Ukladá sa</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Uložiť ako PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Upravte si svoj zápisník</string>
+    <string name="HelpTitleStep_3">Stránky poznámky</string>
+    <string name="HelpTitleStep_4">Zlúčenie poznámky</string>
+    <string name="HelpTitleStep_5">Úprava poznámky</string>
+    <string name="HelpTitleStep_6">Zdieľanie poznámky</string>
+    <string name="HelpDetailStep_6">Svoje poznámky môžete exportovať ako obrázok alebo súbory formátu PDF. Svoje poznámky tiež môžete okrem iného zdieľať aj cez Bluetooth.</string>
+    <string name="HelpDetailStep_5">Počas úpravy poznámky si môžete vybrať viaceré nástroje na písanie, nastaviť si hrúbku pera či vybrať si spomedzi rôznych farieb. Ďalší obsah môžete naviac vytvoriť vložením textu.</string>
+    <string name="HelpDetailStep_4">Stlačením tlačidla zlúčenia @hanvon@ si môžete vybrať ďalšiu stránku na zlúčenie s aktuálnou poznámkou.</string>
+    <string name="HelpDetailStep_3">Na table ukážok zápisníka si môžete v rýchlosti prezrieť ktorúkoľvek stránku. Dlhým stlačením a presunutím môžete zmeniť poradie stránok v zápisníku.</string>
+    <string name="HelpDetailStep_2">Na obale zápisníka ťuknite na tlačidlo nastavení @hanvon@, kde si môžete zmeniť farbu a štýl obalu. Vďaka tejto funkcii si môžete svoje zápisníky jednoducho organizovať.</string>
+    <string name="HelpDetailStep_1">Ďakujeme, že ste si na zapisovanie všetkých svojich poznámok vybrali Lenovo Note Saver! Na začiatok sme pre vás vytvorili zápisník s názvom „Note Saver“. Sem sa budú ukladať všetky vaše poznámky napísané na obrazovke aj mimo nej. Pokojne si ich môžete kedykoľvek upraviť.</string>
+    <string name="HelpStep_5_Des_1">Štetec a text</string>
+    <string name="HelpStep_5_Des_2">Vložiť obrázok</string>
+    <string name="HelpStep_5_Des_3">Ohraničiť obsah</string>
+    <string name="HelpStep_5_Des_4">Typ štetca</string>
+    <string name="HelpStep_5_Des_5">Hrúbka štetca</string>
+    <string name="HelpStep_5_Des_6">Dvojitým kliknutím upravte farbu</string>
+    <string name="AppVersion">Verzia</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo. Všetky práva vyhradené.</string>
+    <string name="SettingOpenInquiry">Opýtať sa ma pri otváraní predvolenej polohy preskočenia poznámky</string>
+    <string name="OpenInquiryTitle">Otvoriť predvolenú polohu preskočenia poznámky</string>
+    <string name="JumpToLatest">Preskočiť na naposledy upravenú stránku</string>
+    <string name="JumpToEnd">Preskočiť na poslednú stránku</string>
+    <string name="LimitPictureAmount">Vaše zadanie dosiahlo maximálny limit.</string>
+
+</resources>

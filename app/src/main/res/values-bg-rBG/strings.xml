@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Настройки</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Файл</string>
+    <string name="Edit">Редактиране</string>
+    <string name="Canvas">Платно</string>
+    <string name="Help">Помощ</string>
+    <string name="Exit">Изход</string>
+    <string name="New">Нов</string>
+    <string name="Open">Отворен</string>
+    <string name="Save">Запиши</string>
+    <string name="SaveAs">Запиши като</string>
+    <string name="Undo">Отмени</string>
+    <string name="Redo">Върни</string>
+    <string name="Clear">Изчисти</string>
+    <string name="ChangeTexture">Смени текстура</string>
+    <string name="ResetTexture">Занули текстура</string>
+    <!--<string name="HelpDoc">Помощ</string>-->
+    <string name="About">За програмата</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Изберете изображение</string>
+    <string name="Return">Назад</string>
+    <string name="Delete">Изтрий</string>
+    <string name="Copy">Копирай</string>
+    <string name="Import">Импортиране</string>
+    <string name="Share">Сподели</string>
+    <string name="SaveSuccess">Успешно запазване!</string>
+    <string name="Saved">Запазено</string>
+    <string name="SaveFail">Неуспешно запазване</string>
+    <string name="FileName">Въведете име</string>
+    <string name="Prompt">Питай</string>
+    <string name="Yes">Да</string>
+    <string name="No">Не</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Отказ</string>
+    <string name="Apply">Приложи</string>
+    <string name="View">Покажи сега</string>
+    <string name="ChangeBackground">Смени фона</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Изтриването на тази бележка ще изтрие всички страници в нея. Сигурен(а) ли сте, че искате да изтриете тази бележка?</string>
+    <!--<string name="selected">Детайли</string>-->
+    <string name="details">Детайли</string>
+    <string name="Merging">Обединяване</string>
+    <string name="Stop">Стоп</string>
+    <string name="stop_merge">Спри обединяването</string>
+    <string name="pages"> Страници</string>
+    <string name="noteName">Бележка</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Това заглавие вече съществува. Въведете друго име на заглавие.</string>
+    <string name="attribute_empty_title_forbidden">Заглавието е задължително</string>
+    <string name="DeleteAPageWarningInfo">Искате ли да изтриете тази страница?</string>
+    <string name="WarningNoPageInfo">Първо трябва да добавите страница</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Име на бележка</string>
+    <string name="SelectCover">Изберете корица</string>
+    <!--<string name="NoteFlag">бележки</string>-->
+    <!--<string name="SelectFlag">Избрани</string>-->
+    <string name="RenameNoticeInfoTitle">Забележка</string>
+    <string name="RenameNoticeInfoDetail">Тази функция може да се включи само, когато е избрана бележка.</string>
+    <string name="RenameWarningInfo">Въведеното име е невалидно.</string>
+    <string name="add_picture">Добавете снимка</string>
+    <string name="take_photo">Направете снимка</string>
+    <string name="choose_image">Изберете изображение</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Сподели</string>
+    <string name="MovePageTitle">Премести страницата</string>
+    <string name="JustMove">Премести директно</string>
+    <string name="DialogMoveToNotice">Искате да преместите или да копирате страницата?</string>
+    <string name="Cut">Отрежи</string>
+    <string name="Paste">Постави</string>
+    <string name="Merge">Обедини</string>
+    <string name="MergeSucceed">Успешно обединяване</string>
+    <string name="MergeSuccessInfo">Успешно обединяване на текущата страница</string>
+    <string name="MergeFailed">Неуспешно обединяване</string>
+    <string name="MergeFailedInfo">Не може да се обедини текущата страница</string>
+    <string name="GrantedPermissionSucceed">Успешна оторизация!</string>
+    <string name="GrantedPermissionFailed">Неуспешна оторизация!</string>
+    <string name="permission">Оторизация</string>
+    <string name="no_permissions">Изискват се нужните разрешения</string>
+    <string name="settings">Настройки</string>
+    <string name="help">Помощ</string>
+    <string name="string_help_text">Няма необходимата оторизация за пускане на програмата! Кликнете \"Настройка\" - \"Приложение\", за да изберете приложението за оторизация</string>
+    <string name="quit">Излез</string>
+    <string name="Success">Успех</string>
+    <string name="CopySucceed">Успешно копиране!</string>
+    <string name="MoveSucceed">Успешно преместване!</string>
+    <string name="Failed">Неуспех</string>
+    <string name="FailedInfo">Трябва да изберете друга бележка</string>
+    <string name="SavingInfo">Запазване на данните, моля, изчакайте!</string>
+    <string name="TitleSaving">Запазване</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Запази като PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Индивидуализация на вашите бележници</string>
+    <string name="HelpTitleStep_3">Страници на бележката</string>
+    <string name="HelpTitleStep_4">Обединяване на бележка</string>
+    <string name="HelpTitleStep_5">Редакция на бележка</string>
+    <string name="HelpTitleStep_6">Сподели бележка</string>
+    <string name="HelpDetailStep_6">Можете да експортирате бележките си като изображение или в PDF формат. Можете и да споделите бележките си по Bluetooth и още.</string>
+    <string name="HelpDetailStep_5">Когато редактирате бележка, можете да избирате различни инструменти за писане, да задавате дебелина на писалката и да използвате различни цветове. Можете дори да вмъквате текст, за да създавате допълнително съдържание.</string>
+    <string name="HelpDetailStep_4">С натискане на бутона \"обедини\" @hanvon@ можете да изберете друга страница за обединяване с текущата ви бележка.</string>
+    <string name="HelpDetailStep_3">Можете бързо да прегледате всяка страница в полето за предварителен преглед на бележника си. Можете и да натиснете и задържите и плъзнете страници, за да промените реда им в бележника.</string>
+    <string name="HelpDetailStep_2">От корицата на вашия Бележник, докоснете бутона за настройки @hanvon@, където можете да променяте цвета и стила на корицата си. Това ви помага лесно да организирате бележниците си.</string>
+    <string name="HelpDetailStep_1">Благодарим ви, че избрахте Lenovo Note Saver за всичките си бележки! За да започнете, за вас вече има създаден бележник със заглавие \"Note Saver\", където ще се запазват всичките ви бележки, водени на и извън екрана. Не се стеснявайте да ги редактирате по всяко време.</string>
+    <string name="HelpStep_5_Des_1">Четка и текст</string>
+    <string name="HelpStep_5_Des_2">Вмъкни изображение</string>
+    <string name="HelpStep_5_Des_3">Рамка за съдържанието</string>
+    <string name="HelpStep_5_Des_4">Вид четка</string>
+    <string name="HelpStep_5_Des_5">Дебелина на четка</string>
+    <string name="HelpStep_5_Des_6">Кликнете два пъти за корекция на цвета</string>
+    <string name="AppVersion">Версия</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Авторски права ©2016 Lenovo Всички права запазени</string>
+    <string name="SettingOpenInquiry">Питай ме, когато отваряш мястото по подразбиране за водене на бележки</string>
+    <string name="OpenInquiryTitle">Отвори мястото по подразбиране за водене на бележки</string>
+    <string name="JumpToLatest">Отиди на последно редактирана страница</string>
+    <string name="JumpToEnd">Отиди на последната страница</string>
+    <string name="LimitPictureAmount">Вашето въвеждане е достигнало максималната граница.</string>
+
+</resources>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">File</string>
+    <string name="Edit">Modifica</string>
+    <string name="Canvas">Tela</string>
+    <string name="Help">Guida</string>
+    <string name="Exit">Esci</string>
+    <string name="New">Nuovo</string>
+    <string name="Open">Apri</string>
+    <string name="Save">Salva</string>
+    <string name="SaveAs">Salva con nome</string>
+    <string name="Undo">Annulla</string>
+    <string name="Redo">Ripeti</string>
+    <string name="Clear">Cancella</string>
+    <string name="ChangeTexture">Cambia trama</string>
+    <string name="ResetTexture">Reimposta trama</string>
+    <string name="About">Informazioni su</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Selezionare un\'immagine</string>
+    <string name="Return">Indietro</string>
+    <string name="Delete">Elimina</string>
+    <string name="Copy">Copia</string>
+    <string name="Import">Importa</string>
+    <string name="Share">Condividi</string>
+    <string name="SaveSuccess">Salvataggio riuscito</string>
+    <string name="Saved">Salvato</string>
+    <string name="SaveFail">Salvataggio non riuscito</string>
+    <string name="FileName">Inserire un nome</string>
+    <string name="Prompt">Prompt</string>
+    <string name="Yes">Sì</string>
+    <string name="No">No</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Annulla</string>
+    <string name="Apply">Applica</string>
+    <string name="View">Visualizza ora</string>
+    <string name="ChangeBackground">Cambia sfondo</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">La rimozione di questa nota eliminerà tutte le pagine in cui vi è contenuta. Eliminare questa nota?</string>
+    <string name="details">Dettagli</string>
+    <string name="Merging">Unione</string>
+    <string name="Stop">Arresta</string>
+    <string name="stop_merge">Arresta unione</string>
+    <string name="pages"> Pagine</string>
+    <string name="noteName">Nota</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Questo titolo è già esistente. Inserire un altro nome per il titolo.</string>
+    <string name="attribute_empty_title_forbidden">È obbligatorio un titolo</string>
+    <string name="DeleteAPageWarningInfo">Eliminare questa pagina?</string>
+    <string name="WarningNoPageInfo">Aggiungere prima una pagina</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Nome della nota</string>
+    <string name="SelectCover">Selezionare una cover</string>
+    <string name="RenameNoticeInfoTitle">Avviso</string>
+    <string name="RenameNoticeInfoDetail">Questa funzione può essere abilitata solo quando è stata selezionata una nota.</string>
+    <string name="RenameWarningInfo">Il nome inserito non è valido.</string>
+    <string name="add_picture">Aggiungi un\'immagine</string>
+    <string name="take_photo">Scatta una foto</string>
+    <string name="choose_image">Scegli un\'immagine</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Condividi</string>
+    <string name="MovePageTitle">Sposta la pagina</string>
+    <string name="JustMove">Sposta direttamente</string>
+    <string name="DialogMoveToNotice">Spostare la pagina o copiare la pagina?</string>
+    <string name="Cut">Taglia</string>
+    <string name="Paste">Incolla</string>
+    <string name="Merge">Unisci</string>
+    <string name="MergeSucceed">Unione riuscita</string>
+    <string name="MergeSuccessInfo">Unione pagina corrente riuscita</string>
+    <string name="MergeFailed">Unione non riuscita</string>
+    <string name="MergeFailedInfo">Impossibile completare l\'unione della pagina corrente</string>
+    <string name="GrantedPermissionSucceed">Autorizzazione riuscita.</string>
+    <string name="GrantedPermissionFailed">Autorizzazione non riuscita.</string>
+    <string name="permission">Autorità</string>
+    <string name="no_permissions">Richiede autorizzazioni necessarie</string>
+    <string name="settings">Impostazioni</string>
+    <string name="help">Guida</string>
+    <string name="string_help_text">Nessuna autorità necessaria per l\'esecuzione del programma. Fare clic su \"Impostazioni\" - \"Applicazione\" per selezionare l\'app che necessita autorizzazione</string>
+    <string name="quit">Esci</string>
+    <string name="Success">Operazione riuscita</string>
+    <string name="CopySucceed">Copia riuscita.</string>
+    <string name="MoveSucceed">Spostamento riuscito.</string>
+    <string name="Failed">Operazione non riuscita</string>
+    <string name="FailedInfo">Scegliere un\'altra nota</string>
+    <string name="SavingInfo">Salvataggio dati in corso, attendere.</string>
+    <string name="TitleSaving">Salvataggio</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Salva come PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Personalizza taccuino</string>
+    <string name="HelpTitleStep_3">Pagine di note</string>
+    <string name="HelpTitleStep_4">Unione note</string>
+    <string name="HelpTitleStep_5">Modifica note</string>
+    <string name="HelpTitleStep_6">Condividi una nota</string>
+    <string name="HelpDetailStep_6">È possibile esportare le note sotto forma di immagine nel formato PDF. È anche possibile condividere le note tramite Bluetooth o altro.</string>
+    <string name="HelpDetailStep_5">Per modificare una nota è possibile scegliere diversi strumenti di scrittura, impostare lo spessore della penna e utilizzare colori diversi. Inoltre, è consentito inserire testo per creare contenuto aggiuntivo.</string>
+    <string name="HelpDetailStep_4">Premendo il pulsante \"unisci\" @hanvon@, è possibile scegliere un\'altra pagina da unire alla nota corrente.</string>
+    <string name="HelpDetailStep_3">È inoltre possibile visualizzare qualsiasi pagina nel riquadro di anteprima del taccuino. Per organizzare nuovamente il loro ordine nel taccuino premere a lungo e trascinare le pagine.</string>
+    <string name="HelpDetailStep_2">Dalla cover del taccuino, toccare il pulsante impostazioni @hanvon@ per modificarne il colore e lo stile. Ciò consente di organizza i taccuini con estrema facilità.</string>
+    <string name="HelpDetailStep_1">Grazie per aver scelto Lenovo Note Saver per i tuoi appunti! Per iniziare, il taccuino \"Note Saver\" è già stato creato appositamente per te, in cui verranno salvati tutti gli appunti presi all\'interno e all\'esterno della schermata. Sarà possibile apportare modifiche a questi appunti in qualsiasi momento.</string>
+    <string name="HelpStep_5_Des_1">Pennello e testo</string>
+    <string name="HelpStep_5_Des_2">Inserisci un\'immagine</string>
+    <string name="HelpStep_5_Des_3">Inquadra il contenuto</string>
+    <string name="HelpStep_5_Des_4">Tipo di pennello</string>
+    <string name="HelpStep_5_Des_5">Spessore del pennello</string>
+    <string name="HelpStep_5_Des_6">Effettua un doppio clic per regolare il colore</string>
+    <string name="AppVersion">Versione</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo. Tutti i diritti riservati.</string>
+    <string name="SettingOpenInquiry">Chiedi quando aprire la posizione predefinita di inizio di presa appunti</string>
+    <string name="OpenInquiryTitle">Apri la posizione predefinita di inizio di presa appunti</string>
+    <string name="JumpToLatest">Passa all\'ultima pagina modificata</string>
+    <string name="JumpToEnd">Passa all\'ultima pagina</string>
+    <string name="LimitPictureAmount">Limite massimo d’inserimento raggiunto.</string>
+
+</resources>

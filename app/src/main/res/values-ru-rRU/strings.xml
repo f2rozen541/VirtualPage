@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Настройки</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Файл</string>
+    <string name="Edit">Выбор обложки</string>
+    <string name="Canvas">Холст</string>
+    <string name="Help">Справка</string>
+    <string name="Exit">Выход</string>
+    <string name="New">Создать</string>
+    <string name="Open">Открыть</string>
+    <string name="Save">Сохранить</string>
+    <string name="SaveAs">Сохранить как</string>
+    <string name="Undo">Отменить</string>
+    <string name="Redo">Повторить</string>
+    <string name="Clear">Очистить</string>
+    <string name="ChangeTexture">Изменить текстуру</string>
+    <string name="ResetTexture">Сброс текстуры</string>
+    <string name="About">Сведения</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Выберите изображение</string>
+    <string name="Return">Возврат</string>
+    <string name="Delete">Удалить</string>
+    <string name="Copy">Копировать</string>
+    <string name="Import">Импорт</string>
+    <string name="Share">Поделиться</string>
+    <string name="SaveSuccess">Успешно сохранено!</string>
+    <string name="Saved">Сохранено</string>
+    <string name="SaveFail">Не удалось сохранить</string>
+    <string name="FileName">Введите имя</string>
+    <string name="Prompt">Подсказка</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="OK">ОК</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Apply">Ок</string>
+    <string name="View">Просмотреть сейчас</string>
+    <string name="ChangeBackground">Выберите фон</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Удаление данной заметки приведет к удалению всех страниц, содержащихся в ней. Вы уверены, что вы хотите удалить заметку?</string>
+    <string name="details">Подробности</string>
+    <string name="Merging">Объединение</string>
+    <string name="Stop">Стоп</string>
+    <string name="stop_merge">Остановить объединение</string>
+    <string name="pages"> Страницы</string>
+    <string name="noteName">Заметка</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Такой заголовок уже существует. Введите другой заголовок.</string>
+    <string name="attribute_empty_title_forbidden">Необходим заголовок</string>
+    <string name="DeleteAPageWarningInfo">Удалить эту страницу?</string>
+    <string name="WarningNoPageInfo">Необходимо сначала добавить страницу</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Имя заметки</string>
+    <string name="SelectCover">Выберите обложку</string>
+    <string name="RenameNoticeInfoTitle">Примечание</string>
+    <string name="RenameNoticeInfoDetail">Данная функция доступна только после выбора заметки.</string>
+    <string name="RenameWarningInfo">Введено недопустимое имя.</string>
+    <string name="add_picture">Добавить изображение</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="choose_image">Выбрать изображение</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Отправить через:</string>
+    <string name="MovePageTitle">Переместить страницу</string>
+    <string name="JustMove">Переместить</string>
+    <string name="DialogMoveToNotice">Переместить страницу или скопировать ее?</string>
+    <string name="Cut">Вырезать</string>
+    <string name="Paste">Вставить</string>
+    <string name="Merge">Объединить</string>
+    <string name="MergeSucceed">Успешно объединено</string>
+    <string name="MergeSuccessInfo">Объединение текущей страницы выполнено успешно</string>
+    <string name="MergeFailed">Не удалось объединить</string>
+    <string name="MergeFailedInfo">Объединение текущей страницы не может быть выполнено</string>
+    <string name="GrantedPermissionSucceed">Авторизация выполнена успешно!</string>
+    <string name="GrantedPermissionFailed">Сбой авторизации!</string>
+    <string name="permission">Авторизация</string>
+    <string name="no_permissions">Требовать необходимые разрешения</string>
+    <string name="settings">Настройки</string>
+    <string name="help">Справка</string>
+    <string name="string_help_text">Отсутствует необходимая для работы программы авторизация! Нажмите «Настройка»-«Приложение», чтобы выбрать приложение для авторизации</string>
+    <string name="quit">Выйти</string>
+    <string name="Success">Успешно</string>
+    <string name="CopySucceed">Копирование выполнено успешно!</string>
+    <string name="MoveSucceed">Перемещение выполнено успешно!</string>
+    <string name="Failed">Ошибка</string>
+    <string name="FailedInfo">Необходимо выбрать другую заметку</string>
+    <string name="SavingInfo">Сохранение данных, пожалуйста подождите!</string>
+    <string name="TitleSaving">Сохранение</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Сохранить как PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Выбор обложки записи</string>
+    <string name="HelpTitleStep_3">Страницы блокнота</string>
+    <string name="HelpTitleStep_4">Объединение записей</string>
+    <string name="HelpTitleStep_5">Редактирование записи</string>
+    <string name="HelpTitleStep_6">Отправить запись</string>
+    <string name="HelpDetailStep_6">Вы можете экспортировать записку как картинку или файл pdf или просто отправить с помощью Bluetooth.</string>
+    <string name="HelpDetailStep_5">В меню редактирования записи можно выбрать различные типы кистей, толщину или цвет для написания. А также осуществить вставку текста или изображений для большей наглядности и информативности содержимого.</string>
+    <string name="HelpDetailStep_4">Коснитесь иконки «Объединить» @hanvon@ под записью и выберите другую запись из списка записей. Текущая запись добавится к выбранной и та запись станет новой объединённой записью.</string>
+    <string name="HelpDetailStep_3">Выбор нужной страницы легко осуществить в панели предпросмотра. Страницы блокнота можно переставлять долгим касанием и перетаскиванием.</string>
+    <string name="HelpDetailStep_2">Нажмите на иконку «Настройка» на обложке записи. В появившемся меню выберите понравившуюся обложку</string>
+    <string name="HelpDetailStep_1">Lenovo Note Saver – это многофункциональная записная книжка от Lenovo. Все внесенные вами изменения автоматически сохраняются даже при выключенном экране.</string>
+    <string name="HelpStep_5_Des_1">Кисть и текст</string>
+    <string name="HelpStep_5_Des_2">Вставить изображение</string>
+    <string name="HelpStep_5_Des_3">Обрамление содержимого</string>
+    <string name="HelpStep_5_Des_4">Тип кисти</string>
+    <string name="HelpStep_5_Des_5">Толщина кисти</string>
+    <string name="HelpStep_5_Des_6">Дважды коснитесь для изменения цвета</string>
+    <string name="AppVersion">Версия</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Все права защищены ©2016 г. Lenovo</string>
+    <string name="SettingOpenInquiry">Запрашивать при открытии местоположения перехода заметки по умолчанию</string>
+    <string name="OpenInquiryTitle">Действие при открытии</string>
+    <string name="JumpToLatest">Перейти на последнюю редактированную страницу</string>
+    <string name="JumpToEnd">Перейти на последнюю страницу</string>
+    <string name="LimitPictureAmount">Ограничение на количество вводимых символов превышено.</string>
+
+</resources>

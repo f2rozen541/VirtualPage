@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Dosya</string>
+    <string name="Edit">Düzenle</string>
+    <string name="Canvas">Tuval</string>
+    <string name="Help">Yardım</string>
+    <string name="Exit">Çıkış</string>
+    <string name="New">Yeni</string>
+    <string name="Open">Aç</string>
+    <string name="Save">Kaydet</string>
+    <string name="SaveAs">Farklı Kaydet</string>
+    <string name="Undo">Geri Al</string>
+    <string name="Redo">Yinele</string>
+    <string name="Clear">Temizle</string>
+    <string name="ChangeTexture">Yapıyı Değiştir</string>
+    <string name="ResetTexture">Yapıyı Sıfırla</string>
+    <string name="About">Hakkında</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Lütfen bir görünü seçin</string>
+    <string name="Return">Geri Dön</string>
+    <string name="Delete">Sil</string>
+    <string name="Copy">Kopyala</string>
+    <string name="Import">İçe Aktar</string>
+    <string name="Share">Paylaş</string>
+    <string name="SaveSuccess">Başarılı bir şekilde kaydedildi!</string>
+    <string name="Saved">Kaydedildi</string>
+    <string name="SaveFail">Kaydetme başarısız</string>
+    <string name="FileName">Lütfen bir isim girin</string>
+    <string name="Prompt">Bildiri</string>
+    <string name="Yes">Evet</string>
+    <string name="No">Hayır</string>
+    <string name="OK">Tamam</string>
+    <string name="Cancel">İptal</string>
+    <string name="Apply">Uygula</string>
+    <string name="View">Şimdi Görüntüle</string>
+    <string name="ChangeBackground">Arka Planı Değiştir</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Bu notu silmek bütün sayfaları silecektir. Bu notu silmek istediğinizden emin misiniz?</string>
+    <string name="details">Ayrıntılar</string>
+    <string name="Merging">Birleştirme</string>
+    <string name="Stop">Durdur</string>
+    <string name="stop_merge">Birleştirmeyi durdur</string>
+    <string name="pages"> Sayfalar</string>
+    <string name="noteName">Not</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Bu başlık zaten mevcut. Başka bir başlık ismi girin.</string>
+    <string name="attribute_empty_title_forbidden">Bir başlık gerekli</string>
+    <string name="DeleteAPageWarningInfo">Bu sayfayı silmek istiyor musunuz?</string>
+    <string name="WarningNoPageInfo">Önce bir sayfa eklemeniz gerekli</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Not ismi</string>
+    <string name="SelectCover">Bir kapak seçin</string>
+    <string name="RenameNoticeInfoTitle">Bildirim</string>
+    <string name="RenameNoticeInfoDetail">Bu işlev sadece bir not seçildiğinde etkinleştirilebilir.</string>
+    <string name="RenameWarningInfo">Girdiğiniz isim geçersiz.</string>
+    <string name="add_picture">Bir resim ekle</string>
+    <string name="take_photo">Bir fotoğraf çek</string>
+    <string name="choose_image">Bir görüntü seç</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Paylaş</string>
+    <string name="MovePageTitle">Sayfayı taşı</string>
+    <string name="JustMove">Direk taşı</string>
+    <string name="DialogMoveToNotice">Sayfayı taşımak veya kopyalamak ister misiniz?</string>
+    <string name="Cut">Kes</string>
+    <string name="Paste">Yapıştır</string>
+    <string name="Merge">Birleştir</string>
+    <string name="MergeSucceed">Birleştirme Başarılı</string>
+    <string name="MergeSuccessInfo">Geçerli sayfa birleştirme başarılı</string>
+    <string name="MergeFailed">Birleştirme Başarısız</string>
+    <string name="MergeFailedInfo">Geçerli sayfa birleştirme tamamlanamadı</string>
+    <string name="GrantedPermissionSucceed">Yetkilendirme başarılı!</string>
+    <string name="GrantedPermissionFailed">Yetkilendirme başarısız!</string>
+    <string name="permission">Yetki</string>
+    <string name="no_permissions">İzin gerekli</string>
+    <string name="settings">Ayarlar</string>
+    <string name="help">Yardım</string>
+    <string name="string_help_text">Programı çalıştırmak için yetki gerekli değil! Seçilen uygulamaya yetki vermek için \"Ayarlar\" - \"Uygulama\" öğesine tıklayın</string>
+    <string name="quit">Çık</string>
+    <string name="Success">Başarılı</string>
+    <string name="CopySucceed">Kopyalama başarılı!</string>
+    <string name="MoveSucceed">Taşıma başarılı!</string>
+    <string name="Failed">Başarısız</string>
+    <string name="FailedInfo">Başka bir not seçmelisiniz</string>
+    <string name="SavingInfo">Veriler kaydediliyor, lütfen bekleyin!</string>
+    <string name="TitleSaving">Kaydetme</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">PDF olarak kaydet</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Not Defterlerinizi Kişiselleştirin</string>
+    <string name="HelpTitleStep_3">Note Sayfaları</string>
+    <string name="HelpTitleStep_4">Not birleştirme</string>
+    <string name="HelpTitleStep_5">Not düzenleme</string>
+    <string name="HelpTitleStep_6">Bir not paylaş</string>
+    <string name="HelpDetailStep_6">Notlarınızı bir görüntü veya PDF formatında dışa aktarabilirsiniz. Notlarınızı aynı zamanda Bluetooth ve daha fazlası ile paylaşabilirsiniz.</string>
+    <string name="HelpDetailStep_5">Bir not düzenlerken, farklı yazım araçları seçebilir, kalem kalınlığını ayarlayabilir ve farklı renkler kullanabilirsiniz. Ekstra içerik oluşturmak için metin bile ekleyebilirsiniz.</string>
+    <string name="HelpDetailStep_4">\"Birleştir\" tuşuna @hanvon@ basarak geçerli notunuz ile birleştirilecek başka bir sayfayı seçebilirsiniz.</string>
+    <string name="HelpDetailStep_3">Not defterinizin önizleme penceresinden herhangi bir sayfaya hızlıca bakabilirsiniz. Not defterinizde sırasını yeniden düzenlemek için sayfalara uzun basabilir ve sürükleyebilirsiniz.</string>
+    <string name="HelpDetailStep_2">Kapak rengini ve tarzını değiştirmek için Not Defteri kapağınızda ayarlar @hanvon@ tuşuna basın. Böylece not defterlerinizi kolaylıkla düzenleyebilirsiniz.</string>
+    <string name="HelpDetailStep_1">Not tutmak için Lenovo Note Saver tercih ettiğiniz için teşekkür ederiz! İşinizi kolaylaştırmak amacıyla \"Note Saver\" adında sizin için halihazırda bir not defteri oluşturuldu. Ekranınız açık ve kapalıyken aldığınız tüm notlar buraya kaydedilecek. Bunları istediğiniz zaman düzenleyebilirsiniz.</string>
+    <string name="HelpStep_5_Des_1">Fırça ve metin</string>
+    <string name="HelpStep_5_Des_2">Bir görüntü ekle</string>
+    <string name="HelpStep_5_Des_3">İçeriği düzenle</string>
+    <string name="HelpStep_5_Des_4">Fırça Tipi</string>
+    <string name="HelpStep_5_Des_5">Fırça Kalınlığı</string>
+    <string name="HelpStep_5_Des_6">Rengi ayarlamak için çift tıklayın</string>
+    <string name="AppVersion">Sürüm</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Telif Hakkı ©2016 Lenovo Tüm Hakları Saklıdır</string>
+    <string name="SettingOpenInquiry">Varsayılan not kaydetme konumu açarken bana sor</string>
+    <string name="OpenInquiryTitle">Varsayılan not kaydetme konumunu aç</string>
+    <string name="JumpToLatest">Son düzenlenen sayfaya git</string>
+    <string name="JumpToEnd">Son sayfaya git</string>
+    <string name="LimitPictureAmount">Girişiniz maksimum sınıra ulaştı.</string>
+
+</resources>

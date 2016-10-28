@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_container"
+    android:layout_width="320px"
+    android:layout_height="80px"
+    android:background="@color/colorFontOptionBg">
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_font_select_flag"
+        android:layout_width="36px"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        hanvon:UnSelectedBgRes="@android:color/transparent"
+        hanvon:SelectedBgRes="@drawable/ic_text_font_select"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:textSize="24px"
+        android:text="@string/DefaultFontText"
+        android:layout_marginLeft="36px"
+        android:gravity="center_vertical"
+        android:textColor="#000000"/>
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Plik</string>
+    <string name="Edit">Edytuj</string>
+    <string name="Canvas">Płótno</string>
+    <string name="Help">Pomoc</string>
+    <string name="Exit">Wyjdź</string>
+    <string name="New">Nowy</string>
+    <string name="Open">Otwórz</string>
+    <string name="Save">Zapisz</string>
+    <string name="SaveAs">Zapisz jako</string>
+    <string name="Undo">Cofnij</string>
+    <string name="Redo">Wykonaj ponownie</string>
+    <string name="Clear">Wyczyść</string>
+    <string name="ChangeTexture">Zmień teksturę</string>
+    <string name="ResetTexture">Resetuj teksturę</string>
+    <string name="About">Informacje</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Wybierz obraz</string>
+    <string name="Return">Powrót</string>
+    <string name="Delete">Usuń</string>
+    <string name="Copy">Kopiuj</string>
+    <string name="Import">Importuj</string>
+    <string name="Share">Udostępnij</string>
+    <string name="SaveSuccess">Zapisano pomyślnie!</string>
+    <string name="Saved">Zapisano</string>
+    <string name="SaveFail">Nie zapisano pomyślnie</string>
+    <string name="FileName">Wpisz nazwę</string>
+    <string name="Prompt">Monit</string>
+    <string name="Yes">Tak</string>
+    <string name="No">Nie</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Anuluj</string>
+    <string name="Apply">Zastosuj</string>
+    <string name="View">Wyświetl teraz</string>
+    <string name="ChangeBackground">Zmień tło</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Usunięcie tej notatki spowoduje także usunięcie wszystkich stron. Czy na pewno chcesz usunąć notatkę?</string>
+    <string name="details">Szczegóły</string>
+    <string name="Merging">Łączenie</string>
+    <string name="Stop">zatrzymaj</string>
+    <string name="stop_merge">zatrzymaj łączenie</string>
+    <string name="pages"> strony</string>
+    <string name="noteName">Notatka</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Taki tytuł już istnieje. Wprowadź inny tytuł.</string>
+    <string name="attribute_empty_title_forbidden">Tytuł jest obowiązkowy</string>
+    <string name="DeleteAPageWarningInfo">Czy chcesz usunąć tę stronę?</string>
+    <string name="WarningNoPageInfo">Musisz najpierw dodać stronę</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Nazwa notatki</string>
+    <string name="SelectCover">Wybierz okładkę</string>
+    <string name="RenameNoticeInfoTitle">Uwaga</string>
+    <string name="RenameNoticeInfoDetail">Ta funkcja może być włączona tylko po wybraniu notatki.</string>
+    <string name="RenameWarningInfo">Wprowadzona nazwa jest nieprawidłowa.</string>
+    <string name="add_picture">Dodaj zdjęcie</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="choose_image">Wybierz obraz</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Udostępnij</string>
+    <string name="MovePageTitle">Przesuń stronę</string>
+    <string name="JustMove">Przenieś bezpośrednio</string>
+    <string name="DialogMoveToNotice">Czy na pewno chcesz przenieść stronę lub ją skopiować?</string>
+    <string name="Cut">Wytnij</string>
+    <string name="Paste">Wklej</string>
+    <string name="Merge">Połącz</string>
+    <string name="MergeSucceed">Połączono pomyślnie</string>
+    <string name="MergeSuccessInfo">Łączenie bieżącej strony zakończono pomyślnie</string>
+    <string name="MergeFailed">Łączenie zakończone niepowodzeniem</string>
+    <string name="MergeFailedInfo">Łączenie bieżącej strony nie mogło zostać ukończone</string>
+    <string name="GrantedPermissionSucceed">Uwierzytelnianie zakończone powodzeniem!</string>
+    <string name="GrantedPermissionFailed">Uwierzytelnianie zakończone niepowodzeniem!</string>
+    <string name="permission">Upoważnienie</string>
+    <string name="no_permissions">Wymaga odpowiednich uprawnień</string>
+    <string name="settings">Ustawienia</string>
+    <string name="help">Pomoc</string>
+    <string name="string_help_text">Do działania programu nie są potrzebne upoważnienia! Kliknij „Ustawienia” - „Aplikacje”, aby wybrać aplikację do uwierzytelnienia</string>
+    <string name="quit">Wyjdź</string>
+    <string name="Success">Udało się</string>
+    <string name="CopySucceed">Skopiowano pomyślnie!</string>
+    <string name="MoveSucceed">Przeniesiono pomyślnie!</string>
+    <string name="Failed">Niepowodzenie</string>
+    <string name="FailedInfo">Musisz wybrać inną notatkę</string>
+    <string name="SavingInfo">Zapisywanie danych, proszę czekać!</string>
+    <string name="TitleSaving">Zapisywanie</string>
+    <string name="Share_Bluetooth">Bluetooth</string>
+    <string name="Share_Gmail">Gmail</string>
+    <string name="Share_Wechat">Wechat</string>
+    <string name="Share_QQ">QQ</string>
+    <string name="Share_Evernote">Evernote</string>
+    <string name="Share_Drive">Drive</string>
+    <string name="Share_Gallery">Gallery</string>
+    <string name="Share_PDF">Zapisz jako plik PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Dostosuj swoje notatniki</string>
+    <string name="HelpTitleStep_3">Strony notatek</string>
+    <string name="HelpTitleStep_4">Łączenie notatek</string>
+    <string name="HelpTitleStep_5">Edycja notatek</string>
+    <string name="HelpTitleStep_6">Udostępnij notatkę</string>
+    <string name="HelpDetailStep_6">Możesz wyeksportować swoje notatki jako obraz lub plik w formacie PDF. Możesz także udostępnić swoje notatki między innymi poprzez Bluetooth.</string>
+    <string name="HelpDetailStep_5">Podczas edycji notatek możesz wybrać różne narzędzia do pisania, ustawić grubość linii, a także wybrać kolor. Możesz nawet wprowadzić inny tekst, aby utworzyć dodatkową treść.</string>
+    <string name="HelpDetailStep_4">Poprzez naciśnięcie przycisku „Połącz” @hanvon@ możesz wybrać inną stronę, która ma zostać połączona z Twoimi bieżącymi notatkami.</string>
+    <string name="HelpDetailStep_3">Możesz szybko wyświetlić jakąkolwiek stronę w panelu poglądu notatnika. Możesz także przytrzymać i przeciągnąć strony, aby zmienić ich kolejność w notatniku.</string>
+    <string name="HelpDetailStep_2">Z poziomu okładki notatnika, dotknij przycisk ustawień @hanvon@, aby zmienić kolor i styl okładki. To pomoże Ci poukładać i zorganizować notatniki.</string>
+    <string name="HelpDetailStep_1">Dziękujemy za wybranie Lenovo Note Saver do zapisywania wszystkich Twoich notatek! Aby ułatwić Ci rozpoczęcie pracy, utworzono już notatnik o nazwie „Note Saver”. Tam zostaną zapisane wszystkie notatki, które wykonujesz przy włączonym i wyłączonym ekranie. Możesz je edytować w dowolnym momencie.</string>
+    <string name="HelpStep_5_Des_1">Pędzel i tekst</string>
+    <string name="HelpStep_5_Des_2">Wstaw obraz</string>
+    <string name="HelpStep_5_Des_3">Ramka i zawartość</string>
+    <string name="HelpStep_5_Des_4">Typ pędzla</string>
+    <string name="HelpStep_5_Des_5">Grubość pędzla</string>
+    <string name="HelpStep_5_Des_6">Dotknij dwukrotnie, aby dostosować kolor</string>
+    <string name="AppVersion">Wersja</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright © 2016 Lenovo. Wszelkie prawa zastrzeżone.</string>
+    <string name="SettingOpenInquiry">Pytaj, podczas otwierania domyślnej lokalizacji notatek</string>
+    <string name="OpenInquiryTitle">Otwórz domyślną lokalizację notatek</string>
+    <string name="JumpToLatest">Przejdź do ostatnio edytowanej strony</string>
+    <string name="JumpToEnd">Przejdź do ostatniej strony</string>
+    <string name="LimitPictureAmount">Przekroczono limit wprowadzania.</string>
+
+</resources>

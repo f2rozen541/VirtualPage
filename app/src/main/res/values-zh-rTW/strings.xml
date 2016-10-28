@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">設定</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">檔案</string>
+    <string name="Edit">編輯</string>
+    <string name="Canvas">畫布</string>
+    <string name="Help">說明</string>
+    <string name="Exit">結束</string>
+    <string name="New">新增</string>
+    <string name="Open">開啟</string>
+    <string name="Save">儲存</string>
+    <string name="SaveAs">另存新檔</string>
+    <string name="Undo">復原</string>
+    <string name="Redo">重做</string>
+    <string name="Clear">清除</string>
+    <string name="ChangeTexture">變更材質</string>
+    <string name="ResetTexture">重設材質</string>
+    <string name="About">關於</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">請選取影像</string>
+    <string name="Return">返回</string>
+    <string name="Delete">刪除</string>
+    <string name="Copy">複製</string>
+    <string name="Import">匯入</string>
+    <string name="Share">分享</string>
+    <string name="SaveSuccess">儲存成功！</string>
+    <string name="Saved">已儲存</string>
+    <string name="SaveFail">儲存失敗</string>
+    <string name="FileName">請輸入名稱</string>
+    <string name="Prompt">提示</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+    <string name="OK">確定</string>
+    <string name="Cancel">取消</string>
+    <string name="Apply">套用</string>
+    <string name="View">現在檢視</string>
+    <string name="ChangeBackground">變更背景</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">選擇此篇筆記將會刪除所有內含的頁面。您是否確定要刪除這篇筆記？</string>
+    <string name="details">詳細資料</string>
+    <string name="Merging">合併</string>
+    <string name="Stop">停止</string>
+    <string name="stop_merge">停止合併</string>
+    <string name="pages"> 頁</string>
+    <string name="noteName">筆記</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">此標題已經存在。請輸入另一個標題名稱。</string>
+    <string name="attribute_empty_title_forbidden">需要標題</string>
+    <string name="DeleteAPageWarningInfo">您是否要刪除此頁面？</string>
+    <string name="WarningNoPageInfo">您必須先新增頁面</string>
+
+    <!-- 新增-->
+    <string name="NoteName">筆記名稱</string>
+    <string name="SelectCover">選取封面</string>
+    <string name="RenameNoticeInfoTitle">注意事項</string>
+    <string name="RenameNoticeInfoDetail">此功能僅可於已選取筆記時啟用。</string>
+    <string name="RenameWarningInfo">您所輸入的名稱無效。</string>
+    <string name="add_picture">新增圖片</string>
+    <string name="take_photo">拍照</string>
+    <string name="choose_image">選擇影像</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">分享</string>
+    <string name="MovePageTitle">移動頁面</string>
+    <string name="JustMove">直接移動</string>
+    <string name="DialogMoveToNotice">是否要移動頁面或複製頁面？</string>
+    <string name="Cut">剪下</string>
+    <string name="Paste">貼上</string>
+    <string name="Merge">合併</string>
+    <string name="MergeSucceed">合併成功</string>
+    <string name="MergeSuccessInfo">目前頁面合併成功</string>
+    <string name="MergeFailed">合併失敗</string>
+    <string name="MergeFailedInfo">無法完成目前頁面的合併</string>
+    <string name="GrantedPermissionSucceed">授權成功!</string>
+    <string name="GrantedPermissionFailed">授權失敗!</string>
+    <string name="permission">授權</string>
+    <string name="no_permissions">需要必要的權限</string>
+    <string name="settings">設定</string>
+    <string name="help">說明</string>
+    <string name="string_help_text">不具讓程式執行所必須的權限！請點一下「設定」-「應用程式」來選取要授權的應用程式</string>
+    <string name="quit">停止</string>
+    <string name="Success">成功</string>
+    <string name="CopySucceed">複製成功!</string>
+    <string name="MoveSucceed">移動成功!</string>
+    <string name="Failed">失敗</string>
+    <string name="FailedInfo">您必須選取另一篇筆記</string>
+    <string name="SavingInfo">正在儲存資料，請稍候！</string>
+    <string name="TitleSaving">正在儲存</string>
+    <!--<string name="Share_Bluetooth">藍牙</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">微信</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">印象筆記</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">另存為 PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">自訂您的筆記本</string>
+    <string name="HelpTitleStep_3">筆記本頁面</string>
+    <string name="HelpTitleStep_4">筆記合併</string>
+    <string name="HelpTitleStep_5">筆記編輯</string>
+    <string name="HelpTitleStep_6">分享筆記</string>
+    <string name="HelpDetailStep_1">感謝您選擇 Lenovo Note Saver 來記下所有的筆記！為讓您快速開始，我們已為您建立一本標題為「Note Saver」的筆記本，您可以在螢幕內外記下筆記，並且筆記會儲存在其中。您隨時都可從容地進行編輯。</string>
+    <string name="HelpDetailStep_2">請從筆記本的封面上輕點設定 @hanvon@ 鈕，您可以在其中變更封面的顏色與樣式。這有助於您輕鬆安排筆記本。</string>
+    <string name="HelpDetailStep_3">您可以在筆記本的預覽窗格中快速檢視任何頁面。您也可以長按並拖曳頁面，來重新安排在筆記本中的順序。</string>
+    <string name="HelpDetailStep_4">藉由按下「合併」鈕 @hanvon@，您便能選取另一個要與目前筆記合併的頁面。</string>
+    <string name="HelpDetailStep_5">在編輯筆記時，您可以選擇不同的書寫工具、設定筆跡寬度，以及使用不同的顏色。您甚至可以插入文字，以建立額外的內容。</string>
+    <string name="HelpDetailStep_6">您可以將筆記匯出為影像檔或 PDF 格式。您也可以透過藍牙等各種方式來分享您的筆記。</string>
+    <string name="HelpStep_5_Des_1">筆刷與文字</string>
+    <string name="HelpStep_5_Des_2">插入影像</string>
+    <string name="HelpStep_5_Des_3">框選內容</string>
+    <string name="HelpStep_5_Des_4">筆刷類型</string>
+    <string name="HelpStep_5_Des_5">筆刷寬度</string>
+    <string name="HelpStep_5_Des_6">按兩下調整顏色</string>
+    <string name="AppVersion">版本</string>
+    <!--<string name="AppVersionCode">1.1.30</string>-->
+    <string name="AppCopyRight">© 2016 Lenovo 版權所有，並保留所有權利。</string>
+    <string name="SettingOpenInquiry">在開啟預設筆記跳轉位置時詢問我</string>
+    <string name="OpenInquiryTitle">開啟筆記的預設跳轉位置</string>
+    <string name="JumpToLatest">跳轉到最近編輯的頁面</string>
+    <string name="JumpToEnd">跳轉到最後的頁面</string>
+    <string name="LimitPictureAmount">您的輸入已經達到最大上限。</string>
+
+</resources>

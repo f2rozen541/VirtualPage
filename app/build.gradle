@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.hanvon.virtualpage"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            // 是否进行混淆
+            minifyEnabled false
+            // 混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    // 移除lint检查的error
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+//    signingConfigs {
+//        release {
+//            storeFile "d:\\Lenovo\\android-1000y.keystore"
+//            storePassword
+//        }
+//    }
+}
+
+dependencies {
+    // 编译libs目录下的所有jar包
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile files('libs/SmartPadManager.jar')
+    compile files('libs/gson-2.7.jar')
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.itextpdf:itextg:5.5.9'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.github.orhanobut:logger:1.12'
+    testCompile 'junit:junit:4.12'
+}

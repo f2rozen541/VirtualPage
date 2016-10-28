@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page_setting_dropdown"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_setting_background"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="@drawable/setting_item_click_bg_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:text="@string/ChangeBackground"
+        android:textColor="#141414"
+        android:textSize="24px" />
+
+    <LinearLayout
+        android:id="@+id/ll_setting_open_position"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="@drawable/setting_item_click_bg_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="40px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/OpenInquiryTitle"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="#141414"
+            android:textSize="24px"/>
+
+        <TextView
+            android:id="@+id/tv_locate_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/JumpToLatest"
+            android:textColor="#969696"
+            android:textSize="18px" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_setting_help"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="@drawable/setting_item_click_bg_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:text="@string/Help"
+        android:textColor="#141414"
+        android:textSize="24px" />
+
+    <TextView
+        android:id="@+id/tv_setting_about"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="@drawable/setting_item_click_bg_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:text="@string/About"
+        android:textColor="#141414"
+        android:textSize="24px" />
+</LinearLayout>

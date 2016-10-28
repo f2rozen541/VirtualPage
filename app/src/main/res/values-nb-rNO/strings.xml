@@ -1,0 +1,130 @@
+﻿<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Innstillinger</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fil</string>
+    <string name="Edit">Rediger</string>
+    <string name="Canvas">Lerret</string>
+    <string name="Help">Hjelp</string>
+    <string name="Exit">Avslutt</string>
+    <string name="New">Ny</string>
+    <string name="Open">Åpne</string>
+    <string name="Save">Lagre</string>
+    <string name="SaveAs">Lagre som</string>
+    <string name="Undo">Angre</string>
+    <string name="Redo">Gjør om</string>
+    <string name="Clear">Slett</string>
+    <string name="ChangeTexture">Endre tekstur</string>
+    <string name="ResetTexture">Tilbakestill tekstur</string>
+    <string name="About">Om</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Velg et bilde</string>
+    <string name="Return">Tilbake</string>
+    <string name="Delete">Slett</string>
+    <string name="Copy">Kopier</string>
+    <string name="Import">Import</string>
+    <string name="Share">Del</string>
+    <string name="SaveSuccess">Vellykket lagring!</string>
+    <string name="Saved">Lagret</string>
+    <string name="SaveFail">Mislykket lagring</string>
+    <string name="FileName">Angi et navn</string>
+    <string name="Prompt">Påminnelse</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nei</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Avbryt</string>
+    <string name="Apply">Bruk</string>
+    <string name="View">Vis nå</string>
+    <string name="ChangeBackground">Endre bakgrunn</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Dersom dette notatet slettes, slettes alle sidene som inneholder notatet. Er du sikker på at du vil slette dette notatet?</string>
+    <string name="details">Detaljer</string>
+    <string name="Merging">Slår sammen</string>
+    <string name="Stop">Stopp</string>
+    <string name="stop_merge">Stopp sammenslåingen</string>
+    <string name="pages"> Sider</string>
+    <string name="noteName">Notat</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Denne tittelen finnes allerede. Angi et annet tittelnavn.</string>
+    <string name="attribute_empty_title_forbidden">Krever en tittel</string>
+    <string name="DeleteAPageWarningInfo">Skal denne siden slettes?</string>
+    <string name="WarningNoPageInfo">Du må først legge til en side</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Navn på notatet</string>
+    <string name="SelectCover">Velg et omslag</string>
+    <string name="RenameNoticeInfoTitle">Melding</string>
+    <string name="RenameNoticeInfoDetail">Denne funksjonen kan bare aktiveres når et notat er valgt.</string>
+    <string name="RenameWarningInfo">Ugyldig navn er lagt inn.</string>
+    <string name="add_picture">Legg til et bilde</string>
+    <string name="take_photo">Ta et bilde</string>
+    <string name="choose_image">Velg et bilde</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Del</string>
+    <string name="MovePageTitle">Flytt siden</string>
+    <string name="JustMove">Flytt direkte</string>
+    <string name="DialogMoveToNotice">Vil du flytte siden eller kopiere siden?</string>
+    <string name="Cut">Kutt</string>
+    <string name="Paste">Lim</string>
+    <string name="Merge">Slå sammen</string>
+    <string name="MergeSucceed">Er nå slått sammen</string>
+    <string name="MergeSuccessInfo">Den gjeldende siden slår nå sammen</string>
+    <string name="MergeFailed">Mislykket sammenslåing</string>
+    <string name="MergeFailedInfo">Sammenslåing av den gjeldende siden kunne ikke fullføres</string>
+    <string name="GrantedPermissionSucceed">Vellykket autorisasjon!</string>
+    <string name="GrantedPermissionFailed">Mislykket autorisasjon!</string>
+    <string name="permission">Autorisasjon</string>
+    <string name="no_permissions">Krever nødvendige tillatelser</string>
+    <string name="settings">Innstillinger</string>
+    <string name="help">Hjelp</string>
+    <string name="string_help_text">Programmet som kjøres, krever ikke autorisasjon! Klikk på \"Setting\" (Innstilling) - \"Application\" (Applikasjon) for å velge appen som skal autoriseres</string>
+    <string name="quit">Avslutt</string>
+    <string name="Success">Vellykket</string>
+    <string name="CopySucceed">Er nå kopiert!</string>
+    <string name="MoveSucceed">Er nå flytte!</string>
+    <string name="Failed">Mislykket</string>
+    <string name="FailedInfo">Du må velge et annet notat</string>
+    <string name="SavingInfo">Nå lagres data, vennligst vent!</string>
+    <string name="TitleSaving">Lagrer</string>
+    <string name="Share_Bluetooth">Bluetooth</string>
+    <string name="Share_Gmail">Gmail</string>
+    <string name="Share_Wechat">Wechat</string>
+    <string name="Share_QQ">QQ</string>
+    <string name="Share_Evernote">Evernote</string>
+    <string name="Share_Drive">Drive</string>
+    <string name="Share_Gallery">Gallery</string>
+    <string name="Share_PDF">Lagre som PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Skreddersy notisbøker</string>
+    <string name="HelpTitleStep_3">Notatsider</string>
+    <string name="HelpTitleStep_4">Notatsammenslåing</string>
+    <string name="HelpTitleStep_5">Notatredigering</string>
+    <string name="HelpTitleStep_6">Del et notat</string>
+    <string name="HelpDetailStep_6">Notater kan eksporteres som et bilde eller i PDF-format. Notater kan også deles vis Bluetooth eller annet.</string>
+    <string name="HelpDetailStep_5">Du kan velge forskjellige skriveverktøy, angi penntykkelse og bruke forskjellige farger når et notat redigeres. Du kan til og med legge inn tekst for å lage mer innhold.</string>
+    <string name="HelpDetailStep_4">Dersom du trykker på sammenslåingsknappen @hanvon@, kan som velge en annen side som skal slås sammen med det nåværende notatet.</string>
+    <string name="HelpDetailStep_3">Du kan raskt vise en hvilken som helst side i forhåndsvisningsruten i notisboken. Du kan også trykke lenge og dra sider for å endre rekkefølgen i notisboken.</string>
+    <string name="HelpDetailStep_2">Ta hurtig på @hanvon@-knappen på notisbokomslaget for å endre fargen og stilen på omslaget.  Det gjør det lettere å organisere notisbøkene.</string>
+    <string name="HelpDetailStep_1">Takk for at du valgte Lenovo Note Saver for å notere! For at du skal komme i gang er en notisboken med tittelen \"Note Saver\" er allerede opprettet der alle dine notater både med skjermen på og av, lagres. De kan redigeres når som helst.</string>
+    <string name="HelpStep_5_Des_1">Pensel og tekst</string>
+    <string name="HelpStep_5_Des_2">Legg inn et bilde</string>
+    <string name="HelpStep_5_Des_3">Ram inn innholdet</string>
+    <string name="HelpStep_5_Des_4">Penseltyper</string>
+    <string name="HelpStep_5_Des_5">Penseltykkelse</string>
+    <string name="HelpStep_5_Des_6">Dobbelklikk for å justere fargen</string>
+    <string name="AppVersion">Versjon</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright © 2016 Lenovo Med enerett</string>
+    <string name="SettingOpenInquiry">Spør meg når du åpner standard \"notathoppingssted\".</string>
+    <string name="OpenInquiryTitle">Åpne standard \"hoppested\" til notater</string>
+    <string name="JumpToLatest">\"Hopp\" til siste redigert side</string>
+    <string name="JumpToEnd">\"Hopp\" til siste side</string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_note_cover"
+        android:layout_width="126px"
+        android:layout_height="126px"
+        android:background="@drawable/note_cover_1_bg" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_cover_selected_flag"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_gravity="right|bottom"
+        android:background="@android:color/transparent"
+        hanvon:SelectedBgRes="@drawable/ic_btn_item_selected"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+</FrameLayout>

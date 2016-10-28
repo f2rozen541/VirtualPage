@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="720px"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_uniform_dialog"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80px"
+        android:layout_marginLeft="30px"
+        android:fontFamily="Roboto_Regular"
+        android:gravity="center_vertical"
+        android:text="@string/Edit"
+        android:textAllCaps="false"
+        android:textColor="@color/Dialog_Title"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorNoteListLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:text="@string/NoteName"
+        android:textColor="@color/editorDialogTextTitle"
+        android:textSize="26px"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_note_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:inputType="text"
+        android:maxLength="40"
+        android:singleLine="true"
+        android:textColor="@color/editorDialogEditText"
+        android:textColorHighlight="@color/editorDialogCursorColor"
+        android:textCursorDrawable="@drawable/edit_text_cursor"
+        android:fitsSystemWindows="true"
+        android:imeOptions="actionDone"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/SelectCover"
+        android:textColor="@color/editorDialogTextTitle"
+        android:textSize="26px"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gv_cover_selector"
+        android:layout_width="546px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24px"
+        android:columnWidth="126px"
+        android:gravity="center"
+        android:horizontalSpacing="84px"
+        android:numColumns="3"
+        android:stretchMode="none"
+        android:scrollbars="none"
+        android:verticalSpacing="50px">
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_bottom_height"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:text="@string/Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/Dialog_Cancel"
+            android:textSize="@dimen/dialog_bottom_text_size" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30px"
+            android:background="@android:color/transparent"
+            android:text="@string/OK"
+            android:layout_marginLeft="76px"
+            android:textAllCaps="false"
+            android:textColor="@color/Dialog_Confirm"
+            android:textSize="@dimen/dialog_bottom_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

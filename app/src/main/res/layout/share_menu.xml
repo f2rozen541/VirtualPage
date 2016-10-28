@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page_setting_dropdown"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_share_menu_save_as_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="@drawable/setting_item_click_bg_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:text="@string/Share_PDF"
+        android:textColor="#141414"
+        android:textSize="24px" />
+
+
+    <TextView
+        android:id="@+id/tv_share_menu_share_to"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="@drawable/setting_item_click_bg_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:text="@string/ShareDialogTitle"
+        android:textColor="#141414"
+        android:textSize="24px" />
+
+</LinearLayout>

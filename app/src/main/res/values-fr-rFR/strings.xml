@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Paramètres</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fichier</string>
+    <string name="Edit">Modifier</string>
+    <string name="Canvas">Canevas</string>
+    <string name="Help">Aide</string>
+    <string name="Exit">Quitter</string>
+    <string name="New">Nouveau</string>
+    <string name="Open">Ouvrir</string>
+    <string name="Save">Enregistrer</string>
+    <string name="SaveAs">Enregistrer sous</string>
+    <string name="Undo">Annuler</string>
+    <string name="Redo">Rétablir</string>
+    <string name="Clear">Effacer</string>
+    <string name="ChangeTexture">Changer de texture</string>
+    <string name="ResetTexture">Réinitialiser la texture</string>
+    <string name="About">À propos</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Veuillez sélectionner une image</string>
+    <string name="Return">Retour</string>
+    <string name="Delete">Supprimer</string>
+    <string name="Copy">Copier</string>
+    <string name="Import">Importer</string>
+    <string name="Share">Partager</string>
+    <string name="SaveSuccess">Enregistré avec succès !</string>
+    <string name="Saved">Enregistré</string>
+    <string name="SaveFail">Échec de l\'enregistrement</string>
+    <string name="FileName">Veuillez spécifier un nom</string>
+    <string name="Prompt">Demander</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Annuler</string>
+    <string name="Apply">Appliquer</string>
+    <string name="View">Afficher maintenant</string>
+    <string name="ChangeBackground">Changer d\'arrière-plan</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Supprimer cette note supprimera toutes les pages qu\'elle contient. Voulez-vous vraiment supprimer cette note ?</string>
+    <string name="details">Détails</string>
+    <string name="Merging">Fusionner</string>
+    <string name="Stop">Arrêter</string>
+    <string name="stop_merge">Arrêter la fusion</string>
+    <string name="pages"> Pages</string>
+    <string name="noteName">Note</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Ce titre existe déjà. Veuillez spécifier un nom de titre différent.</string>
+    <string name="attribute_empty_title_forbidden">Un titre est requis</string>
+    <string name="DeleteAPageWarningInfo">Voulez-vous supprimer cette page ?</string>
+    <string name="WarningNoPageInfo">Vous devez d\'abord ajouter une page</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Nom de la note</string>
+    <string name="SelectCover">Sélectionner une couverture</string>
+    <string name="RenameNoticeInfoTitle">Avis</string>
+    <string name="RenameNoticeInfoDetail">Cette fonction peut seulement être activée lorsqu\'une note a été sélectionnée.</string>
+    <string name="RenameWarningInfo">Le nom que vous avez saisi est invalide.</string>
+    <string name="add_picture">Ajouter une image</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="choose_image">Choisir une image</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Partager</string>
+    <string name="MovePageTitle">Déplacer la page</string>
+    <string name="JustMove">Déplacer directement</string>
+    <string name="DialogMoveToNotice">Voulez-vous déplacer la page ou la copier ?</string>
+    <string name="Cut">Couper</string>
+    <string name="Paste">Coller</string>
+    <string name="Merge">Fusionner</string>
+    <string name="MergeSucceed">Fusionnée avec succès</string>
+    <string name="MergeSuccessInfo">La page actuelle a été fusionnée avec succès</string>
+    <string name="MergeFailed">La fusion a échoué</string>
+    <string name="MergeFailedInfo">Impossible de terminer la fusion de la page actuelle</string>
+    <string name="GrantedPermissionSucceed">Autorisation effectuée avec succès !</string>
+    <string name="GrantedPermissionFailed">Échec de l\'autorisation !</string>
+    <string name="permission">Autorité</string>
+    <string name="no_permissions">Autorisations nécessaires requises</string>
+    <string name="settings">Paramètres</string>
+    <string name="help">Aide</string>
+    <string name="string_help_text">Permission insuffisante pour l\'exécution du programme ! Veuillez cliquer sur « Paramètres » - « Application » pour sélectionner l\'application à autoriser</string>
+    <string name="quit">Quitter</string>
+    <string name="Success">Succès</string>
+    <string name="CopySucceed">Copiée avec succès !</string>
+    <string name="MoveSucceed">Déplacée avec succès !</string>
+    <string name="Failed">Échec</string>
+    <string name="FailedInfo">Vous devez sélectionner une autre note</string>
+    <string name="SavingInfo">Enregistrement des données en cours. Veuillez patienter !</string>
+    <string name="TitleSaving">Enregistrement</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Enregistrer en tant que PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Personnalisez vos carnets de notes</string>
+    <string name="HelpTitleStep_3">Pages de note</string>
+    <string name="HelpTitleStep_4">Fusionner des notes</string>
+    <string name="HelpTitleStep_5">Éditer des notes</string>
+    <string name="HelpTitleStep_6">Partager des notes</string>
+    <string name="HelpDetailStep_6">Vous pouvez exporter vos notes dans un format image ou PDF. Vous pouvez aussi partager vos notes via Bluetooth et plus.</string>
+    <string name="HelpDetailStep_5">Lors de l\'édition d\'une note, vous pouvez sélectionner divers couleurs,outils d\'écriture et l\'épaisseur du trait. Vous pouvez également insérer du texte pour créer un contenu supplémentaire.</string>
+    <string name="HelpDetailStep_4">En appuyant sur le bouton « fusion » @hanvon@, vous pouvez sélectionner une autre page à fusionner avec votre note actuelle.</string>
+    <string name="HelpDetailStep_3">Vous pouvez rapidement voir une page dans le volet de visualisation de votre carnet de notes. Vous pouvez aussi appuyer longuement et déplacer des pages pour réorganiser leur ordre dans votre carnet de notes.</string>
+    <string name="HelpDetailStep_2">À partir de la couverture de votre carnet de notes, appuyez sur le bouton des paramètres @hanvon@ où vous pouvez modifier la couleur et le style de votre couverture. Cela vous permet d\'organiser facilement vos carnets de notes.</string>
+    <string name="HelpDetailStep_1">Merci d\'avoir choisir Lenovo Note Saver pour toutes vos prises de notes ! Pour faciliter la prise de notes, un carnet de notes intitulé « Note Saver » a été déjà créé pour vous. Toutes vos prises de notes y seront enregistrées. Vous pouvez les éditer à tout moment.</string>
+    <string name="HelpStep_5_Des_1">Trait et texte</string>
+    <string name="HelpStep_5_Des_2">Insérer une image</string>
+    <string name="HelpStep_5_Des_3">Encadrer le contenu</string>
+    <string name="HelpStep_5_Des_4">Type de trait</string>
+    <string name="HelpStep_5_Des_5">Largeur de trait</string>
+    <string name="HelpStep_5_Des_6">Appuyez deux fois sur l\'écran pour ajuster la couleur</string>
+    <string name="AppVersion">Version</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo. Tous droits réservés</string>
+    <string name="SettingOpenInquiry">Me demander lors de l\'ouverture de l\'emplacement par défaut des notes</string>
+    <string name="OpenInquiryTitle">Ouverture de l\'emplacement par défaut des notes</string>
+    <string name="JumpToLatest">Aller à la dernière page éditée</string>
+    <string name="JumpToEnd">Aller à la dernière page</string>
+    <string name="LimitPictureAmount">Votre saisie a atteint la limite maximale.</string>
+
+</resources>

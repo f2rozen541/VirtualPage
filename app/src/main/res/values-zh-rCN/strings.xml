@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">设置</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">文件</string>
+    <string name="Edit">编辑</string>
+    <string name="Canvas">画布</string>
+    <string name="Help">帮助</string>
+    <string name="Exit">退出</string>
+    <string name="New">新建</string>
+    <string name="Open">打开</string>
+    <string name="Save">保存</string>
+    <string name="SaveAs">保存为</string>
+    <string name="Undo">撤消</string>
+    <string name="Redo">恢复</string>
+    <string name="Clear">清除</string>
+    <string name="ChangeTexture">更改</string>
+    <string name="ResetTexture">重设</string>
+    <string name="About">关于</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">请选择一幅图片</string>
+    <string name="Return">返回</string>
+    <string name="Delete">删除</string>
+    <string name="Copy">复制</string>
+    <string name="Import">导入</string>
+    <string name="Share">分享</string>
+    <string name="SaveSuccess">保存成功！</string>
+    <string name="Saved">已保存</string>
+    <string name="SaveFail">保存失败</string>
+    <string name="FileName">请输入一个名称</string>
+    <string name="Prompt">提示</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+    <string name="OK">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="Apply">应用</string>
+    <string name="View">现在查看</string>
+    <string name="ChangeBackground">更改背景</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">删除笔记，笔记中的所有页面都会被一起删除，你真的想删除吗？</string>
+    <!--<string name="selected">已选中</string>-->
+    <string name="details">细节</string>
+    <string name="Merging">合并</string>
+    <string name="Stop">停止</string>
+    <string name="stop_merge">停止合并</string>
+    <string name="pages"> 页</string>
+    <string name="noteName">笔记</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">标题已存在，请重新输入</string>
+    <string name="attribute_empty_title_forbidden">禁止标题为空</string>
+    <string name="DeleteAPageWarningInfo">确定删除此页？</string>
+    <string name="WarningNoPageInfo">请先添加一页</string>
+
+    <!-- 新增-->
+    <string name="NoteName">笔记本名称</string>
+    <string name="SelectCover">选择一个封面</string>
+    <string name="RenameNoticeInfoTitle">通知</string>
+    <string name="RenameNoticeInfoDetail">此功能仅在一个笔记本被选中时才被启用！</string>
+    <string name="RenameWarningInfo">重命名失败！你输入的笔记名称无效</string>
+    <string name="add_picture">添加图片</string>
+    <string name="take_photo">拍照</string>
+    <string name="choose_image">选择图片</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">分享到...</string>
+    <string name="MovePageTitle">移动页面</string>
+    <string name="JustMove">直接移动</string>
+    <string name="DialogMoveToNotice">你想要移动本页还是复制本页？</string>
+    <string name="Cut">剪切</string>
+    <string name="Paste">粘贴</string>
+    <string name="Merge">合并</string>
+    <string name="MergeSucceed">成功</string>
+    <string name="MergeSuccessInfo">当前合并已经成功</string>
+    <string name="MergeFailed">失败</string>
+    <string name="MergeFailedInfo">当前合并页无法完成</string>
+    <string name="GrantedPermissionSucceed">授权成功！</string>
+    <string name="GrantedPermissionFailed">授权失败！</string>
+    <string name="permission">权限</string>
+    <string name="no_permissions">缺少程序运行的必要权限</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">缺少程序运行必要权限!\n\n请点击\"设置\"-\"应用\"-选择应用进行授权。\n\n</string>
+    <string name="quit">退出</string>
+    <string name="Success">成功</string>
+    <string name="CopySucceed">复制成功!</string>
+    <string name="MoveSucceed">移动成功!</string>
+    <string name="Failed">失败</string>
+    <string name="FailedInfo">您需要选择另一个笔记本!</string>
+    <string name="SavingInfo">正在保存数据，请稍后!</string>
+    <string name="TitleSaving">保存中...</string>
+    <!--<string name="Share_Bluetooth">蓝牙</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">微信</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">印象笔记</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">保存为PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">设置笔记本封面</string>
+    <string name="HelpTitleStep_3">笔记列表</string>
+    <string name="HelpTitleStep_4">合并笔记</string>
+    <string name="HelpTitleStep_5">编辑笔记</string>
+    <string name="HelpTitleStep_6">笔记分享</string>
+    <string name="HelpDetailStep_1">欢迎使用Lenovo Note Saver开启全新笔写体验！我们已经为你创建了“Note Saver”作为默认笔记本，黑屏和亮屏状态下的笔记都会保存在这里。</string>
+    <string name="HelpDetailStep_2">点击笔记本封面的设置图标， 在弹出的编辑界面选择你喜欢的封面。</string>
+    <string name="HelpDetailStep_3">通过笔记列表可以快速选择要查看的笔记，你还可以长按任意笔记缩略图并拖拽到期望的位置。</string>
+    <string name="HelpDetailStep_4">点击笔记下方的合并图标  @hanvon@  ，可以选择另外一页笔记与当前笔记合并。</string>
+    <string name="HelpDetailStep_5">笔记编辑界面提供了众多画笔调节选项，你还可以插入自己喜欢的文字或图片让笔记更丰富。</string>
+    <string name="HelpDetailStep_6">完成的笔记不仅可以保存为图片或PDF文档，更可以很方便的分享给他人。</string>
+    <string name="HelpStep_5_Des_1">画笔和文本</string>
+    <string name="HelpStep_5_Des_2">插入图片</string>
+    <string name="HelpStep_5_Des_3">框选内容</string>
+    <string name="HelpStep_5_Des_4">画笔种类</string>
+    <string name="HelpStep_5_Des_5">画笔粗细</string>
+    <string name="HelpStep_5_Des_6">双击调整颜色</string>
+    <string name="AppVersion">Version</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo All Rights Reserved</string>
+    <string name="SettingOpenInquiry">打开笔记本默认跳转位置询问我</string>
+    <string name="OpenInquiryTitle">打开笔记本默认跳转位置</string>
+    <string name="JumpToLatest">跳转至最后编辑页</string>
+    <string name="JumpToEnd">跳转至最后一页</string>
+    <string name="LimitPictureAmount">您的输入已经达到最大上限。</string>
+
+</resources>

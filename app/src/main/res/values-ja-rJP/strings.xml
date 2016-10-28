@@ -1,0 +1,131 @@
+﻿<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">設定</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">ファイル</string>
+    <string name="Edit">編集</string>
+    <string name="Canvas">キャンバス</string>
+    <string name="Help">ヘルプ</string>
+    <string name="Exit">終了</string>
+    <string name="New">新規</string>
+    <string name="Open">開く</string>
+    <string name="Save">保存</string>
+    <string name="SaveAs">名前を付けて保存</string>
+    <string name="Undo">取り消す</string>
+    <string name="Redo">やり直す</string>
+    <string name="Clear">クリア</string>
+    <string name="ChangeTexture">テクスチャを変更</string>
+    <string name="ResetTexture">テクスチャをリセット</string>
+    <string name="About">バージョン情報</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">画像を選択してください</string>
+    <string name="Return">戻す</string>
+    <string name="Delete">削除</string>
+    <string name="Copy">コピー</string>
+    <string name="Import">インポート</string>
+    <string name="Share">共有</string>
+    <string name="SaveSuccess">正常に保存されました。</string>
+    <string name="Saved">保存済み</string>
+    <string name="SaveFail">保存に失敗</string>
+    <string name="FileName">名前を入力してください</string>
+    <string name="Prompt">プロンプト</string>
+    <string name="Yes">はい</string>
+    <string name="No">いいえ</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">キャンセル</string>
+    <string name="Apply">適用</string>
+    <string name="View">今すぐ表示</string>
+    <string name="ChangeBackground">背景を変更</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">このノートを削除するとすべての含有ページが削除されます。このノートを削除してもよろしいですか？</string>
+    <string name="details">詳細</string>
+    <string name="Merging">結合</string>
+    <string name="Stop">停止</string>
+    <string name="stop_merge">結合を停止</string>
+    <string name="pages"> ページ</string>
+    <string name="noteName">ノート</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">このタイトルはすでに存在します別のタイトル名を入力してください。</string>
+    <string name="attribute_empty_title_forbidden">タイトルが必要です</string>
+    <string name="DeleteAPageWarningInfo">このページを削除しますか？</string>
+    <string name="WarningNoPageInfo">最初にページを追加する必要があります</string>
+
+    <!-- 新增-->
+    <string name="NoteName">ノートの名前</string>
+    <string name="SelectCover">カバーを選択</string>
+    <string name="RenameNoticeInfoTitle">通知</string>
+    <string name="RenameNoticeInfoDetail">ノートを選択するとこの機能のみ有効になります。</string>
+    <string name="RenameWarningInfo">入力した名前は無効です。</string>
+    <string name="add_picture">写真を追加</string>
+    <string name="take_photo">フォトを撮る</string>
+    <string name="choose_image">画像を選択</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">共有</string>
+    <string name="MovePageTitle">ページを移動</string>
+    <string name="JustMove">直接移動</string>
+    <string name="DialogMoveToNotice">ページを移動する、またはページをコピーしますか？</string>
+    <string name="Cut">切り取り</string>
+    <string name="Paste">貼付け</string>
+    <string name="Merge">結合</string>
+    <string name="MergeSucceed">正常に結合されました</string>
+    <string name="MergeSuccessInfo">現在のページの結合に成功しました</string>
+    <string name="MergeFailed">結合に失敗しました</string>
+    <string name="MergeFailedInfo">現在のページの結合を完了できません</string>
+    <string name="GrantedPermissionSucceed">認証に成功しました。</string>
+    <string name="GrantedPermissionFailed">認証に失敗しました。</string>
+    <string name="permission">権限</string>
+    <string name="no_permissions">許可が必要</string>
+    <string name="settings">設定</string>
+    <string name="help">ヘルプ</string>
+    <string name="string_help_text">プログラムの実行に必要な権限がありません。「設定」-「アプリケーション」をクリックして許可するアプリを選択してください</string>
+    <string name="quit">終了</string>
+    <string name="Success">成功</string>
+    <string name="CopySucceed">正常にコピーしました。</string>
+    <string name="MoveSucceed">正常に移動しました。</string>
+    <string name="Failed">失敗しました。</string>
+    <string name="FailedInfo">別のノートを選択する必要があります</string>
+    <string name="SavingInfo">今すぐデータを保存します。お待ちください。</string>
+    <string name="TitleSaving">保存中...</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">PDF として保存</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">ノートをカスタマイズ</string>
+    <string name="HelpTitleStep_3">ページ表示・操作</string>
+    <string name="HelpTitleStep_4">ノートの結合</string>
+    <string name="HelpTitleStep_5">ノートの編集</string>
+    <string name="HelpTitleStep_6">ノートを共有</string>
+    <string name="HelpDetailStep_6">ノートを画像またはPDF フォーマットとしてエクスポートすることができます。Bluetooth などでノートを共有することもできます。</string>
+    <string name="HelpDetailStep_5">ノートの編集には、様々なツールを使用できます。ペンの太さを変えたり、別の色を使用できます。また、ペン書きとは別にフォントテキストを挿入することもできます。</string>
+    <string name="HelpDetailStep_4">「結合」ボタン @hanvon@ を押すことで、別のページを選択して現在のノートと結合できます。</string>
+    <string name="HelpDetailStep_3">プレビュー表示で必要なページをすぐに見つけ出すことができます。ページを長押ししてドラッグすることで、ページの順番を並び替えることもできます。</string>
+    <string name="HelpDetailStep_2">ノートのカバーから設定 @hanvon@ ボタンをタップして、カバーの色とスタイルを変更できます。これであなた好みのノートを作成することができます。</string>
+    <string name="HelpDetailStep_1">Lenovo Note Saverへようこそ。「Note Saver」というタイトルのノートがすでに作成されていますので、書き込んだノートは画面を閉じてもすべて保存されるようになっています。いつでもどこでも、自由に編集することができます。</string>
+    <string name="HelpStep_5_Des_1">ブラシとテキスト</string>
+    <string name="HelpStep_5_Des_2">画像を挿入</string>
+    <string name="HelpStep_5_Des_3">コンテンツを組み立てる</string>
+    <string name="HelpStep_5_Des_4">ブラシのタイプ</string>
+    <string name="HelpStep_5_Des_5">ブラシの太さ</string>
+    <string name="HelpStep_5_Des_6">ダブルクリックして色を調整</string>
+    <string name="AppVersion">バージョン</string>
+    <!--<string name="AppVersionCode">1.1.30</string>-->
+    <string name="AppCopyRight">Copyright ©2016 Lenovo All Rights Reserved</string>
+    <string name="SettingOpenInquiry">デフォルトのノートのジャンプ位置を開く場合はお尋ねください</string>
+    <string name="OpenInquiryTitle">ノート用のデフォルトのジャプ位置を開きます</string>
+    <string name="JumpToLatest">最後に編集したページにジャンプ</string>
+    <string name="JumpToEnd">最後のページにジャンプ</string>
+    <string name="LimitPictureAmount">入力が上限に達しました。</string>
+
+
+</resources>

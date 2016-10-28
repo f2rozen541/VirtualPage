@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Indstillinger</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fil</string>
+    <string name="Edit">Rediger</string>
+    <string name="Canvas">Kanvas</string>
+    <string name="Help">Hjælp</string>
+    <string name="Exit">Afslut</string>
+    <string name="New">Ny</string>
+    <string name="Open">Åbn</string>
+    <string name="Save">Gem</string>
+    <string name="SaveAs">Gem som</string>
+    <string name="Undo">Fortryd</string>
+    <string name="Redo">Annuller Fortryd</string>
+    <string name="Clear">Ryd</string>
+    <string name="ChangeTexture">Skrift struktur</string>
+    <string name="ResetTexture">Nulstil struktur</string>
+    <!--<string name="HelpDoc">Hjælp</string>-->
+    <string name="About">Om</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Vælg et billede</string>
+    <string name="Return">Retur</string>
+    <string name="Delete">Slet</string>
+    <string name="Copy">Kopiér</string>
+    <string name="Import">Importér</string>
+    <string name="Share">Del</string>
+    <string name="SaveSuccess">Gemt!</string>
+    <string name="Saved">Gemt</string>
+    <string name="SaveFail">Ikke gemt</string>
+    <string name="FileName">Indtast et navn</string>
+    <string name="Prompt">Spørg</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nej</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Annullér</string>
+    <string name="Apply">Anvend</string>
+    <string name="View">Vis nu</string>
+    <string name="ChangeBackground">Skift baggrund</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Sletning af denne note, vil slette alle indeholdte sider. Vil du slette denne note?</string>
+    <!--<string name="selected">valgt</string>-->
+    <string name="details">Detaljer</string>
+    <string name="Merging">Fletter</string>
+    <string name="Stop">Stop</string>
+    <string name="stop_merge">Stop fletning</string>
+    <string name="pages"> Sider</string>
+    <string name="noteName">Bemærk</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Denne titel findes allerede. Indtast et andet titelnavn.</string>
+    <string name="attribute_empty_title_forbidden">Der kræves en titel</string>
+    <string name="DeleteAPageWarningInfo">Vil du slette denne side?</string>
+    <string name="WarningNoPageInfo">Du skal først tilføje en side</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Notens navn</string>
+    <string name="SelectCover">Vælg et dæksel</string>
+    <string name="RenameNoticeInfoTitle">Bemærkning</string>
+    <string name="RenameNoticeInfoDetail">Denne funktion kan kun aktiveres, når der er valgt en note.</string>
+    <string name="RenameWarningInfo">Det indtastede navn er ugyldigt.</string>
+    <string name="add_picture">Tilføj et billede</string>
+    <string name="take_photo">Tag et foto</string>
+    <string name="choose_image">Vælg et billede</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Del</string>
+    <string name="MovePageTitle">Flyt en side</string>
+    <string name="JustMove">Flyt direkte</string>
+    <string name="DialogMoveToNotice">Vil du flytte eller kopiere siden?</string>
+    <string name="Cut">Klip</string>
+    <string name="Paste">Sæt ind</string>
+    <string name="Merge">Flet</string>
+    <string name="MergeSucceed">Flettet</string>
+    <string name="MergeSuccessInfo">Aktuel side flettet</string>
+    <string name="MergeFailed">Ikke flettet</string>
+    <string name="MergeFailedInfo">Fletning af aktuel side kan ikke fuldføres</string>
+    <string name="GrantedPermissionSucceed">Autorisation lykkedes!</string>
+    <string name="GrantedPermissionFailed">Autorisation mislykkedes!</string>
+    <string name="permission">Autoritet</string>
+    <string name="no_permissions">Kræv nødvendige tilladelser</string>
+    <string name="settings">Indstillinger</string>
+    <string name="help">Hjælp</string>
+    <string name="string_help_text">Ingen krævet autoritet for program kører! Klik på \"Indstillinger\"-\"Program\" for at vælge app at autorisere</string>
+    <string name="quit">Afslut</string>
+    <string name="Success">Lykkedes</string>
+    <string name="CopySucceed">Kopieret!</string>
+    <string name="MoveSucceed">Flyttet!</string>
+    <string name="Failed">Fejlede</string>
+    <string name="FailedInfo">Du skal vælge en anden note</string>
+    <string name="SavingInfo">Gemmer data nu, vent!</string>
+    <string name="TitleSaving">Gemmer</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Gem som PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Tilpas dine Notesbøger</string>
+    <string name="HelpTitleStep_3">Note-sider</string>
+    <string name="HelpTitleStep_4">Note-fletning</string>
+    <string name="HelpTitleStep_5">Note-redigering</string>
+    <string name="HelpTitleStep_6">Del en note</string>
+    <string name="HelpDetailStep_6">Du kan eksportere dine noter, som et billede eller PDF-format. Du kan også dele dine noter via Bluetooth eller USB.</string>
+    <string name="HelpDetailStep_5">Når du redigerer en note, kan du vælge forskellige skriveværktøjer, indstille pen-tykkelse, og bruge forskellige farver. Du kan endda indsætte tekst for at oprette ekstra indhold.</string>
+    <string name="HelpDetailStep_4">Ved at trykke på \"flet\"-knappen @hanvon@, kan du vælge en anden side for at flette med din aktuelle note.</string>
+    <string name="HelpDetailStep_3">Du kan hurtigt se enhver side i din notebogs vindue til eksempelvisning. Du kan også bruge langt tryk til at deres rækkefølge på din notesbog</string>
+    <string name="HelpDetailStep_2">Fra din  dæksel, skal du trykke indstillingerne @hanvon@-knappen, hvor du kan ændre din notesbogs dæksels farve og stil. Dette hjælper dig til nemt at organisere dine notebøger</string>
+    <string name="HelpDetailStep_1">Tak for at du valgte Lenovo Note Saver til al din note-tagning! For at du kan komme i gang, er en notesbogs kaldet \"Note Saver\" allerede oprettet til dig, hvor alle dine noter på og uden for skærmen vil blive gemt. Du kan altid redigere dem.</string>
+    <string name="HelpStep_5_Des_1">Pensel og tekst</string>
+    <string name="HelpStep_5_Des_2">Indsæt et billede</string>
+    <string name="HelpStep_5_Des_3">Indram indholdet</string>
+    <string name="HelpStep_5_Des_4">Penseltype</string>
+    <string name="HelpStep_5_Des_5">Penseltykkelse</string>
+    <string name="HelpStep_5_Des_6">Dobbeltklik for at justere farven</string>
+    <string name="AppVersion">Version</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo Alle rettigheder forbeholdes</string>
+    <string name="SettingOpenInquiry">Spørg mig, når du åbner standard notens springsted</string>
+    <string name="OpenInquiryTitle">Åbn notens standard springsted</string>
+    <string name="JumpToLatest">Spring til den seneste redigerede side</string>
+    <string name="JumpToEnd">Spring til den sidste side</string>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="108px"
+    android:alpha="0.95"
+    android:background="@color/PageEditorToolBarBg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/ib_sidebar"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="16px"
+        android:background="@drawable/btn_list_show" />
+
+    <FrameLayout
+        android:id="@+id/fl_function_area"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:id="@+id/fl_color_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="34px">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+
+            <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+                android:id="@+id/abb_color_indicator_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_color_indicator_focused"
+                app:SelectedBgRes="@drawable/ic_color_indicator_focused"
+                app:UnSelectedBgRes="@drawable/ic_color_indicator" />
+
+            <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+                android:id="@+id/abb_color_indicator_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:src="@drawable/ic_color_indicator"
+                app:SelectedBgRes="@drawable/ic_color_indicator_focused"
+                app:UnSelectedBgRes="@drawable/ic_color_indicator" />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    
+    <Button
+        android:id="@+id/bt_copy"
+        android:layout_width="150px"
+        android:layout_height="fill_parent"
+        android:background="#404040"
+        android:text="@string/Copy"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/bt_cut"
+        android:layout_width="150px"
+        android:layout_height="fill_parent"
+        android:background="#404040"
+        android:text="@string/Cut"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="150px"
+        android:layout_height="fill_parent"
+        android:background="#404040"
+        android:text="@string/Delete"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

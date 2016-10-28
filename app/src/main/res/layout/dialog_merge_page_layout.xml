@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/ib_merge_confirm"
+        android:layout_width="86px"
+        android:layout_height="86px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="64px"
+        android:layout_marginTop="44px"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_merge_confirm_selector" />
+
+    <ImageButton
+        android:id="@+id/ib_merge_cancel"
+        android:layout_width="86px"
+        android:layout_height="86px"
+        android:layout_toLeftOf="@id/ib_merge_confirm"
+        android:layout_marginRight="68px"
+        android:layout_marginTop="44px"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_merge_cancel_selector" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="1092px"
+        android:layout_height="1040px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/MergeBgColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="116px"
+            android:layout_marginLeft="34px"
+            android:gravity="center"
+            android:text="@string/Merge"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="36px" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_page_list"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="990px"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</RelativeLayout>

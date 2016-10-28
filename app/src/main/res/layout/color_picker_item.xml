@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/circle_color_black"
+    hanvon:UnSelectedBgRes="@android:color/transparent"
+    hanvon:SelectedBgRes="@drawable/color_select"
+    android:layout_marginLeft="36px"
+    android:layout_height="60px"
+    android:layout_width="60px">
+</com.hanvon.virtualpage.pageeditor.view.AutoBgButton>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            >
+            <Button
+                android:id="@+id/button_toolbar_color_black"
+                android:layout_width = "44px"
+                android:layout_height = "44px"        		        		>
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_white"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px"     		        		>
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_gary"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_orange"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_yellow"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            >
+            <Button
+                android:id="@+id/button_toolbar_color_green"
+                android:layout_width = "44px"
+                android:layout_height = "44px">
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_blue"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_violet"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_pink"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+            <Button
+                android:id="@+id/button_toolbar_color_red"
+                android:layout_width = "44px"
+                android:layout_height = "44px"
+                android:layout_marginLeft = "6px">
+            </Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

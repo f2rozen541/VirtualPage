@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Instellingen</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Bestand</string>
+    <string name="Edit">Bewerken</string>
+    <string name="Canvas">Canvas</string>
+    <string name="Help">Help</string>
+    <string name="Exit">Afsluiten</string>
+    <string name="New">Nieuw</string>
+    <string name="Open">Openen</string>
+    <string name="Save">Opslaan</string>
+    <string name="SaveAs">Opslaan als</string>
+    <string name="Undo">Ongedaan maken</string>
+    <string name="Redo">Opnieuw</string>
+    <string name="Clear">Wissen</string>
+    <string name="ChangeTexture">Textuur wijzigen</string>
+    <string name="ResetTexture">Textuur terugstellen</string>
+    <string name="About">Info</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Selecteer een afbeelding</string>
+    <string name="Return">Terug</string>
+    <string name="Delete">Verwijderen</string>
+    <string name="Copy">Kopiëren</string>
+    <string name="Import">Importeren</string>
+    <string name="Share">Delen</string>
+    <string name="SaveSuccess">Opgeslagen!</string>
+    <string name="Saved">Opgeslagen</string>
+    <string name="SaveFail">Opslaan mislukt</string>
+    <string name="FileName">Voer een naam in</string>
+    <string name="Prompt">Vraag</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nee</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Annuleren</string>
+    <string name="Apply">Toepassen</string>
+    <string name="View">Nu bekijken</string>
+    <string name="ChangeBackground">Achtergrond wijzigen</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Als u deze notitie verwijdert, worden alle pagina\'s verwijderd. Weet u zeker dat u deze notitie wilt verwijderen?</string>
+    <string name="details">Details</string>
+    <string name="Merging">Samenvoegen</string>
+    <string name="Stop">Stoppen</string>
+    <string name="stop_merge">Samenvoegen stoppen</string>
+    <string name="pages"> Pagina\'s</string>
+    <string name="noteName">Opmerking</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Deze titel bestaat al. Voer een andere titelnaam in.</string>
+    <string name="attribute_empty_title_forbidden">Er is een titel nodig</string>
+    <string name="DeleteAPageWarningInfo">Wilt u deze pagina verwijderen?</string>
+    <string name="WarningNoPageInfo">U moet eerst een pagina toevoegen</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Naam voor notitie</string>
+    <string name="SelectCover">Een omslag selecteren</string>
+    <string name="RenameNoticeInfoTitle">Melding</string>
+    <string name="RenameNoticeInfoDetail">Deze functie kan alleen worden ingeschakeld wanneer u een notitie hebt geselecteerd.</string>
+    <string name="RenameWarningInfo">De opgegeven naam is ongeldig.</string>
+    <string name="add_picture">Een afbeelding toevoegen</string>
+    <string name="take_photo">Een foto maken</string>
+    <string name="choose_image">Een afbeelding kiezen</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Delen</string>
+    <string name="MovePageTitle">De pagina verplaatsen</string>
+    <string name="JustMove">Direct verplaatsen</string>
+    <string name="DialogMoveToNotice">Wilt u de pagina verplaatsen of kopiëren?</string>
+    <string name="Cut">Knippen</string>
+    <string name="Paste">Plakken</string>
+    <string name="Merge">Samenvoegen</string>
+    <string name="MergeSucceed">Samenvoegen voltooid</string>
+    <string name="MergeSuccessInfo">Samenvoegen van huidige pagina\'s voltooid</string>
+    <string name="MergeFailed">Samenvoegen mislukt</string>
+    <string name="MergeFailedInfo">Samenvoegen van huidige pagina\'s kan niet worden voltooid</string>
+    <string name="GrantedPermissionSucceed">Autorisatie voltooid!</string>
+    <string name="GrantedPermissionFailed">Autorisatie mislukt!</string>
+    <string name="permission">Autoriteit</string>
+    <string name="no_permissions">Er zijn machtigingen nodig</string>
+    <string name="settings">Instellingen</string>
+    <string name="help">Help</string>
+    <string name="string_help_text">Geen benodigde machtigingen voor het uitvoeren van programma\'s! Klik op \'Instelling\'-\'Applicatie\' om een app te selecteren om goed te keuren</string>
+    <string name="quit">Sluiten</string>
+    <string name="Success">Geslaagd</string>
+    <string name="CopySucceed">Kopiëren voltooid!</string>
+    <string name="MoveSucceed">Verplaatsen voltooid!</string>
+    <string name="Failed">Mislukt</string>
+    <string name="FailedInfo">U moet een andere notitie kiezen</string>
+    <string name="SavingInfo">Gegevens worden nu opgeslagen, een ogenblik geduld!</string>
+    <string name="TitleSaving">Bezig met opslaan</string>
+    <string name="Share_Bluetooth">Bluetooth</string>
+    <string name="Share_Gmail">Gmail</string>
+    <string name="Share_Wechat">Wechat</string>
+    <string name="Share_QQ">QQ</string>
+    <string name="Share_Evernote">Evernote</string>
+    <string name="Share_Drive">Drive</string>
+    <string name="Share_Gallery">Gallery</string>
+    <string name="Share_PDF">Opslaan als pdf</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Uw Notebooks aanpassen</string>
+    <string name="HelpTitleStep_3">Notitiepagina\'s</string>
+    <string name="HelpTitleStep_4">Notities samenvoegen</string>
+    <string name="HelpTitleStep_5">Notities bewerken</string>
+    <string name="HelpTitleStep_6">Een notitie delen</string>
+    <string name="HelpDetailStep_6">U kunt uw notities delen als een afbeelding of als pdf. U kunt uw notities ook delen via Bluetooth, enz.</string>
+    <string name="HelpDetailStep_5">Wanneer u een notitie bewerkt, kunt u verschillende schrijfmiddelen gebruiken, de dikte van de pen instellen en verschillende kleuren gebruiken. U kunt zelfs tekst invoegen om extra inhoud te creëren.</string>
+    <string name="HelpDetailStep_4">Door op de knop \'samenvoegen\' @hanvon@ te drukken, kunt u een andere pagina kiezen om samen te voegen met uw huidige notitie.</string>
+    <string name="HelpDetailStep_3">U kunt snel een pagina bekijken in het voorbeeldvenster van uw notitieboek. U kunt ook lang op pagina\'s drukken en deze verslepen om de volgorde in het notitieboek te wijzigen.</string>
+    <string name="HelpDetailStep_2">Tik op de omslag van uw notitieboek op de instellingenknop @hanvon@ waar u de kleur en de stijl van uw omslag kunt wijzigen. Zo kunt u uw notitieboeken eenvoudig organiseren.</string>
+    <string name="HelpDetailStep_1">Bedankt dat u Lenovo Note Saver hebt gekozen voor het maken van al uw notities! Om u op gang te helpen, is er al een notitieboek met de naam \'Note Saver\' voor u gemaakt, waar al uw notities die u op het scherm of van het scherm af schrijft worden opgeslagen. U kunt deze te allen tijde bewerken.</string>
+    <string name="HelpStep_5_Des_1">Penseel en tekst</string>
+    <string name="HelpStep_5_Des_2">Een afbeelding invoegen</string>
+    <string name="HelpStep_5_Des_3">De inhoud omkaderen</string>
+    <string name="HelpStep_5_Des_4">Penseeltype</string>
+    <string name="HelpStep_5_Des_5">Penseeldikte</string>
+    <string name="HelpStep_5_Des_6">Dubbelklik om de kleur aan te passen</string>
+    <string name="AppVersion">Version</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo Alle rechten voorbehouden</string>
+    <string name="SettingOpenInquiry">Vraag me bij het openen naar de standaardlocatie van de notitie</string>
+    <string name="OpenInquiryTitle">Open de standaardlocatie van de notitie</string>
+    <string name="JumpToLatest">Ga naar de laatst bewerkte pagina</string>
+    <string name="JumpToEnd">Ga naar de laatste pagina</string>
+    <string name="LimitPictureAmount">De maximale invoer is bereikt.</string>
+
+</resources>

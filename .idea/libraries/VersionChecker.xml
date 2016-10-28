@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="VersionChecker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/VersionChecker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

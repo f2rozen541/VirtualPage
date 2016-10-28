@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Asetukset</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Tiedosto</string>
+    <string name="Edit">Muokkaa</string>
+    <string name="Canvas">Kangas</string>
+    <string name="Help">Ohje</string>
+    <string name="Exit">Poistu</string>
+    <string name="New">Uusi</string>
+    <string name="Open">Avaa</string>
+    <string name="Save">Tallenna</string>
+    <string name="SaveAs">Tallenna nimellä</string>
+    <string name="Undo">Kumoa</string>
+    <string name="Redo">Tee uudelleen</string>
+    <string name="Clear">Tyhjennä</string>
+    <string name="ChangeTexture">Vaihda kuviointia</string>
+    <string name="ResetTexture">Nollaa kuviointi</string>
+    <string name="About">Tietoja</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Valitse kuva</string>
+    <string name="Return">Palaa</string>
+    <string name="Delete">Poista</string>
+    <string name="Copy">Kopioi</string>
+    <string name="Import">Tuo</string>
+    <string name="Share">Jaa</string>
+    <string name="SaveSuccess">Tallennus onnistui!</string>
+    <string name="Saved">Tallennettu</string>
+    <string name="SaveFail">Tallennus epäonnistui</string>
+    <string name="FileName">Anna nimi</string>
+    <string name="Prompt">Kehote</string>
+    <string name="Yes">Kyllä</string>
+    <string name="No">Ei</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Peruuta</string>
+    <string name="Apply">Käytä</string>
+    <string name="View">Näytä heti</string>
+    <string name="ChangeBackground">Vaihda taustakuva</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Tämän muistiinpanon poistaminen poistaa kaikki sen sisältämät sivut. Haluatko varmasti poistaa tämän muistiinpanon?</string>
+    <string name="details">Tiedot</string>
+    <string name="Merging">Yhdistäminen</string>
+    <string name="Stop">Lopeta</string>
+    <string name="stop_merge">Lopeta yhdistäminen</string>
+    <string name="pages"> Sivut</string>
+    <string name="noteName">Muistiinpano</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Tämä nimi on jo olemassa Anna toinen nimi.</string>
+    <string name="attribute_empty_title_forbidden">Nimi on pakollinen</string>
+    <string name="DeleteAPageWarningInfo">Haluatko poistaa tämän sivun?</string>
+    <string name="WarningNoPageInfo">Sinun on lisättävä ensin sivu</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Muistiinpanon nimi</string>
+    <string name="SelectCover">Valitse kansi</string>
+    <string name="RenameNoticeInfoTitle">Huomautus</string>
+    <string name="RenameNoticeInfoDetail">Tämä toiminto voidaan ottaa käyttöön vain, kun on valittu muistiinpano.</string>
+    <string name="RenameWarningInfo">Antamasi nimi ei kelpaa.</string>
+    <string name="add_picture">Lisää kuva</string>
+    <string name="take_photo">Ota kuva</string>
+    <string name="choose_image">Valitse kuva</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Jaa</string>
+    <string name="MovePageTitle">Siirrä sivu</string>
+    <string name="JustMove">Siirrä suoraan</string>
+    <string name="DialogMoveToNotice">Haluatko siirtää vai kopioida sivun?</string>
+    <string name="Cut">Leikkaa</string>
+    <string name="Paste">Liitä</string>
+    <string name="Merge">Yhdistä</string>
+    <string name="MergeSucceed">Yhdistetty</string>
+    <string name="MergeSuccessInfo">Tämän sivun yhdistäminen onnistui</string>
+    <string name="MergeFailed">Yhdistäminen epäonnistui</string>
+    <string name="MergeFailedInfo">Tätä sivua ei voi yhdistää</string>
+    <string name="GrantedPermissionSucceed">Todennus onnistui!</string>
+    <string name="GrantedPermissionFailed">Todennus epäonnistui!</string>
+    <string name="permission">Valtuudet</string>
+    <string name="no_permissions">Hanki tarpeelliset oikeudet</string>
+    <string name="settings">Asetukset</string>
+    <string name="help">Ohje</string>
+    <string name="string_help_text">Ohjelmalla ei ole tarpeellisia oikeuksia! Valitse valtuutettava sovellus napsauttamalla Asetus – Sovellus</string>
+    <string name="quit">Lopeta</string>
+    <string name="Success">Onnistui</string>
+    <string name="CopySucceed">Kopioitu!</string>
+    <string name="MoveSucceed">Siirretty!</string>
+    <string name="Failed">Epäonnistui</string>
+    <string name="FailedInfo">Sinun on valittava toinen muistiinpano</string>
+    <string name="SavingInfo">Tietoja tallennetaan, odota!</string>
+    <string name="TitleSaving">Tallennetaan</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Tallenna PDF:nä</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Mukauta muistikirjojasi</string>
+    <string name="HelpTitleStep_3">Muistiinpanon sivut</string>
+    <string name="HelpTitleStep_4">Muistiinpanojen yhdistäminen</string>
+    <string name="HelpTitleStep_5">Muistiinpanon muokkaus</string>
+    <string name="HelpTitleStep_6">Jaa muistiinpano</string>
+    <string name="HelpDetailStep_6">Voit viedä muistiinpanot kuvana tai PDF-muodossa. Voit myös jakaa muistiinpanot Bluetooth-yhteydellä ja paljon muuta.</string>
+    <string name="HelpDetailStep_5">Kun muokkaat muistiinpanoa, voit valita erilaisia kirjoitustyökaluja ja kynän paksuuden sekä käyttää eri värejä. Voit jopa luoda lisää sisältöä lisäämällä tekstiä.</string>
+    <string name="HelpDetailStep_4">Painamalla yhdistämispainiketta @hanvon@ voit valita toisen sivun, joka yhdistetään nykyiseen muistiinpanoon.</string>
+    <string name="HelpDetailStep_3">Voit esittää minkä tahansa sivun nopeasti muistikirjan esikatselupaneelissa. Voit myös järjestää sivut uudelleen painamalla niitä pitkään ja vetämällä niitä.</string>
+    <string name="HelpDetailStep_2">Napauta muistikirjan kannessa asetuspainiketta @hanvon@, niin voit vaihtaa kannen värin ja tyylin. Tämä auttaa järjestelemään muistikirjat helposti.</string>
+    <string name="HelpDetailStep_1">Kiitos, että valitsit Lenovo Note Saverin kaikille muistiinpanoillesi! Auttaaksemme sinut alkuun olemme jo luoneet puolestasi muistikirjan nimeltä Note Saver. Kaikki näyttö päällä ja sammuksissa tekemäsi muistiinpanot tallennetaan sinne. Voit muokata niitä milloin tahansa.</string>
+    <string name="HelpStep_5_Des_1">Sivellin ja teksti</string>
+    <string name="HelpStep_5_Des_2">Lisää kuva</string>
+    <string name="HelpStep_5_Des_3">Kehystä sisältö</string>
+    <string name="HelpStep_5_Des_4">Sivellintyyppi</string>
+    <string name="HelpStep_5_Des_5">Siveltimen paksuus</string>
+    <string name="HelpStep_5_Des_6">Voit säätää väriä kaksoisnapsauttamalla</string>
+    <string name="AppVersion">Versio</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo. Kaikki oikeudet pidätetään</string>
+    <string name="SettingOpenInquiry">Kysy avattaessa muistiinpanon oletussiirtymäkohtaa</string>
+    <string name="OpenInquiryTitle">Avaa oletussiirtymäkohta muistiinpanolle</string>
+    <string name="JumpToLatest">Siirry viimeksi muokatulle sivulle</string>
+    <string name="JumpToEnd">Siirry viimeiselle sivulle</string>
+    <string name="LimitPictureAmount">Syötteesi on saavuttanut maksimirajan.</string>
+
+</resources>

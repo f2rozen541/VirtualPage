@@ -1,0 +1,3 @@
+<resources>
+    <style name="NoDisplay" parent="android:Theme.Translucent.NoTitleBar"></style>
+</resources>

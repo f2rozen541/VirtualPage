@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Beállítások</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fájl</string>
+    <string name="Edit">Szerkesztés</string>
+    <string name="Canvas">Vászon</string>
+    <string name="Help">Súgó</string>
+    <string name="Exit">Kilépés</string>
+    <string name="New">Új</string>
+    <string name="Open">Megnyitás</string>
+    <string name="Save">Mentés</string>
+    <string name="SaveAs">Mentés másként</string>
+    <string name="Undo">Visszavonás</string>
+    <string name="Redo">Újra</string>
+    <string name="Clear">Visszavonás</string>
+    <string name="ChangeTexture">Textúra módosítása</string>
+    <string name="ResetTexture">Textúra visszaállítása</string>
+    <string name="About">Rólunk</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Kérjük, válasszon ki egy képet</string>
+    <string name="Return">Vissza</string>
+    <string name="Delete">Törlés</string>
+    <string name="Copy">Másolás</string>
+    <string name="Import">Importálás</string>
+    <string name="Share">Megosztás</string>
+    <string name="SaveSuccess">A mentés sikeres!</string>
+    <string name="Saved">Mentve</string>
+    <string name="SaveFail">A mentés sikertelen</string>
+    <string name="FileName">Kérjük, adjon meg egy nevet</string>
+    <string name="Prompt">Kérdés</string>
+    <string name="Yes">Igen</string>
+    <string name="No">Nem</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Mégse</string>
+    <string name="Apply">Alkalmaz</string>
+    <string name="View">Megtekintés most</string>
+    <string name="ChangeBackground">Háttér módosítása</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">A jegyzet törlése minden oldalt töröl, amelyen a jegyzet szerepel. Biztosan törli a jegyzetet?</string>
+    <string name="details">Részletek</string>
+    <string name="Merging">Egyesítés</string>
+    <string name="Stop">Leállítás</string>
+    <string name="stop_merge">Egyesítés leállítása</string>
+    <string name="pages"> Oldalak</string>
+    <string name="noteName">Jegyzet</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Ez a cím már regisztrálva van. Kérjük, adjon meg másik címet.</string>
+    <string name="attribute_empty_title_forbidden">A dokumentumnak címet kell adni</string>
+    <string name="DeleteAPageWarningInfo">Biztosan törli ezt az oldalt?</string>
+    <string name="WarningNoPageInfo">Először adjon hozzá egy oldalt</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Jegyzet neve</string>
+    <string name="SelectCover">Válasszon borítót</string>
+    <string name="RenameNoticeInfoTitle">Megjegyzés:</string>
+    <string name="RenameNoticeInfoDetail">Ez a funkció csak akkor használható, ha kijelöl egy jegyzetet.</string>
+    <string name="RenameWarningInfo">A megadott név érvénytelen.</string>
+    <string name="add_picture">Kép hozzáadása</string>
+    <string name="take_photo">Fénykép készítése</string>
+    <string name="choose_image">Válasszon képet</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Megosztás</string>
+    <string name="MovePageTitle">Oldal mozgatása</string>
+    <string name="JustMove">Közvetlen mozgatás</string>
+    <string name="DialogMoveToNotice">Kívánja mozgatni vagy másolni az oldalt?</string>
+    <string name="Cut">Kivágás</string>
+    <string name="Paste">Beillesztés</string>
+    <string name="Merge">Egyesítés</string>
+    <string name="MergeSucceed">Az egyesítés sikeres</string>
+    <string name="MergeSuccessInfo">A jelenlegi oldal egyesítése sikeres</string>
+    <string name="MergeFailed">az egyesítés sikertelen</string>
+    <string name="MergeFailedInfo">A jelenlegi oldal egyesítése nem fejeződött be</string>
+    <string name="GrantedPermissionSucceed">A hitelesítés sikeres!</string>
+    <string name="GrantedPermissionFailed">A hitelesítés sikertelen!</string>
+    <string name="permission">Engedély</string>
+    <string name="no_permissions">Engedély szükséges</string>
+    <string name="settings">Beállítások</string>
+    <string name="help">Súgó</string>
+    <string name="string_help_text">Nem rendelkezik a program futtatásához szükséges engedéllyel! Kérjük, kattintson a „Beállítás” - „Alkalmazások” menüpontra az alkalmazás engedélyezéséhez</string>
+    <string name="quit">Kilépés</string>
+    <string name="Success">Sikeres</string>
+    <string name="CopySucceed">A másolás sikeres!</string>
+    <string name="MoveSucceed">A mozgatás sikeres!</string>
+    <string name="Failed">Sikertelen</string>
+    <string name="FailedInfo">Válasszon ki másik jegyzetet</string>
+    <string name="SavingInfo">Az adatok mentése folyamatban, kérjük várjon!</string>
+    <string name="TitleSaving">Mentés folyamatban</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Mentés PDF-ként</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">A jegyzetek testre szabása</string>
+    <string name="HelpTitleStep_3">Jegyzetoldalak</string>
+    <string name="HelpTitleStep_4">Jegyzetek egyesítése</string>
+    <string name="HelpTitleStep_5">ediJegyzetek szerkesztéseting</string>
+    <string name="HelpTitleStep_6">Jegyzetek megosztása</string>
+    <string name="HelpDetailStep_6">A jegyzeteket képként vagy PDF formátumban is exportálhatja. A jegyzeteket Bluetooth segítségével, illetve egyéb módokon is megoszthatja.</string>
+    <string name="HelpDetailStep_5">Egy jegyzet szerkesztése közben több íróeszköz közül választhat, beállíthatja a vonalvastagságot, illetve a toll színét. Akár szöveget is beszúrhat, további tartalmat hozva létre.</string>
+    <string name="HelpDetailStep_4">A @hanvon@ „egyesítés” gomb megnyomásával összevonhatja a jelenlegi jegyzetet egy másik oldallal.</string>
+    <string name="HelpDetailStep_3">A jegyzetek előnézeti mezőjében bármelyik oldalt azonnal megtekintheti. Az oldalak nyomva tartásával és húzásával átrendezheti azok sorrendjét.</string>
+    <string name="HelpDetailStep_2">A jegyzetek borítóján található @hanvon@ beállítások gombra koppintva módosíthatja a borító színét és stílusát. Így könnyen rendet tarthat a jegyzetei között.</string>
+    <string name="HelpDetailStep_1">Köszönjük, hogy a Lenovo Note Saver alkalmazást választotta! A kényelmesebb kezdés érdekében létrehoztunk Önnek egy „Note Saver” című jegyzettömböt, amelybe a képernyőn és azon kívül készített jegyzeteit mentheti. Ezeket később bármikor szerkesztheti.</string>
+    <string name="HelpStep_5_Des_1">Ecset és szöveg</string>
+    <string name="HelpStep_5_Des_2">Kép beszúrása</string>
+    <string name="HelpStep_5_Des_3">Tartalom bekeretezése</string>
+    <string name="HelpStep_5_Des_4">Ecset típusa</string>
+    <string name="HelpStep_5_Des_5">Ecset vastagsága</string>
+    <string name="HelpStep_5_Des_6">Kattintson kétszer a szín beállításához</string>
+    <string name="AppVersion">Verzió</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo Minden jog fenntartva</string>
+    <string name="SettingOpenInquiry">Rákérdezés az alapértelmezett jegyzetpont megnyitásakor</string>
+    <string name="OpenInquiryTitle">Az alapértelmezett jegyzetpont megnyitása</string>
+    <string name="JumpToLatest">Ugrás az utolsó szerkesztett oldalra</string>
+    <string name="JumpToEnd">Ugrás az utolsó oldalra</string>
+    <string name="LimitPictureAmount">A bevitt adatok elérték a határértékét.</string>
+
+</resources>

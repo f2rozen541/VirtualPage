@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Datei</string>
+    <string name="Edit">Bearbeiten</string>
+    <string name="Canvas">Canvas</string>
+    <string name="Help">Hilfe</string>
+    <string name="Exit">Beenden</string>
+    <string name="New">Neu</string>
+    <string name="Open">Öffnen</string>
+    <string name="Save">Speichern</string>
+    <string name="SaveAs">Speichern unter</string>
+    <string name="Undo">Rückgängig</string>
+    <string name="Redo">Wiederholen</string>
+    <string name="Clear">Löschen</string>
+    <string name="ChangeTexture">Struktur ändern</string>
+    <string name="ResetTexture">Struktur zurücksetzen</string>
+    <string name="About">Info</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Wählen Sie ein Bild.</string>
+    <string name="Return">Zurück</string>
+    <string name="Delete">Löschen</string>
+    <string name="Copy">Kopieren</string>
+    <string name="Import">Importieren</string>
+    <string name="Share">Freigeben</string>
+    <string name="SaveSuccess">Erfolgreich gespeichert!</string>
+    <string name="Saved">Gespeichert</string>
+    <string name="SaveFail">Speichern fehlgeschlagen</string>
+    <string name="FileName">Geben Sie einen Namen ein.</string>
+    <string name="Prompt">Aufforderung</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nein</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Abbrechen</string>
+    <string name="Apply">Anwenden</string>
+    <string name="View">Jetzt anzeigen</string>
+    <string name="ChangeBackground">Hintergrund ändern</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Wenn Sie diese Notiz löschen, werden auch alle darin enthaltenen Seiten gelöscht. Möchten Sie diese Notiz wirklich löschen?</string>
+    <string name="details">Details</string>
+    <string name="Merging">Zusammenführen</string>
+    <string name="Stop">Anhalten</string>
+    <string name="stop_merge">Zusammenführen anhalten</string>
+    <string name="pages"> Seiten</string>
+    <string name="noteName">Hinweis</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Dieser Titel ist bereits vorhanden. Bitte geben Sie einen anderen Titel ein.</string>
+    <string name="attribute_empty_title_forbidden">Ein anderer Titel ist erforderlich.</string>
+    <string name="DeleteAPageWarningInfo">Möchten Sie diese Seite löschen?</string>
+    <string name="WarningNoPageInfo">Sie müssen zuerst eine Seite hinzufügen.</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Name der Notiz:</string>
+    <string name="SelectCover">Ein Cover wählen</string>
+    <string name="RenameNoticeInfoTitle">Hinweis</string>
+    <string name="RenameNoticeInfoDetail">Diese Funktion kann nur aktiviert werden, wenn eine Notiz ausgewählt wurde.</string>
+    <string name="RenameWarningInfo">Der von Ihnen eingegebene Name ist ungültig.</string>
+    <string name="add_picture">Ein Bild hinzufügen</string>
+    <string name="take_photo">Ein Foto aufnehmen</string>
+    <string name="choose_image">Bild wählen</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Freigeben</string>
+    <string name="MovePageTitle">Die Seite verschieben</string>
+    <string name="JustMove">Direkt verschieben</string>
+    <string name="DialogMoveToNotice">Möchten Sie die Seite verschieben oder kopieren?</string>
+    <string name="Cut">Ausschneiden</string>
+    <string name="Paste">Einfügen</string>
+    <string name="Merge">Zusammenführen</string>
+    <string name="MergeSucceed">Zusammenführen erfolgreich</string>
+    <string name="MergeSuccessInfo">Das Zusammenführen der aktuellen Seite war erfolgreich.</string>
+    <string name="MergeFailed">Zusammenführen fehlgeschlagen</string>
+    <string name="MergeFailedInfo">Das Zusammenführen der aktuellen Seite kann nicht abgeschlossen werden.</string>
+    <string name="GrantedPermissionSucceed">Autorisierung erfolgreich!</string>
+    <string name="GrantedPermissionFailed">Autorisierung fehlgeschlagen!</string>
+    <string name="permission">Berechtigung</string>
+    <string name="no_permissions">Berechtigungen erforderlich</string>
+    <string name="settings">Einstellungen</string>
+    <string name="help">Hilfe</string>
+    <string name="string_help_text">Für das ausgeführte Programm ist keine Berechtigung erforderlich! Klicken Sie auf \"Einstellung\"-\"Anwendung\", um die zu autorisierende App auszuwählen.</string>
+    <string name="quit">Beenden</string>
+    <string name="Success">Erfolgreich</string>
+    <string name="CopySucceed">Kopieren erfolgreich!</string>
+    <string name="MoveSucceed">Verschieben erfolgreich!</string>
+    <string name="Failed">Fehlgeschlagen</string>
+    <string name="FailedInfo">Sie müssen eine andere Notiz auswählen.</string>
+    <string name="SavingInfo">Daten werden jetzt gespeichert. Bitte warten Sie!</string>
+    <string name="TitleSaving">Wird gespeichert</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Als PDF speichern</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Ihre Notizbücher anpassen</string>
+    <string name="HelpTitleStep_3">Notizseiten</string>
+    <string name="HelpTitleStep_4">Zusammenführen von Notizen</string>
+    <string name="HelpTitleStep_5">Bearbeiten von Notizen</string>
+    <string name="HelpTitleStep_6">Eine Notiz teilen</string>
+    <string name="HelpDetailStep_6">Sie können Ihre Notizen als Bild oder PDF exportieren. Sie können Ihre Notizen auch über Bluetooth usw. teilen.</string>
+    <string name="HelpDetailStep_5">Beim Bearbeiten einer Notiz können Sie zwischen verschiedenen Schreibwerkzeugen wählen, die Stiftstärke festlegen und verschiedene Farben verwenden. Sie können sogar Text einfügen, um zusätzliche Inhalte zu erstellen.</string>
+    <string name="HelpDetailStep_4">Wenn Sie auf die Taste \"Zusammenfügen\" @hanvon@ drücken, können Sie eine andere Seite auswählen, um diese mit Ihrer aktuellen Notiz zusammenzufügen.</string>
+    <string name="HelpDetailStep_3">Sie können eine beliebige Seite schnell im Vorschaubereich Ihres Notizbuchs anzeigen. Sie können Seiten auch gedrückt halten und ziehen, um deren Reihenfolge im Notizbuch zu ändern.</string>
+    <string name="HelpDetailStep_2">Tippen Sie auf dem Cover Ihres Notizbuchs auf die Taste für die Einstellungen @hanvon@, um die Farbe und den Stil Ihres Covers zu ändern. So können Sie Ihre Notizbücher einfach organisieren.</string>
+    <string name="HelpDetailStep_1">Vielen Dank, dass Sie sich zum Erstellen all Ihrer Notizen für Lenovo Note Saver entschieden haben. Damit Sie schnell beginnen können, wurde bereits ein Notizbuch mit der Bezeichnung \"Note Saver\" erstellt, in dem all Ihre Notizen gespeichert werden, die Sie bei innerhalb und außerhalb des Bildschirms erstellen. Sie können diese jederzeit ändern.</string>
+    <string name="HelpStep_5_Des_1">Pinsel und Text</string>
+    <string name="HelpStep_5_Des_2">Ein Bild einfügen</string>
+    <string name="HelpStep_5_Des_3">Inhalt einrahmen</string>
+    <string name="HelpStep_5_Des_4">Pinseltyp</string>
+    <string name="HelpStep_5_Des_5">Pinselstärke</string>
+    <string name="HelpStep_5_Des_6">Doppelklick, um die Farbe anzupassen</string>
+    <string name="AppVersion">Version</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright © 2016 Lenovo. Alle Rechte vorbehalten.</string>
+    <string name="SettingOpenInquiry">Fragen, wenn das Standardverzeichnung für Notizen geöffnet wird</string>
+    <string name="OpenInquiryTitle">Standardverzeichnis für Notizen öffnen</string>
+    <string name="JumpToLatest">Zur zuletzt bearbeiteten Seite springen</string>
+    <string name="JumpToEnd">Zur letzten Seite springen</string>
+    <string name="LimitPictureAmount">Ihre Eingabe hat den maximalen Grenzwert erreicht.</string>
+</resources>

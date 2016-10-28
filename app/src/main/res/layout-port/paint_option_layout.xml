@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="62dp">
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/ib_big"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="48dp"
+        android:src="@drawable/stroke_picker_big_selector"
+        hanvon:SelectedBgRes="@drawable/stroke_big_select"
+        hanvon:UnSelectedBgRes="@drawable/stroke_big" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/ib_middle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@id/ib_big"
+        android:src="@drawable/stroke_picker_middle_selector"
+        hanvon:SelectedBgRes="@drawable/stroke_middle_select"
+        hanvon:UnSelectedBgRes="@drawable/stroke_middle" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/ib_small"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@id/ib_middle"
+        android:src="@drawable/stroke_picker_small_selector"
+        hanvon:SelectedBgRes="@drawable/stroke_small_select"
+        hanvon:UnSelectedBgRes="@drawable/stroke_small" />
+
+    <FrameLayout
+        android:id="@+id/fl_eraser"
+        android:layout_width="30dp"
+        android:layout_height="58dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@id/ib_small">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="58dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/img_paint_eraser" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_pen"
+        android:layout_width="19dp"
+        android:layout_height="58dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@id/fl_eraser"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="58dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_paint_pen" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_pencil"
+        android:layout_width="20dp"
+        android:layout_height="58dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@id/fl_pen">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="58dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/img_paint_pencil" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_brush"
+        android:layout_width="23dp"
+        android:layout_height="58dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@id/fl_pencil">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="58dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/img_paint_brush" />
+    </FrameLayout>
+</RelativeLayout>

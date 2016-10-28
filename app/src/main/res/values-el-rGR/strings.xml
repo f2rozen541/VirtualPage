@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Αρχείο</string>
+    <string name="Edit">Επεξεργασία</string>
+    <string name="Canvas">Καμβάς</string>
+    <string name="Help">Βοήθεια</string>
+    <string name="Exit">Επεξεργασία</string>
+    <string name="New">Νέο</string>
+    <string name="Open">Άνοιγμα</string>
+    <string name="Save">Αποθήκευση</string>
+    <string name="SaveAs">Αποθήκευση ως</string>
+    <string name="Undo">Αναίρεση</string>
+    <string name="Redo">Ακύρωση αναίρεσης</string>
+    <string name="Clear">Απαλοιφή</string>
+    <string name="ChangeTexture">Αλλαγή υφής</string>
+    <string name="ResetTexture">Επαναφορά υφής</string>
+    <string name="About">Πληροφορίες</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Επιλέξτε εικόνα</string>
+    <string name="Return">Επιστροφή</string>
+    <string name="Delete">Διαγραφή</string>
+    <string name="Copy">Αντιγραφή</string>
+    <string name="Import">Εισαγωγή</string>
+    <string name="Share">Κοινή χρήση</string>
+    <string name="SaveSuccess">Επιτυχής αποθήκευση!</string>
+    <string name="Saved">Αποθηκεύτηκε</string>
+    <string name="SaveFail">Ανεπιτυχής αποθήκευση</string>
+    <string name="FileName">Καταχωρίστε όνομα</string>
+    <string name="Prompt">Προτροπή</string>
+    <string name="Yes">Ναι</string>
+    <string name="No">Όχι</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Ακύρωση</string>
+    <string name="Apply">Εφαρμογή</string>
+    <string name="View">Προβολή τώρα</string>
+    <string name="ChangeBackground">Αλλαγή φόντου</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Αν διαγράψετε τη σημείωση, θα διαγραφούν όλες οι σελίδες που περιέχει. Σίγουρα θέλετε να διαγραφεί η σημείωση;</string>
+    <string name="details">Λεπτομέρειες</string>
+    <string name="Merging">Συγχώνευση σε εξέλιξη</string>
+    <string name="Stop">Διακοπή</string>
+    <string name="stop_merge">Διακοπή συγχώνευσης</string>
+    <string name="pages">Σελίδες</string>
+    <string name="noteName">Σημείωση</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Αυτός ο τίτλος ήδη υπάρχει. Καταχωρίστε κάποιο άλλο όνομα τίτλου.</string>
+    <string name="attribute_empty_title_forbidden">Απαιτείται τίτλος</string>
+    <string name="DeleteAPageWarningInfo">Θέλετε να διαγραφεί η σελίδα;</string>
+    <string name="WarningNoPageInfo">Πρέπει πρώτα να προσθέσετε μια σελίδα</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Όνομα σημείωσης</string>
+    <string name="SelectCover">Επιλογή εξωφύλλου</string>
+    <string name="RenameNoticeInfoTitle">Ειδοποίηση</string>
+    <string name="RenameNoticeInfoDetail">Μπορείτε να ενεργοποιήσετε τη λειτουργία αυτή μόνο αφού επιλέξετε κάποια σημείωση.</string>
+    <string name="RenameWarningInfo">Το όνομα που έχετε καταχωρίσει δεν είναι έγκυρο.</string>
+    <string name="add_picture">Προσθήκη εικόνας</string>
+    <string name="take_photo">Λήψη φωτογραφίας</string>
+    <string name="choose_image">Επιλογή εικόνας</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Κοινή χρήση</string>
+    <string name="MovePageTitle">Μετακίνηση της σελίδας</string>
+    <string name="JustMove">Απευθείας μετακίνηση</string>
+    <string name="DialogMoveToNotice">Θέλετε να μετακινηθεί ή να αντιγραφεί η σελίδα;</string>
+    <string name="Cut">Αποκοπή</string>
+    <string name="Paste">Επικόλληση</string>
+    <string name="Merge">Συγχώνευση</string>
+    <string name="MergeSucceed">Επιτυχής συγχώνευση</string>
+    <string name="MergeSuccessInfo">Επιτυχής συγχώνευσης τρέχουσας σελίδας</string>
+    <string name="MergeFailed">Ανεπιτυχής συγχώνευση</string>
+    <string name="MergeFailedInfo">Η συγχώνευση της τρέχουσας σελίδας δεν μπορεί να ολοκληρωθεί</string>
+    <string name="GrantedPermissionSucceed">Επιτυχής εξουσιοδότηση!</string>
+    <string name="GrantedPermissionFailed">Ανεπιτυχής εξουσιοδότηση!</string>
+    <string name="permission">Εξουσιοδότηση</string>
+    <string name="no_permissions">Να απαιτούνται τα απαραίτητα δικαιώματα</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="help">Βοήθεια</string>
+    <string name="string_help_text">Δεν χρειάζεται εξουσιοδότηση για την εκτέλεση του προγράμματος! Κάντε κλικ στις επιλογές «Ρύθμιση»-«Εφαρμογή» για να επιλέξετε την εφαρμογή που πρέπει να εξουσιοδοτηθεί.</string>
+    <string name="quit">Τερματισμός</string>
+    <string name="Success">Επιτυχία</string>
+    <string name="CopySucceed">Επιτυχής αντιγραφή!</string>
+    <string name="MoveSucceed">Επιτυχής μετακίνηση!</string>
+    <string name="Failed">Αποτυχία</string>
+    <string name="FailedInfo">Πρέπει να επιλέξετε κάποια άλλη σημείωση.</string>
+    <string name="SavingInfo">Αποθήκευση δεδομένων σε εξέλιξη. Περιμένετε!</string>
+    <string name="TitleSaving">Αποθήκευση σε εξέλιξη</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Αποθήκευση ως PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Εξατομίκευση των τετραδίων σας</string>
+    <string name="HelpTitleStep_3">Σελίδες σημειώσεων</string>
+    <string name="HelpTitleStep_4">Συγχώνευση σημειώσεων</string>
+    <string name="HelpTitleStep_5">Επεξεργασία σημειώσεων</string>
+    <string name="HelpTitleStep_6">Κοινή χρήση σημείωσης</string>
+    <string name="HelpDetailStep_6">Μπορείτε να εξαγάγετε τις σημειώσεις σας ως εικόνα ή σε μορφότυπο PDF. Μπορείτε επίσης να μοιραστείτε τις σημειώσεις σας μέσω Bluetooth ή USB.</string>
+    <string name="HelpDetailStep_5">Κατά την επεξεργασία μιας σημείωσης μπορείτε να επιλέξετε διαφορετικά εργαλεία γραφής, να καθορίσετε το πάχος της πένας και να χρησιμοποιήσετε διαφορετικά χρώματα. Μπορείτε ακόμη και να καταχωρίσετε κείμενο για να δημιουργήσετε πρόσθετο περιεχόμενο.</string>
+    <string name="HelpDetailStep_4">Πιέζοντας το κουμπί συγχώνευσης @hanvon@ μπορείτε να επιλέξετε κάποια άλλη σελίδα που θα συγχωνευθεί στην τρέχουσα σημείωσή σας.</string>
+    <string name="HelpDetailStep_3">Μπορείτε να δείτε γρήγορα οποιαδήποτε σελίδα στο τμήμα του παραθύρου προεπισκόπησης στο σημειωματάριό σας. Μπορείτε επίσης να πιέσετε παρατεταμένα και να σύρετε σελίδες για να αλλάξετε τη σειρά τους στο σημειωματάριο.</string>
+    <string name="HelpDetailStep_2">Από το εξώφυλλο του σημειωματαρίου σας πατήστε το κουμπί των ρυθμίσεων @hanvon@, μέσω των οποίων μπορείτε να αλλάξετε το χρώμα και το στιλ του εξωφύλλου σας. Έτσι μπορείτε να οργανώσετε εύκολα τα σημειωματάριά σας.</string>
+    <string name="HelpDetailStep_1">Σας ευχαριστούμε που επιλέξατε την εφαρμογή Lenovo Note Saver για να γράφετε όλες τις σημειώσεις σας! Για να σας βοηθήσουμε να ξεκινήσετε εύκολα, έχουμε ήδη δημιουργήσει ένα σημειωματάριο με τον τίτλο «Note Saver» όπου θα αποθηκεύονται όλες οι σημειώσεις που θα γράφετε εντός και εκτός οθόνης. Μπορείτε να τις επεξεργαστείτε ανά πάσα στιγμή.</string>
+    <string name="HelpStep_5_Des_1">Πινέλο και κείμενο</string>
+    <string name="HelpStep_5_Des_2">Εισαγωγή εικόνας</string>
+    <string name="HelpStep_5_Des_3">Εισαγωγή του περιεχομένου σε πλαίσιο</string>
+    <string name="HelpStep_5_Des_4">Τύπος πινέλου</string>
+    <string name="HelpStep_5_Des_5">Πάχος πινέλου</string>
+    <string name="HelpStep_5_Des_6">Κάντε διπλό κλικ για να ρυθμίσετε το χρώμα</string>
+    <string name="AppVersion">Έκδοση</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Πνευματικά δικαιώματα ©2016. Με επιφύλαξη κάθε νόμιμου δικαιώματος</string>
+    <string name="SettingOpenInquiry">Να ερωτώμαι κατά το άνοιγμα της προεπιλεγμένης θέσης μεταπήδησης σε σημειώσεις</string>
+    <string name="OpenInquiryTitle">Άνοιγμα της προεπιλεγμένης θέσης μεταπήδησης για σημείωση</string>
+    <string name="JumpToLatest">Μεταπήδηση στην τελευταία επεξεργασμένη σελίδα</string>
+    <string name="JumpToEnd">Μεταπήδηση στην τελευταία σελίδα</string>
+    <string name="LimitPictureAmount">Συμπληρώθηκε το μέγιστο όριο των εισαγωγών σας.</string>
+
+</resources>

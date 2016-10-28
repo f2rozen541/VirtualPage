@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Postavke</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Datoteka</string>
+    <string name="Edit">Uredi</string>
+    <string name="Canvas">Platno</string>
+    <string name="Help">Pomoć</string>
+    <string name="Exit">Izlaz</string>
+    <string name="New">Novo</string>
+    <string name="Open">Otvori</string>
+    <string name="Save">Sačuvaj</string>
+    <string name="SaveAs">Sačuvaj kao</string>
+    <string name="Undo">Opozovi</string>
+    <string name="Redo">Ponovi</string>
+    <string name="Clear">Obriši</string>
+    <string name="ChangeTexture">Promeni teksturu</string>
+    <string name="ResetTexture">Poništi teksturu</string>
+    <string name="About">O</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Izaberite sliku</string>
+    <string name="Return">Vrati</string>
+    <string name="Delete">Izbriši</string>
+    <string name="Copy">Kopiraj</string>
+    <string name="Import">Uvezi</string>
+    <string name="Share">Podeli</string>
+    <string name="SaveSuccess">Uspešno sačuvano!</string>
+    <string name="Saved">Sačuvano</string>
+    <string name="SaveFail">Neuspešno čuvanje</string>
+    <string name="FileName">Unesite naziv</string>
+    <string name="Prompt">Odzivnik</string>
+    <string name="Yes">Da</string>
+    <string name="No">Ne</string>
+    <string name="OK">POTVRDI</string>
+    <string name="Cancel">Otkaži</string>
+    <string name="Apply">Primeni</string>
+    <string name="View">Prikaži sada</string>
+    <string name="ChangeBackground">Promeni pozadinu</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Brisanjem ove beleške brišu se sve stranice koje je sadrže. Da li ste sigurni da želite da izbrišete ovu belešku?</string>
+    <string name="details">Detalji</string>
+    <string name="Merging">Objedinjavanje</string>
+    <string name="Stop">Zaustavi</string>
+    <string name="stop_merge">Zaustavi objedinjavanje</string>
+    <string name="pages"> Stranice</string>
+    <string name="noteName">Napomena</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Ovaj naslov već postoji. Unesite novi naslov.</string>
+    <string name="attribute_empty_title_forbidden">Naslov je obavezan</string>
+    <string name="DeleteAPageWarningInfo">Da li želite da izbrišete ovu stranicu?</string>
+    <string name="WarningNoPageInfo">Prvo morate da dodate stranicu</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Naziv beleške</string>
+    <string name="SelectCover">Izaberi naslovnu stranicu</string>
+    <string name="RenameNoticeInfoTitle">Napomena</string>
+    <string name="RenameNoticeInfoDetail">Ova funkcija može biti omogućena samo kada je odabrana beleška.</string>
+    <string name="RenameWarningInfo">Naziv koji ste uneli nije važeći.</string>
+    <string name="add_picture">Dodaj sliku</string>
+    <string name="take_photo">Snimi fotografiju</string>
+    <string name="choose_image">Odaberi sliku</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Podeli</string>
+    <string name="MovePageTitle">Premesti stranicu</string>
+    <string name="JustMove">Premesti direktno</string>
+    <string name="DialogMoveToNotice">Da li želite da premestite stranicu ili kopirate stranicu?</string>
+    <string name="Cut">Iseci</string>
+    <string name="Paste">Nalepi</string>
+    <string name="Merge">Objedini</string>
+    <string name="MergeSucceed">Uspešno objedinjeno</string>
+    <string name="MergeSuccessInfo">Trenutno objedinjavanje stranica je uspelo</string>
+    <string name="MergeFailed">Objedinjavanje nije uspelo</string>
+    <string name="MergeFailedInfo">Trenutno objedinjavanje stranica se ne može završiti</string>
+    <string name="GrantedPermissionSucceed">Autorizacija je uspela!</string>
+    <string name="GrantedPermissionFailed">Autorizacija nije uspela!</string>
+    <string name="permission">Autoritet</string>
+    <string name="no_permissions">Zahtevaju se neophodne dozvole</string>
+    <string name="settings">Postavke</string>
+    <string name="help">Pomoć</string>
+    <string name="string_help_text">Ne postoji neophodni autoritet za pokretanje programa! Kliknite na „Podešavanje“-„Aplikacija“ da biste odabrali aplikaciju za autorizaciju</string>
+    <string name="quit">Odustani</string>
+    <string name="Success">Uspešno</string>
+    <string name="CopySucceed">Uspešno kopirano!</string>
+    <string name="MoveSucceed">Uspešno premešteno!</string>
+    <string name="Failed">Neuspešno</string>
+    <string name="FailedInfo">Morate odabrati drugu belešku</string>
+    <string name="SavingInfo">Čuvanje podataka je u toku, sačekajte!</string>
+    <string name="TitleSaving">Čuvanje</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Sačuvaj kao PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Prilagodite svoje beležnice</string>
+    <string name="HelpTitleStep_3">Stranice sa beleškama</string>
+    <string name="HelpTitleStep_4">Objedinjavanje beleški</string>
+    <string name="HelpTitleStep_5">Uređivanje beleški</string>
+    <string name="HelpTitleStep_6">Podeli belešku</string>
+    <string name="HelpDetailStep_6">Možete da izvezete svoje beleške kao sliku ili u PDF formatu. Beleške možete da delite i preko funkcije Bluetooth ili drugih funkcija.</string>
+    <string name="HelpDetailStep_5">Kada uređujete belešku možete da odaberete različite alatke za pisanje, postavite debljinu olovke i koristite različite boje. Čak možete i da umetnete tekst za kreiranje dodatnog sadržaja.</string>
+    <string name="HelpDetailStep_4">Pritiskom na dugme „merge“ @hanvon@ možete da odaberete neku drugu stranicu da biste je objedinili sa trenutnom beleškom.</string>
+    <string name="HelpDetailStep_3">Možete brzo da pregledate bilo koju stranicu u oknu za pregled beležnice. Takođe možete dugo da pritisnete i prevučete stranice da biste preuredili njihov redosled u beležnici.</string>
+    <string name="HelpDetailStep_2">Na naslovnoj stranici beležnice dodirnite dugme za postavke @hanvon@, gde možete da menjate boju i stil naslovne stranice. To vam pomaže da jednostavno organizujete beležnice.</string>
+    <string name="HelpDetailStep_1">Hvala vam što ste odabrali Lenovo Note Saver za hvatanje svih svojih beleški! Da bismo vam olakšali početak rada, za vas smo već kreirali beležnicu pod nazivom „Note Saver“, u kojoj će se čuvati sve vaše beleške upisane na ekranu i van njega. Možete ih slobodno uređivati u bilo kom trenutku.</string>
+    <string name="HelpStep_5_Des_1">Četkica i tekst</string>
+    <string name="HelpStep_5_Des_2">Umetni sliku</string>
+    <string name="HelpStep_5_Des_3">Uokviri sadržaj</string>
+    <string name="HelpStep_5_Des_4">Tip četkice</string>
+    <string name="HelpStep_5_Des_5">Debljina četkice</string>
+    <string name="HelpStep_5_Des_6">Dva puta kliknite da biste prilagodili boju</string>
+    <string name="AppVersion">Verzija</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Copyright ©2016 Lenovo Sva prava zadržana</string>
+    <string name="SettingOpenInquiry">Pitaj me prilikom otvaranja podrazumevane lokacije za prelazak beleške</string>
+    <string name="OpenInquiryTitle">Otvori podrazumevanu lokaciju prelaska za belešku</string>
+    <string name="JumpToLatest">Pređi na poslednju uređenu stranicu</string>
+    <string name="JumpToEnd">Pređi na poslednju stranicu</string>
+    <string name="LimitPictureAmount">Vaš unos je dostigao ograničenje.</string>
+
+</resources>

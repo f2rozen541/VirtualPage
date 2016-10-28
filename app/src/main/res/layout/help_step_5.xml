@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="564px"
+        android:layout_marginTop="72px"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110px"
+                android:gravity="center"
+                android:text="@string/HelpStep_5_Des_1"
+                android:textColor="@color/TextHelpDetail"
+                android:textSize="24px" />
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:text="@string/HelpStep_5_Des_2"
+                android:textColor="@color/TextHelpDetail"
+                android:textSize="24px" />
+
+            <TextView
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:text="@string/HelpStep_5_Des_3"
+                android:textColor="@color/TextHelpDetail"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_showImg"
+            android:layout_width="match_parent"
+            android:layout_height="430px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:gravity="center"
+                android:text="@string/HelpStep_5_Des_4"
+                android:textColor="@color/TextHelpDetail"
+                android:textSize="24px" />
+
+            <TextView
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65px"
+                android:gravity="center"
+                android:text="@string/HelpStep_5_Des_5"
+                android:textColor="@color/TextHelpDetail"
+                android:textSize="24px" />
+
+            <TextView
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/HelpStep_5_Des_6"
+                android:textColor="@color/TextHelpDetail"
+                android:textSize="24px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/HelpTextTitle"
+        android:text="@string/HelpTitleStep_5" />
+
+    <EditText
+        android:id="@+id/et_detail"
+        style="@style/HelpTextDetail"
+        android:text="@string/HelpDetailStep_5" />
+</LinearLayout>

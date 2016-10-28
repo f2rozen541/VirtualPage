@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Iestatījumi</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fails</string>
+    <string name="Edit">Rediģēt</string>
+    <string name="Canvas">Audekls</string>
+    <string name="Help">Palīdzība</string>
+    <string name="Exit">Iziet</string>
+    <string name="New">Jauns</string>
+    <string name="Open">Atvērt</string>
+    <string name="Save">Saglabāt</string>
+    <string name="SaveAs">Saglabāt kā</string>
+    <string name="Undo">Atsaukt</string>
+    <string name="Redo">Atcelt atsaukšanu</string>
+    <string name="Clear">Nodzēst</string>
+    <string name="ChangeTexture">Mainīt faktūru</string>
+    <string name="ResetTexture">Atiestatīt faktūru</string>
+    <string name="About">Par</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Lūdzu, atlasiet attēlu.</string>
+    <string name="Return">Atgriezties</string>
+    <string name="Delete">Dzēst</string>
+    <string name="Copy">Kopēt</string>
+    <string name="Import">Importēt</string>
+    <string name="Share">Kopīgot</string>
+    <string name="SaveSuccess">Veiksmīgi saglabāts!</string>
+    <string name="Saved">Saglabāts</string>
+    <string name="SaveFail">Neizdevās saglabāt</string>
+    <string name="FileName">Lūdzu, ievadiet nosaukumu</string>
+    <string name="Prompt">Uzvedne</string>
+    <string name="Yes">Jā</string>
+    <string name="No">Nē</string>
+    <string name="OK">Labi</string>
+    <string name="Cancel">Atcelt</string>
+    <string name="Apply">Piemērot</string>
+    <string name="View">Skatīt tagad</string>
+    <string name="ChangeBackground">Mainīt fonu</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Dzēšot šo piezīmi, tiks dzēstas visas tajā ietvertās lapas. Vai tiešām vēlaties dzēst šo piezīmi?</string>
+    <string name="details">Detalizēta informācija</string>
+    <string name="Merging">Sapludināšana</string>
+    <string name="Stop">Apturēt</string>
+    <string name="stop_merge">Apturēt sapludināšanu</string>
+    <string name="pages"> Lapas</string>
+    <string name="noteName">Piezīme</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Šis nosaukums jau pastāv. Lūdzu, ievadiet citu nosaukumu.</string>
+    <string name="attribute_empty_title_forbidden">Nepieciešams nosaukums</string>
+    <string name="DeleteAPageWarningInfo">Vai vēlaties dzēst šo lapu?</string>
+    <string name="WarningNoPageInfo">Vispirms jāpievieno lapa.</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Piezīmes nosaukums</string>
+    <string name="SelectCover">Atlasīt vāku</string>
+    <string name="RenameNoticeInfoTitle">Paziņojums</string>
+    <string name="RenameNoticeInfoDetail">Šo funkciju var iespējot tikai tad, ja ir atlasīta piezīme.</string>
+    <string name="RenameWarningInfo">Ievadītais nosaukums ir nederīgs.</string>
+    <string name="add_picture">Pievienot attēlu</string>
+    <string name="take_photo">Uzņemt fotogrāfiju</string>
+    <string name="choose_image">Izvēlēties attēlu</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Kopīgot</string>
+    <string name="MovePageTitle">Pārvietot lapu</string>
+    <string name="JustMove">Tieši pārvietot</string>
+    <string name="DialogMoveToNotice">Vai vēlaties lapu pārvietot vai kopēt?</string>
+    <string name="Cut">Izgriezt</string>
+    <string name="Paste">Ielīmēt</string>
+    <string name="Merge">Sapludināt</string>
+    <string name="MergeSucceed">Veiksmīgi sapludināts</string>
+    <string name="MergeSuccessInfo">Pašreizējās lapas sapludināšana izdevās</string>
+    <string name="MergeFailed">Sapludināšana neizdevās</string>
+    <string name="MergeFailedInfo">Pašreizējās lapas sapludināšanu nevar pabeigt</string>
+    <string name="GrantedPermissionSucceed">Autorizācija izdevās!</string>
+    <string name="GrantedPermissionFailed">Autorizācija neizdevās!</string>
+    <string name="permission">Pilnvara</string>
+    <string name="no_permissions">Pieprasīt nepieciešamās atļaujas</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="help">Palīdzība</string>
+    <string name="string_help_text">Nav nepieciešamo pilnvaru, lai darbinātu programmu! Lūdzu noklikšķiniet uz Iestatījums un pēc tam uz Lietotne, lai atlasītu autorizējamo lietotni.</string>
+    <string name="quit">Beigt</string>
+    <string name="Success">Veiksmīgi</string>
+    <string name="CopySucceed">Veiksmīgi nokopēts!</string>
+    <string name="MoveSucceed">Veiksmīgi pārvietots!</string>
+    <string name="Failed">Neizdevās</string>
+    <string name="FailedInfo">Izvēlieties citu piezīmi.</string>
+    <string name="SavingInfo">Notiek datu saglabāšana, lūdzu, uzgaidiet!</string>
+    <string name="TitleSaving">Notiek saglabāšana</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Saglabāt kā PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Piezīmju grāmatiņu pielāgošana</string>
+    <string name="HelpTitleStep_3">Piezīmes lapas</string>
+    <string name="HelpTitleStep_4">Piezīmes sapludināšana</string>
+    <string name="HelpTitleStep_5">Piezīmes rediģēšana</string>
+    <string name="HelpTitleStep_6">Kopīgot piezīmi</string>
+    <string name="HelpDetailStep_6">Piezīmes varat eksportēt attēla vai PDF formātā. Varat arī piezīmes kopīgot, izmantojot Bluetooth un citas opcijas.</string>
+    <string name="HelpDetailStep_5">Rediģējot piezīmi, varat izvēlēties dažādus rakstīšanas rīkus, iestatīt pildspalvas biezumu un izmantot dažādas krāsas. Lai radītu papildu saturu, varat pat ievietot tekstu.</string>
+    <string name="HelpDetailStep_4">Nospiežot sapludināšanas pogu @hanvon@, varat izvēlēties citu lapu, kuru sapludināt ar pašreizējo piezīmi.</string>
+    <string name="HelpDetailStep_3">Piezīmju grāmatiņas priekšskatījuma rūtī varat ātri skatīt jebkuru lapu. Lai mainītu piezīmju grāmatiņas lapu secību, turiet lapas nospiestas un velciet tās.</string>
+    <string name="HelpDetailStep_2">Kad ir atvērts piezīmju grāmatiņas vāks, piesitiet iestatījumu pogai @hanvon@, lai mainītu vāka krāsu un stilu. Tādējādi jūs varat ērti kārtot savas piezīmju grāmatiņas.</string>
+    <string name="HelpDetailStep_1">Paldies, ka piezīmju veikšanai izvēlējāties Lenovo Note Saver! Piezīmju grāmatiņa \"Note Saver\" jau ir izveidota, un tajā tiks saglabātas visas piezīmes, ko veicat ekrānā un ārpus tā. Varat tās rediģēt jebkurā laikā.</string>
+    <string name="HelpStep_5_Des_1">Ota un teksts</string>
+    <string name="HelpStep_5_Des_2">Ievietot attēlu</string>
+    <string name="HelpStep_5_Des_3">Ierāmēt saturu</string>
+    <string name="HelpStep_5_Des_4">Otas veids</string>
+    <string name="HelpStep_5_Des_5">Otas biezums</string>
+    <string name="HelpStep_5_Des_6">Noklikšķiniet divreiz, lai noregulētu krāsu.</string>
+    <string name="AppVersion">Versija</string>
+    <!--<string name="AppVersionCode">1.1.30</string>-->
+    <string name="AppCopyRight">Autortiesības © 2016 Lenovo. Visas tiesības paturētas.</string>
+    <string name="SettingOpenInquiry">Jautāt, atverot noklusējuma atrašanās vietu pārlecošām piezīmēm</string>
+    <string name="OpenInquiryTitle">Atvērt noklusējuma atrašanās vietu pārlecošām piezīmēm</string>
+    <string name="JumpToLatest">Pārlēkt uz pēdējo rediģēto lapu</string>
+    <string name="JumpToEnd">Pārlēkt uz pēdējo lapu</string>
+    <string name="LimitPictureAmount">Jūsu ievade ir sasniegusi maksimālo ierobežojumu.</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="154px"
+    android:layout_height="60px"
+    android:background="@drawable/font_style_bg">
+
+    <TextView
+        android:id="@+id/tv_font_text"
+        android:layout_width="100px"
+        android:paddingLeft="20px"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/DefaultFontText"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24px" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_font_switcher"
+        android:layout_width="54px"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/tv_font_text"
+        android:src="@drawable/font_open"
+        android:scaleType="fitCenter"
+        hanvon:SelectedBgRes="@drawable/font_close"
+        hanvon:UnSelectedBgRes="@drawable/font_open" />
+
+</RelativeLayout>

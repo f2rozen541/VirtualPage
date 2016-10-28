@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanvon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_color_option_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_color_black"
+        hanvon:SelectedBgRes="@drawable/color_select"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_color_option_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/circle_color_gray"
+        hanvon:SelectedBgRes="@drawable/color_select"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_color_option_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/circle_color_blue"
+        hanvon:SelectedBgRes="@drawable/color_select"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_color_option_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/circle_color_yellow"
+        hanvon:SelectedBgRes="@drawable/color_select"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_color_option_5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/circle_color_orange"
+        hanvon:SelectedBgRes="@drawable/color_select"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+
+    <com.hanvon.virtualpage.pageeditor.view.AutoBgButton
+        android:id="@+id/abb_color_option_6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circle_color_red"
+        hanvon:SelectedBgRes="@drawable/color_select"
+        hanvon:UnSelectedBgRes="@android:color/transparent" />
+</LinearLayout>

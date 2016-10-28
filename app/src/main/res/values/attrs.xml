@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="RadioButtonColor" format="color" />
+    <declare-styleable name="ColorRadioButton">
+        <attr name="RadioButtonColor"/>
+
+    </declare-styleable>
+
+    <!--<attr name="UnSelectedBgRes" format="reference"/>-->
+    <!--<attr name="SelectedBgRes" format="reference"/>-->
+    <declare-styleable name="AutoBgButton">
+        <attr name="UnSelectedBgRes" format="reference"></attr>
+        <attr name="SelectedBgRes" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="MagicProgressBar">
+        <attr name="mpb_percent" format="float" />
+        <attr name="mpb_fill_color" format="color" />
+        <attr name="mpb_background_color" format="color" />
+        <attr name="mpb_flat" format="boolean" />
+    </declare-styleable>
+</resources>

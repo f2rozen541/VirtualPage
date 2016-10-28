@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">Setări</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">Fișier</string>
+    <string name="Edit">Editare</string>
+    <string name="Canvas">Pânză</string>
+    <string name="Help">Ajutor</string>
+    <string name="Exit">Ieșire</string>
+    <string name="New">Nou</string>
+    <string name="Open">Deschidere</string>
+    <string name="Save">Salvare</string>
+    <string name="SaveAs">Salvare ca</string>
+    <string name="Undo">Anulare</string>
+    <string name="Redo">Refacere</string>
+    <string name="Clear">Golire</string>
+    <string name="ChangeTexture">Modificare textură</string>
+    <string name="ResetTexture">Resetare textură</string>
+    <string name="About">Despre</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">Selectați o imagine</string>
+    <string name="Return">Revenire</string>
+    <string name="Delete">Ștergere</string>
+    <string name="Copy">Copiere</string>
+    <string name="Import">Import</string>
+    <string name="Share">Partajare</string>
+    <string name="SaveSuccess">Salvarea a reușit!</string>
+    <string name="Saved">Salvat</string>
+    <string name="SaveFail">Salvarea a eșuat</string>
+    <string name="FileName">Introduceți un nume</string>
+    <string name="Prompt">Solicitare</string>
+    <string name="Yes">Da</string>
+    <string name="No">Nu</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Revocare</string>
+    <string name="Apply">Aplicare</string>
+    <string name="View">Vizualizați acum</string>
+    <string name="ChangeBackground">Modificare fundal</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">Ștergerea acestei note va șterge toate paginile conținute. Sigur doriţi să ștergeți această notă?</string>
+    <string name="details">Detalii</string>
+    <string name="Merging">Îmbinare</string>
+    <string name="Stop">Oprire</string>
+    <string name="stop_merge">Oprire îmbinare</string>
+    <string name="pages"> Pagini</string>
+    <string name="noteName">Notă</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">Acest titlu există deja. Introduceți un alt nume pentru titlu.</string>
+    <string name="attribute_empty_title_forbidden">Este necesar un titlu</string>
+    <string name="DeleteAPageWarningInfo">Doriți să ștergeți această pagină?</string>
+    <string name="WarningNoPageInfo">Trebuie să adăugați o pagină mai întâi</string>
+
+    <!-- 新增-->
+    <string name="NoteName">Numele notei</string>
+    <string name="SelectCover">Selectați o copertă</string>
+    <string name="RenameNoticeInfoTitle">Notă</string>
+    <string name="RenameNoticeInfoDetail">Această funcție poate fi activată numai atunci când o notă a fost selectată.</string>
+    <string name="RenameWarningInfo">Numele introdus este nevalid.</string>
+    <string name="add_picture">Adăugare imagine</string>
+    <string name="take_photo">Fotografiere</string>
+    <string name="choose_image">Alegeți o imagine</string>
+
+    <!-- Dialog-->
+    <string name="ShareDialogTitle">Partajare</string>
+    <string name="MovePageTitle">Mutare pagină</string>
+    <string name="JustMove">Mutare directă</string>
+    <string name="DialogMoveToNotice">Doriți să mutați pagina sau să o copiați?</string>
+    <string name="Cut">Decupare</string>
+    <string name="Paste">Lipire</string>
+    <string name="Merge">Îmbinare</string>
+    <string name="MergeSucceed">Îmbinarea a reușit</string>
+    <string name="MergeSuccessInfo">Îmbinarea paginii curente a reușit</string>
+    <string name="MergeFailed">Îmbinarea a eșuat</string>
+    <string name="MergeFailedInfo">Îmbinarea paginii curente nu poate fi finalizată</string>
+    <string name="GrantedPermissionSucceed">Autorizarea a reușit!</string>
+    <string name="GrantedPermissionFailed">Autorizarea a eșuat!</string>
+    <string name="permission">Autoritate</string>
+    <string name="no_permissions">Solicitați permisiunile necesare</string>
+    <string name="settings">Setări</string>
+    <string name="help">Ajutor</string>
+    <string name="string_help_text">Nu aveți autoritatea necesară pentru rularea programului! Faceți clic pe „Setare”-„Aplicație” pentru a selecta aplicația de autorizat</string>
+    <string name="quit">Ieșire</string>
+    <string name="Success">Succes</string>
+    <string name="CopySucceed">Copierea a reușit!</string>
+    <string name="MoveSucceed">Mutarea a reușit!</string>
+    <string name="Failed">Eșuare</string>
+    <string name="FailedInfo">Trebuie să alegeți altă notă</string>
+    <string name="SavingInfo">Datele se salvează acum, așteptați!</string>
+    <string name="TitleSaving">Se salvează</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">Salvare ca PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">Personalizați caietul de notițe</string>
+    <string name="HelpTitleStep_3">Pagini de note</string>
+    <string name="HelpTitleStep_4">Îmbinare note</string>
+    <string name="HelpTitleStep_5">Editare note</string>
+    <string name="HelpTitleStep_6">Partajare notă</string>
+    <string name="HelpDetailStep_6">Puteți exporta notele sub formă de imagine sau PDF. De asemenea, puteți partaja notele prin Bluetooth și multe altele.</string>
+    <string name="HelpDetailStep_5">Când editați o notă, puteți să alegeți diferite instrumente de scris, să setați grosimea stiloului și să utilizați culori diferite. Puteți chiar să inserați text pentru a crea conținut suplimentar.</string>
+    <string name="HelpDetailStep_4">Apăsând pe butonul de „îmbinare” @hanvon@, puteți alege o altă pagină pentru a o îmbina cu nota curentă.</string>
+    <string name="HelpDetailStep_3">Puteți vizualiza rapid orice pagină din panoul de previzualizare al caietului de notițe. Puteți, de asemenea, să apăsați lung și să trageți paginile pentru a rearanja ordinea lor în caietul de notițe.</string>
+    <string name="HelpDetailStep_2">De pe coperta caietului de notițe, atingeți butonul pentru setări @hanvon@, după care puteți schimba culoarea și stilul copertei. Aceasta vă ajută să vă organizați ușor caietele de notițe.</string>
+    <string name="HelpDetailStep_1">Vă mulțumim că ați ales Lenovo Note Saver pentru luarea notițelor! Pentru a începe, un caiet de notițe intitulat „Note Saver” a fost deja creat pentru dvs., în care vor fi salvate toate notițele luate cu ecranul activ și inactiv. Le puteți edita oricând.</string>
+    <string name="HelpStep_5_Des_1">Pensulă și text</string>
+    <string name="HelpStep_5_Des_2">Introduceți o imagine</string>
+    <string name="HelpStep_5_Des_3">Încadrați conținutul</string>
+    <string name="HelpStep_5_Des_4">Tip pensulă</string>
+    <string name="HelpStep_5_Des_5">Grosime pensulă</string>
+    <string name="HelpStep_5_Des_6">Faceți dublu clic pentru a ajusta culoarea</string>
+    <string name="AppVersion">Versiune</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight">Drept de autor ©2016 Lenovo Toate drepturile rezervate</string>
+    <string name="SettingOpenInquiry">Întreabă-mă când se deschide locația implicită pentru saltul la notă</string>
+    <string name="OpenInquiryTitle">Deschidere locație implicită pentru saltul la notă</string>
+    <string name="JumpToLatest">Salt la ultima pagină editată</string>
+    <string name="JumpToEnd">Salt la ultima pagină</string>
+    <string name="LimitPictureAmount">Textul introdus a ajuns la limita maximă.</string>
+
+</resources>

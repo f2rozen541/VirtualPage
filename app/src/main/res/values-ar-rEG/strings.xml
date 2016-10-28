@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Note Saver</string>
+    <string name="action_settings">الإعدادات</string>
+
+    <!-- 菜单栏 -->
+    <string name="File">ملف</string>
+    <string name="Edit">تعديل</string>
+    <string name="Canvas">لوحة نسيجية</string>
+    <string name="Help">تعليمات</string>
+    <string name="Exit">خروج</string>
+    <string name="New">جديد</string>
+    <string name="Open">فتح</string>
+    <string name="Save">حفظ</string>
+    <string name="SaveAs">حفظ حفظ باسم</string>
+    <string name="Undo">تراجع عن</string>
+    <string name="Redo">فعل إعادة</string>
+    <string name="Clear">مسح</string>
+    <string name="ChangeTexture">تغيير النسيج</string>
+    <string name="ResetTexture">إعادة تعيين النسيج</string>
+    <!--<string name="HelpDoc">مساعدة</string>-->
+    <string name="About">نبذة عن</string>
+
+    <!-- 其它 -->
+    <string name="SelectImage">يرجى تحديد صورة</string>
+    <string name="Return">عودة</string>
+    <string name="Delete">حذف</string>
+    <string name="Copy">نسخ</string>
+    <string name="Import">استيراد</string>
+    <string name="Share">مشاركة</string>
+    <string name="SaveSuccess">تم الحفظ بنجاح!</string>
+    <string name="Saved">تم الحفظ</string>
+    <string name="SaveFail">فشل الحفظ</string>
+    <string name="FileName">يرجى إدخال اسم</string>
+    <string name="Prompt">إخطار</string>
+    <string name="Yes">نعم</string>
+    <string name="No">لا</string>
+    <string name="OK">موافق</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="Apply">تطبيق</string>
+    <string name="View">العرض الآن</string>
+    <string name="ChangeBackground">تغيير الخلفية</string>
+
+    <!-- 主界面　-->
+    <string name="NoteSaver">Note Saver</string>
+    <string name="confirm_to_del">    حذف هذه الملاحظة سيؤدي إلى حذف كل الصفحات التي بداخلها. هل تريد بالتأكيد حذف هذه الملاحظة؟</string>
+    <string name="details">تفاصيل</string>
+    <string name="Merging">دمج</string>
+    <string name="Stop">توقف</string>
+    <string name="stop_merge">إيقاف الدمج</string>
+    <string name="pages">الصفحات</string>
+    <string name="noteName">ملاحظة</string>
+
+    <!-- note　-->
+    <string name="title_already_exist">هذا العنوان موجود بالفعل. يرجى إدخال اسم عنوان آخر.</string>
+    <string name="attribute_empty_title_forbidden">العنوان مطلوب</string>
+    <string name="DeleteAPageWarningInfo">هل تريد حذف هذه الصفحة؟</string>
+    <string name="WarningNoPageInfo">يجب أن تضيف صفحة أولاً</string>
+
+    <!-- 新增-->
+    <string name="NoteName">اسم الملاحظة</string>
+    <string name="SelectCover">اختر غلاف</string>
+    <string name="NoteFlag">الملاحظات</string>
+    <string name="SelectFlag">تم الاختيار</string>
+    <string name="RenameNoticeInfoTitle">ملاحظة</string>
+    <string name="RenameNoticeInfoDetail">هذه الخاصية لا يصلح تمكينها إلا إذا تم القيام بتحديد إحدى الملاحظات.</string>
+    <string name="RenameWarningInfo">الاسم الذي أدخلته غير صالح.</string>
+    <string name="add_picture">إضافة صورة</string>
+    <string name="take_photo">التقاط صورة</string>
+    <string name="choose_image">اختيار صورة</string>
+    <string name="ShareDialogTitle">مشاركة</string>
+    <string name="MovePageTitle">نقل الصفحة</string>
+    <string name="JustMove">النقل بشكل مباشر</string>
+    <string name="DialogMoveToNotice">هل تريد نقل الصفحة أم نسخ الصفحة؟</string>
+    <string name="Cut">قص</string>
+    <string name="Paste">لصق</string>
+    <string name="Merge">دمج</string>
+    <string name="MergeSucceed">تم الدمج بنجاح</string>
+    <string name="MergeSuccessInfo">تم دمج الصفحة الحالية بنجاح</string>
+    <string name="MergeFailed">فشل الدمج</string>
+    <string name="MergeFailedInfo">لا يمكن إتمام عملية دمج الصفحة الحالية</string>
+    <string name="GrantedPermissionSucceed">تم الترخيص بنجاح!</string>
+    <string name="GrantedPermissionFailed">فشل الترخيص!</string>
+    <string name="permission">الترخيص</string>
+    <string name="no_permissions">طلب الأذون اللازمة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="help">تعليمات</string>
+    <string name="string_help_text">ليس هناك ترخيصًا لازمًا للبرنامج قيد التشغيل! برجاء النقر على \"الإعداد\"-\"التطبيق\" لتحديد التطبيق المراد عمل الترخيص له</string>
+    <string name="quit">خروج</string>
+    <string name="Success">تم بنجاح</string>
+    <string name="CopySucceed">تم النسخ بنجاح!</string>
+    <string name="MoveSucceed">تم النقل بنجاح!</string>
+    <string name="Failed">فشل</string>
+    <string name="FailedInfo">يجب أن تختار ملاحظة أخرى</string>
+    <string name="SavingInfo">جارٍ حفظ البيانات الآن، يرجى الانتظار!</string>
+    <string name="TitleSaving">جارٍ الحفظ</string>
+    <!--<string name="Share_Bluetooth">Bluetooth</string>-->
+    <!--<string name="Share_Gmail">Gmail</string>-->
+    <!--<string name="Share_Wechat">Wechat</string>-->
+    <!--<string name="Share_QQ">QQ</string>-->
+    <!--<string name="Share_Evernote">Evernote</string>-->
+    <!--<string name="Share_Drive">Drive</string>-->
+    <!--<string name="Share_Gallery">Gallery</string>-->
+    <string name="Share_PDF">الحفظ بصيغة PDF</string>
+    <string name="NameShownInApp">Lenovo Note Saver</string>
+    <string name="HelpTitleStep_2">تخصيص الدفاتر الخاصة بك</string>
+    <string name="HelpTitleStep_3">صفحات الملاحظات</string>
+    <string name="HelpTitleStep_4">دمج الملاحظات</string>
+    <string name="HelpTitleStep_5">تعديل الملاحظات</string>
+    <string name="HelpTitleStep_6">مشاركة إحدى الملاحظات</string>
+    <string name="HelpDetailStep_6">يمكنك تصدير ملاحظاتك في صيغة صورة أو صيغة PDF. يمكنك أيضًا مشاركة ملاحظاتك عبر البلوتوث وغيره.</string>
+    <string name="HelpDetailStep_5">عند القيام بتعديل إحدى الملاحظات، يمكنك اختيار أدوات كتابة مختلفة وتعيين سمك القلم واستخدام ألوان مختلفة. يمكنك أيضاً إدراج نص لإنشاء محتوى إضافي.</string>
+    <string name="HelpDetailStep_4">عن طريق الضغط على زر \"دمج\" @hanvon@، يمكنك اختيار صفحة أخرى لدمجها مع صفحتك الحالية.</string>
+    <string name="HelpDetailStep_3">يمكنك عرض أي صفحة بسرعة في لوحة العرض الخاصة بالدفتر الخاص بك. يمكنك أيضاً الضغط مطولاً على الصفحات وسحبها لإعادة ترتيبها في الدفتر.</string>
+    <string name="HelpDetailStep_2">من غلاف الدفتر الخاص بك، انقر على زر الإعدادات @hanvon@، حيث يمكنك تغيير لون ونمط الغلاف. هذا يساعدك على تنظيم الدفاتر الخاصة بك بسهولة.</string>
+    <string name="HelpDetailStep_1">شكراً لاستخدامك Lenovo Note Saver لكل عمليات أخذ الملاحظات الخاصة بك! لنجعلك تبدأ، هناك دفتر بعنوان \"Note Saver\" تم إنشاؤه بالفعل لأجلك، حيث سيتم فيه حفظ كل ملاحظاتك المأخوذة أثناء تشغيل أو إيقاف تشغيل الشاشة. يمكنك تعديلها في أي وقت.</string>
+    <string name="HelpStep_5_Des_1">الفرشاة والنص</string>
+    <string name="HelpStep_5_Des_2">إدخال صورة</string>
+    <string name="HelpStep_5_Des_3">وضع إطار المحتوى</string>
+    <string name="HelpStep_5_Des_4">نوع الفرشاة</string>
+    <string name="HelpStep_5_Des_5">سمك الفرشاة</string>
+    <string name="HelpStep_5_Des_6">انقر نقراً مزدوجاً لضبط اللون</string>
+    <string name="AppVersion">الإصدار</string>
+    <string name="AppVersionCode">1.1.30</string>
+    <string name="AppCopyRight"> حقوق النشر © لشركة Lenovo لعام 2016 جميع الحقوق محفوظة</string>
+    <string name="SettingOpenInquiry">اسألني عند فتح موقع الانتقال الافتراضي للملاحظة</string>
+    <string name="OpenInquiryTitle">افتح موقع الانتقال الافتراضي للملاحظة</string>
+    <string name="JumpToLatest">الانتقال إلى آخر صفحة تم تعديلها</string>
+    <string name="JumpToEnd">الانتقال إلى آخر صفحة</string>
+    <string name="LimitPictureAmount">وصل الإدخال الحد الأقصى.</string>
+
+</resources>

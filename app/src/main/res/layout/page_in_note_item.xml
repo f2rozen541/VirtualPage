@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="618dp"
+    android:layout_height="493dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/fl_left_page"
+        android:layout_width="309dp"
+        android:layout_height="493dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_page_open_left"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/fl_right_page"
+        android:layout_width="309dp"
+        android:layout_height="493dp"
+        android:layout_weight="1"
+        android:background="@drawable/page_bg_repeat_default"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>
