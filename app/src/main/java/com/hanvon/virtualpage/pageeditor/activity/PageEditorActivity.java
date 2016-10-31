@@ -21,6 +21,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.provider.MediaStore;
+import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
@@ -98,6 +99,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
+import java.util.Timer;
 
 /**
  * -------------------------------
@@ -307,10 +309,19 @@ public class PageEditorActivity extends AppCompatActivity implements View.OnClic
             BaseApplication.setHasPermission(true);
             InformationParser.initializedManifest(mContext, com.hanvon.virtualpage.beans.Manifest.getInstance());
 //            Logger.i("111" + "loadData加载了数据");
+            Log.e("wangkun", "loadData: timer start.......");
+            long time = System.currentTimeMillis();
             parseIntentData(mIntent);
+            Log.e("wangkun", "loadData: delay in parseIntentData " + (System.currentTimeMillis() - time));
+            time = System.currentTimeMillis();
             initDocumentData();
+            Log.e("wangkun", "loadData: delay in initDocumentData " + (System.currentTimeMillis() - time));
+            time = System.currentTimeMillis();
             displayedData();
+            Log.e("wangkun", "loadData: delay in displayedData " + (System.currentTimeMillis() - time));
+            time = System.currentTimeMillis();
             loadEditorState();
+            Log.e("wangkun", "loadData: delay in loadEditorState " + (System.currentTimeMillis() - time));
         }
     }
 
@@ -519,8 +530,18 @@ public class PageEditorActivity extends AppCompatActivity implements View.OnClic
             if (bottomView != null) {
                 bottomView.dismissPopWin();
             }
+            long time = System.currentTimeMillis();
             reloadDocumentBeforeSave();
+            Log.e("wangkun", "saveCurrentPageData: reloadDocumentBeforeSave" + (System.currentTimeMillis() - time));
+            time = System.currentTimeMillis();
             savePage(Workspace.getInstance().getCurrentPage(), true);
+//            new Thread(new Runnable() {
+//                @Override
+//                public void run() {
+//
+//                }
+//            }).start();
+            Log.e("wangkun", "saveCurrentPageData: savePage" + (System.currentTimeMillis() - time));
         }
     }
 
@@ -600,7 +621,10 @@ public class PageEditorActivity extends AppCompatActivity implements View.OnClic
         if (EditorState.getInstance().isSavingFlag() || !(new File(Workspace.getInstance().getCurrentPage().getThumbnailFilePath()).exists()) && BaseApplication.hasPermission()) {
             mCanvasLayout.clearFocus();
             EditorState.getInstance().setSavingFlag(true);
+            long time = System.currentTimeMillis();
             saveCurrentPageData();
+//            Workspace.getInstance().setCurrentPage();
+            Log.e("wangkun", "onPause: saveCurrentPageData delay " + (System.currentTimeMillis()-time));
         }
     }
 
@@ -1935,6 +1959,7 @@ public class PageEditorActivity extends AppCompatActivity implements View.OnClic
                 }
                 //end by cuishuo1
                 LinkedList<Stroke> stroke_list = mStrokeView.getStrokeList();
+                mCanvasLayout.deleteEmptyEditText();
                 List<Object> canvas_list = mCanvasLayout.getElementList();
                 if (stroke_list != null) { // 添加一个数据保护：因为锁屏旋屏之后，获取到的数据是null，保存之后，再次读取会导致程序崩溃；目前还不确定为何为空
                     page.setStrokeList(stroke_list);

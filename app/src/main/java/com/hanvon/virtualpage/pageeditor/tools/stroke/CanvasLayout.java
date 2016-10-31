@@ -5,9 +5,11 @@ import android.content.Context;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AbsoluteLayout;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -264,6 +266,9 @@ public class CanvasLayout extends AbsoluteLayout implements Observer {
                     NoteEditBuilder builder = new NoteEditBuilder(getContext(), 30);
                     new ElementDirector().Construct(builder, orgLP, null);
                     ElementLayout elementView = builder.getResult();
+
+                    Log.e("wangkun", "onTouchEvent: rotation" + getRotation());
+                    elementView.setRotation(-getRotation());
 
                     addView(elementView);
 
